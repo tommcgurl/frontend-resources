@@ -1,5 +1,6 @@
 # Frontend-Resources <a name="top"></a>
-A collection of all the resources I use to keep up with the latest in front-end web development
+
+A collection of all the resources I use to keep up with the latest in front-end web development - Tom McGurl [@RickNasty13](https://twitter.com/ricknasty13)
 
 Front-end Web Development is rapidly growing and changing. Sometimes it's tought to keep up with all of the libraries and frameworks out there. As a lead javascript developer at my company, I'm often approached by co-workers and friends who are looking to get into front-end development or polish their skills. I decided to make this repo to list all of the great resources I use everyday to keep up to date and to learn about all the awesome things happening on the web!
 
