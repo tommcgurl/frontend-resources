@@ -1,15 +1,17 @@
-# Frontend-Resources
+# Frontend-Resources <a name="top"></a>
 A collection of all the resources I use to keep up with the latest in front-end web development
 
-Front-end Web Development is rapidly growing and changing. Sometimes it's tought to keep up with all of the libraries and frameworks out there. As a lead javascript developer at my company, I'm often approached by co-workers and friends who are looking to get into front-end development or polish their skills. I decided to make this repo so to list all of the great resources I use everyday to keep up to date and to learn about all the awesome things happening on the web!
+Front-end Web Development is rapidly growing and changing. Sometimes it's tought to keep up with all of the libraries and frameworks out there. As a lead javascript developer at my company, I'm often approached by co-workers and friends who are looking to get into front-end development or polish their skills. I decided to make this repo to list all of the great resources I use everyday to keep up to date and to learn about all the awesome things happening on the web!
 
 
-# Podcasts
+## Podcasts <a name="podcasts"></a>
 Podcasts are an amazing way to get the latest news and info on all the awesome things happening in web development (Especially if you're a commuter ;)). This is where I get most of my news/ keep up with the happenings in the Javascript community.
 
-- [Javascript Jabber](http://devchat.tv/js-jabber/) (Weekly every Wednesday)
+- <a name="jj"></a>[Javascript Jabber](http://devchat.tv/js-jabber/) (Weekly every Wednesday)
     + An awesome podcast for everything Javascript and my personal favorite!
     + Don't skip over the early episodes, even though they may not be current they have awesome info on things like backbone, coffeescript, ember,  javascript objects and many more
+    + Hosted consistently by Charles Max Wood of [devchat.tv](http://devchat.tv/), check out his other podcasts, they are all awesome!
+    + Other co-hosts are also great [(see the Twitter section)](#twitter)!
 - [ShopTalk](http://shoptalkshow.com/) (Weekly)
     + Another great podcast
     + Hosted by Dave Rupert and Chris Coyier (of CSS tricks)
@@ -17,7 +19,7 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
 - [The Web Platform Podcast](http://thewebplatform.libsyn.com/)
     + Another great podcast that covers all sorts of frontend technologies
     + They cover things from web components to Web RTC and much more
-- [Adventures in Angular](http://devchat.tv/adventures-in-angular) (Weekly every Thursday)
+- <a name="aia"></a>[Adventures in Angular](http://devchat.tv/adventures-in-angular) (Weekly every Thursday)
     + An amazing Angularjs podcast from the same guys that do Javascript Jabber
     + A must-listen to for anyone getting into or already using Angularjs
 - [NodeUp](http://nodeup.com/)
@@ -32,7 +34,7 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
     + This one hasn't been updated in a while but the existing episodes are great
     + It covers JSConf 2014, Modular Javasctipt, Isomorphic apps, Reactjs, and more
 
-# Things to check out
+## Things to check out
 - [ReactJS](http://facebook.github.io/react/)
     + Awesome Javascript library from the facebook team
     + Has some great concepts and is a great alternative for any existing view layer in your MVC applicatoin
@@ -47,10 +49,11 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
     + Super Super Awesome (See next entry).
 - [ng-Cordova](http://ngcordova.com/) 
     + Angular directives and wrappers around the Cordova API
--  [Famou.us](http://famo.us/)
+- [Famo.us](http://famo.us/)
     +  "Famo.us is a free, open source JavaScript framework that helps you create smooth, complex UIs for any screen." - famous homepage
 
-# Learning Resources/ Tutorials
+## Learning Resources/ Tutorials <a name="learning"></a>
+
 Here are some of the great websites that offer tutorials.
 
 - [Egghead.io](https://egghead.io/)
@@ -74,7 +77,7 @@ Here are some of the great websites that offer tutorials.
 - [Codrops](http://tympanus.net/codrops/)
     + Great Web design tutorials and inspirations
 
-# Twitter
+## Twitter <a name="twitter"></a>
 Here are some of the people/groups that I follow on twitter that post some great front-end news and articles.
 
 Overall my suggestion is just search and follow the people who's Blogs articles you've read or who's names you know from podcasts,tutorials, videos, conferences, and the community in general.
@@ -98,9 +101,29 @@ Overall my suggestion is just search and follow the people who's Blogs articles 
 - [@DanWahlin](https://twitter.com/danwahlin)
     +  Dan tweets about javascript news and articles
     +  He also has a great blog with some good tutorials and posts
+    +  Check out his awesome [blog](https://weblogs.asp.net/dwahlin) [(see the Blog section)](#blogs)
+-  [@John_Papa](https://twitter.com/john_papa)
+    +  John is featured on the [Adventures in Angular podcast](http://devchat.tv/adventures-in-angular)(See above)
+    +  He tweets about javascript tidbits and especially angularjs
+    +  He also has a [blog](http://www.johnpapa.net/) [(see the Blog section)](#blogs)
 - [@scotch_io](https://twitter.com/scotch_io)
     +  Tweet when new articles com out
     +  Great way to keep up on the sites tutorials
+- [@BenNadel](https://twitter.com/bennadel)
+    +  Ben is always posting things about javascript
+    +  He also has a great [blog](http://www.bennadel.com/) [(see the Blog section)](#blogs)
+- [@josepheames](https://twitter.com/josepheames)
+    + One of the host of [Javascript Jabber](#jj) and [Adventures in Angular](#aia)
+    + One of the organizers of [ng-conf](http://www.ng-conf.org/)
+    + Tweets about angularjs and javascript in general
+
+## Blogs <a name="blogs"></a>
+- [Medium](https://medium.com/search?q=javascript)
+    + "Medium is a place to share your stories and ideas" - Medium.com/about
+    + I've linked above to the 'Javascript' section of Medium (I just did a search for 'javascript')
+    + This site is great and many awesome developers post and link to articles here
+    + It's also a great place to get started with spreading your ideas without having to buy your own domain or setup a blog site
+
 
 
 
