@@ -11,9 +11,9 @@ Inspired by all the [awesome lists on Github](https://github.com/bayandin/awesom
 - [Learning Resources/Tutorials](#learning)
 - [Twitter](#twitter)
 - [Blogs](#blogs)
-- [Things to check out](#ttco)
 - [Books](#books)
-- [Repositories](#repos)
+- [Repositories](#repositories)
+- [Things to check out](#things-to-check-out-no-particular-order)
 
 
 ## Podcasts <a name="podcasts"></a>
@@ -71,7 +71,7 @@ Here are some of the great websites that offer tutorials.
 - [Codrops](http://tympanus.net/codrops/)
     + Great Web design tutorials and inspirations
 
-## Twitter <a name="twitter"></a>
+## Twitter
 Here are some of the people/groups that I follow on twitter that post some great front-end news and articles.
 
 Overall my suggestion is just search and follow the people who's Blogs articles you've read or who's names you know from podcasts,tutorials, videos, conferences, and the community in general.
@@ -147,7 +147,7 @@ Overall my suggestion is just search and follow the people who's Blogs articles 
     + and so on...
     + Just search for things you use in your day-to-day development
 
-## Blogs <a name="blogs"></a>
+## Blogs
 - [Medium](https://medium.com/search?q=javascript)
     + "Medium is a place to share your stories and ideas" - Medium.com/about
     + I've linked above to the 'Javascript' section of Medium (I just did a search for 'javascript')
@@ -164,8 +164,42 @@ Overall my suggestion is just search and follow the people who's Blogs articles 
     + Another awesome blog for javascript tutorials
     + He covers everything from AngularJS to Core Javascript such as ES6
 
+#Books
+Here are some of the books I've found super useful.
 
-## Things to check out (No particular order) <a name="ttco"></a>
+- [Elequent Javascript](http://eloquentjavascript.net/)
+    + This book is fantastic!
+    + There is an online version and a [paperback version](http://www.amazon.com/gp/product/1593275846/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593275846&linkCode=as2&tag=marijhaver-20&linkId=VPXXXSRYC5COG5R5)
+    + I prefer the onine once becuase it has interactive excersises at the end of each chapter
+    + Realy great resource to learn the ins-and-outs of Javascript
+- [ng-book](https://www.ng-book.com/) <a name="ngbook"></a>
+    + An awesome AngularJS book
+    + This was the first book I read when I started AngularJS and it was extremely helpful
+    + It's constantly being updated
+    + Written by Ari Lerner, co-runner of [ng-newsletter](http://www.ng-newsletter.com/) [(see Twitter section)](#twitter)
+    + "The print version of the book is available through [Amazon](http://www.amazon.com/ng-book-The-Complete-Book-AngularJS/dp/099134460X/ref=tmm_pap_title_0?ie=UTF8&qid=1389643028&sr=8-1) and [Createspace](https://www.createspace.com/4572262)." - ng-book homepage
+- [Essential Javascript](http://www.amazon.com/Effective-JavaScript-Specific-Software-Development/dp/0321812182)
+    + This book covers goes deep into the workings of javascript and helps provide a better understanding when working with the language
+    + Also check out the [Javascript Jabber episode with the author, David Herman](http://devchat.tv/js-jabber/044-jsj-book-club-effective-javascript-with-david-herman)
+
+#Repositories
+There are also a ton of Github repos dedicated to collection all of the resources for a given topic (these are where I got the inspiration for this). These are amazing ways to find a material on a particular framework or library. Here are some of the ones I use.
+
+- [Awesome-React](https://github.com/enaqx/awesome-react)
+    + "A collection of awesome React tools, resources, videos and shiny things." - the readme
+- [Awesome-AngularJS](https://github.com/gianarb/awesome-angularjs)
+    + "A list of awesome AngularJs services, directives, utilities and resources." - the readme
+- [Awesome-NodeJS](https://github.com/sindresorhus/awesome-nodejs)
+    + "A curated list of delightful Node.js packages and resources." - the readme
+- [Frontend Development](https://github.com/dypsilon/frontend-dev-bookmarks)
+    + An amazing huge list of awesome Frontent Development resources
+    + "A huge list of frontend development resources I collected over time. Sorted from general knowledge at the top to concrete problems at the bottom." - [dypsilon](https://github.com/dypsilon)
+- [Awesome-Javascript](https://github.com/sorrycc/awesome-javascript)
+    + "A collection of awesome browser-side JavaScript libraries, resources and shiny things." - the readme
+- [Awesome-Ember](https://github.com/nmec/awesome-ember)
+    + "A curated list of awesome Ember.js things." - the readme
+
+## Things to check out (No particular order)
 - [ReactJS](http://facebook.github.io/react/)
     + Awesome Javascript library from the facebook team
     + Has some great concepts and is a great alternative for any existing view layer in your MVC applicatoin
@@ -230,38 +264,10 @@ Overall my suggestion is just search and follow the people who's Blogs articles 
         *  [NodeJS](#node)
     +  With MEAN you can use javascript across your entire stack
     +  MongoDB uses JSON for document storage, Node is javascript on the server, express is a library for setting up a REST endpoint with node, and Angular is the javascript framework for your client.
-
-#Books <a name="books"></a>
-Here are some of the books I've found super useful.
-
-- [Elequent Javascript](http://eloquentjavascript.net/)
-    + This book is fantastic!
-    + There is an online version and a [paperback version](http://www.amazon.com/gp/product/1593275846/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593275846&linkCode=as2&tag=marijhaver-20&linkId=VPXXXSRYC5COG5R5)
-    + I prefer the onine once becuase it has interactive excersises at the end of each chapter
-    + Realy great resource to learn the ins-and-outs of Javascript
-- [ng-book](https://www.ng-book.com/) <a name="ngbook"></a>
-    + An awesome AngularJS book
-    + This was the first book I read when I started AngularJS and it was extremely helpful
-    + It's constantly being updated
-    + Written by Ari Lerner, co-runner of [ng-newsletter](http://www.ng-newsletter.com/) [(see Twitter section)](#twitter)
-    + "The print version of the book is available through [Amazon](http://www.amazon.com/ng-book-The-Complete-Book-AngularJS/dp/099134460X/ref=tmm_pap_title_0?ie=UTF8&qid=1389643028&sr=8-1) and [Createspace](https://www.createspace.com/4572262)." - ng-book homepage
-
-#Repositories <a name="repos"></a>
-There are also a ton of Github repos dedicated to collection all of the resources for a given topic (these are where I got the inspiration for this). These are amazing ways to find a material on a particular framework or library. Here are some of the ones I use.
-
-- [Awesome-React](https://github.com/enaqx/awesome-react)
-    + "A collection of awesome React tools, resources, videos and shiny things." - the readme
-- [Awesome-AngularJS](https://github.com/gianarb/awesome-angularjs)
-    + "A list of awesome AngularJs services, directives, utilities and resources." - the readme
-- [Awesome-NodeJS](https://github.com/sindresorhus/awesome-nodejs)
-    + "A curated list of delightful Node.js packages and resources." - the readme
-- [Frontend Development](https://github.com/dypsilon/frontend-dev-bookmarks)
-    + An amazing huge list of awesome Frontent Development resources
-    + "A huge list of frontend development resources I collected over time. Sorted from general knowledge at the top to concrete problems at the bottom." - [dypsilon](https://github.com/dypsilon)
-- [Awesome-Javascript](https://github.com/sorrycc/awesome-javascript)
-    + "A collection of awesome browser-side JavaScript libraries, resources and shiny things." - the readme
-- [Awesome-Ember](https://github.com/nmec/awesome-ember)
-    + "A curated list of awesome Ember.js things." - the readme
+- [Firebase](https://www.firebase.com/)
+    + Firebase is a backend as a service
+    + Firebase let's you store and sync data in real-time
+    +
     
 
 
