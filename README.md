@@ -12,6 +12,7 @@ Inspired by all the [awesome lists on Github](https://github.com/bayandin/awesom
 - [Twitter](#twitter)
 - [Blogs](#blogs)
 - [Books](#books)
+- [Videos](#videos)
 - [Repositories](#repositories)
 - [Things to check out](#things-to-check-out-no-particular-order)
 - [What I'm learning about this week](#what-im-learning-this-week)
@@ -182,6 +183,19 @@ Here are some of the books I've found super useful.
 - [Essential Javascript](http://www.amazon.com/Effective-JavaScript-Specific-Software-Development/dp/0321812182)
     + This book covers goes deep into the workings of javascript and helps provide a better understanding when working with the language
     + Also check out the [Javascript Jabber episode with the author, David Herman](http://devchat.tv/js-jabber/044-jsj-book-club-effective-javascript-with-david-herman)
+
+#Videos
+####Conference Videos
+- [ng-conf 2015](https://www.youtube.com/user/ngconfvideos)
+    + This is the youtube page for all the ng-conf videos - March 5-6 (Salt Lake City, Utah)
+- [Ember Conf 2015](https://www.youtube.com/watch?v=o12-90Dm-Qs&list=PLE7tQUdRKcyacwiUPs0CjPYt6tJub4xXU)
+    + This is the youtube page for all the videos from Ember Conf 2015 - March 3-4 (Portland, Oregon)
+- [Reactjs Conf 2015](https://www.youtube.com/watch?v=KVZ-P-ZI6W4&list=PLb0IAmt7-GS1cbw4qonlQztYV1TAW0sCr)
+    + This is the youtube page for the videos from Reactjs conf 2015 - January 28-29 (Facebook HQ, CA)
+- [ng-Europe 2014](https://www.youtube.com/channel/UCEGUP3TJJfMsEM_1y8iviSQ)
+    + Youtube page for ng-Europe videos
+- [JSConf 2015](https://www.youtube.com/channel/UCzoVCacndDCfGDf41P-z0iA)
+    + Youtube page for all of the JSConf videos
 
 #Repositories
 There are also a ton of Github repos dedicated to collection all of the resources for a given topic (these are where I got the inspiration for this). These are amazing ways to find a material on a particular framework or library. Here are some of the ones I use.
