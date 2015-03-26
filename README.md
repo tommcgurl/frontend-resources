@@ -14,6 +14,7 @@ Inspired by all the [awesome lists on Github](https://github.com/bayandin/awesom
 - [Books](#books)
 - [Repositories](#repositories)
 - [Things to check out](#things-to-check-out-no-particular-order)
+- [What I'm learning about this week](#what-im-learning-this-week)
 
 
 ## Podcasts <a name="podcasts"></a>
@@ -39,7 +40,7 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
 - [Frontside the Podcast](https://frontsidethepodcast.simplecast.fm/)
     + The hosts do a lot of work in EmberJS so there are some really fantastic discussions on the EmberJS framework
     + They also cover a wide range of topics from discussions about being a developer, current tech trends, and news
-- [Angular Air](https://ng-air.github.io/)
+- <a name="ngair"></a>[Angular Air](https://ng-air.github.io/)
     + This podcast can also be watched in video form on youtube
     + This is another fantastic AngularJS podcast.
 - [CodeWinds](http://codewinds.com/podcast.html)
@@ -268,7 +269,19 @@ There are also a ton of Github repos dedicated to collection all of the resource
     + Firebase is a backend as a service
     + Firebase let's you store and sync data in real-time
     +
+
+## What I'm learning this week
+I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
+
+#### Week of:
+- March 22
+
+    This week I'm taking a look at [Angular 2.0](https://angular.io/). I have yet to catch up on all the ng-conf videos but plan on doing that by the end of the week. Scotch.io posted an article on _[The Best News From ng-Conf 2015](https://scotch.io/bar-talk/the-best-news-from-angulars-ng-conf-2015)_ a few weeks ago that does a great job summarizing the major points from the conference. I got a chance to listen to [Adventures in Angular Episode 34](http://devchat.tv/adventures-in-angular/034-aia-live-from-ng-conf-2015), where the guys discuss the conference and it definitely got me excited. 
+
+    I also listened to the [Angular Air episode 6](https://plus.google.com/events/cmhq7mqarkoful8u7iusbjsdjtk) with the ionic team. They talk about their excitement for Angular 2 and how they are working closely with the angular team while working on Ionic 2. As someone who loves to use Ionic, I'm super excited to see what it's next version has in store. Check out this [blog post](http://ionicframework.com/blog/angular-2-ionic/) from the [Ionic blog](http://ionicframework.com/blog/) that goes into more detail on Angular 2 and Ionic 2.
     
+    Angular 2 definitely looks like it packs some changes and I have to take a deeper look before commenting on them. On the surface it looks like it has some serious preformance improvements which I'm always down for. I do like the idea that Angular 2.0 will embrace ES6 and web components. I think this is great for the future of web and for pushing standards. I've started using customer elements (one part of the web component spec) at my job and it helped me solve a unique problem with some ease and elegance. I'm definitely excited to check out and start using Angular 2.
+
 
 
 
