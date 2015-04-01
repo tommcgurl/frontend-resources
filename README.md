@@ -213,6 +213,9 @@ There are also a ton of Github repos dedicated to collection all of the resource
     + "A collection of awesome browser-side JavaScript libraries, resources and shiny things." - the readme
 - [Awesome-Ember](https://github.com/nmec/awesome-ember)
     + "A curated list of awesome Ember.js things." - the readme
+- [react-primer-draft](https://github.com/mikechau/react-primer-draft)
+    + A great repo for getting started with building Single Page applications with ReactJS.
+    + Does a great job covering all the aspects of React including Component life-cycle hooks, State, Properties, Mixins and more.
 
 ## Things to check out (No particular order)
 - [ReactJS](http://facebook.github.io/react/)
@@ -282,6 +285,12 @@ There are also a ton of Github repos dedicated to collection all of the resource
 - [Firebase](https://www.firebase.com/)
     + Firebase is a backend as a service
     + Firebase let's you store and sync data in real-time
+- [React Native](http://facebook.github.io/react-native/)
+    + Build native applcations using React and javascript
+    + This is truely an awesome concept.
+    + This does not create a wrapper around a UIWebview, but instead uses React Components to render native applivation views.
+    + For now it only supports iOS.
+    + Check out my [post](#react-native-post) below on it.
 
 ## What I'm learning this week
 I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
