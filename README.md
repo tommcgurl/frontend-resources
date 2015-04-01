@@ -282,13 +282,18 @@ There are also a ton of Github repos dedicated to collection all of the resource
 - [Firebase](https://www.firebase.com/)
     + Firebase is a backend as a service
     + Firebase let's you store and sync data in real-time
-    +
 
 ## What I'm learning this week
 I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
 
 #### Week of:
-- March 22
+- __March 29__   <a name="react-native-post"></a>
+    
+    This past week Facebook released [React Native](http://facebook.github.io/react-native/). I decided to try it out and was very impressed. For those that have not heard, React native is a way to build native applications using React and javascript. This does not involve the UIWebview. It instead uses the fact that React is decoupled from the DOM, to allow components to render to native views such as iOS(only platform supported at the moment). 
+
+    I followed the 'getting started' guide and the walkthrough for creating a ListView movie application. I was extremely impressed at how easy it was to use. There were a few things that are unique to React Native as expected, but they are easy to pick up once you have some experience with ReactJS. I plan on expanding upon the demo application and building my own demo application. I will post it to my github once I get started.
+
+- __March 22__
 
     This week I'm taking a look at [Angular 2.0](https://angular.io/). I have yet to catch up on all the ng-conf videos but plan on doing that by the end of the week. Scotch.io posted an article on _[The Best News From ng-Conf 2015](https://scotch.io/bar-talk/the-best-news-from-angulars-ng-conf-2015)_ a few weeks ago that does a great job summarizing the major points from the conference. I got a chance to listen to [Adventures in Angular Episode 34](http://devchat.tv/adventures-in-angular/034-aia-live-from-ng-conf-2015), where the guys discuss the conference and it definitely got me excited. 
 
