@@ -34,8 +34,8 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
     + Another great podcast that covers all sorts of frontend technologies
     + They cover things from Web Components to Web RTC and much more
 - <a name="aia"></a>[Adventures in Angular](http://devchat.tv/adventures-in-angular) (Weekly every Thursday)
-    + An amazing AngularJS podcast from the same guys that do Javascript Jabber
-    + A must-listen to for anyone getting into or already using AngularJS
+    + An amazing Angular podcast from the same guys that do Javascript Jabber
+    + A must-listen to for anyone getting into or already using Angular
 - [NodeUp](http://nodeup.com/)
     + NodeJS podcast that covers a wide range of Node related topics and covers the future of NodeJS as well as tips for NodeJS developers.
 - [Frontside the Podcast](https://frontsidethepodcast.simplecast.fm/)
@@ -43,7 +43,7 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
     + They also cover a wide range of topics from discussions about being a developer, current tech trends, and news
 - <a name="ngair"></a>[Angular Air](https://ng-air.github.io/)
     + This podcast can also be watched in video form on youtube
-    + This is another fantastic AngularJS podcast.
+    + This is another fantastic Angular podcast.
 - [CodeWinds](http://codewinds.com/podcast.html)
     + This one hasn't been updated in a while but the existing episodes are great
     + It covers JSConf 2014, Modular Javasctipt, Isomorphic apps, Reactjs, and more
@@ -54,7 +54,7 @@ Here are some of the great websites that offer tutorials.
 
 - [Egghead.io](https://egghead.io/) <a name="eio"></a>
     + A super awesome site that specializes in small 'bite sized' video tutorials
-    + I direcet anyone who asks me for great Angularjs tutorials to go here
+    + I direcet anyone who asks me for great Angular tutorials to go here
     + They have videos covering things such as Angular,Core Javascript, React, ES6, D3, and NodeJS
     + A must for any front-end developer
     + Many of the hosts and guests from the podcasts above contribute tutorials to this site
@@ -63,7 +63,7 @@ Here are some of the great websites that offer tutorials.
     + Many of the hosts and guests from the podcasts above contribute tutorials to this site
 - [Scotch.io](https://scotch.io/)
     + This is a great site with many tutorials on everything front-end
-    + They cover the entire [MEAN](#mean) (Mongodb, Expressjs, Angularjs, and NodeJS) stack
+    + They cover the entire [MEAN](#mean) (Mongodb, Expressjs, Angular, and NodeJS) stack
     + They have a great Reactjs series
     + They do an article each week on the top [Code Pens](http://codepen.io/)
     + Great site to bookmark on your phone
@@ -93,7 +93,7 @@ Overall my suggestion is just search and follow the people who's Blogs articles 
     +  EmberJS news, articles, tips, and code
 - [@angularjs](https://twitter.com/angularjs) 
     +  Another self-explanitory one.
-    +  Angularjs news
+    +  Angular news
 -  [@jashkenas](https://twitter.com/jashkenas) (Jeremy Ashkenas)
     +  Jeremy Ashkenas created BackboneJS, UnderscoreJS, and Coffeescript!
     +  Follow Jeremy for for tweets about the above and Javascript in general
@@ -112,10 +112,10 @@ Overall my suggestion is just search and follow the people who's Blogs articles 
     +  He also has a [blog](http://www.johnpapa.net/) [(see the Blog section)](#blogs)
 - [@wardbell](https://twitter.com/wardbell)
     + Ward built [BreezeJS](http://www.getbreezenow.com/)
-    + He also does a lot of work in AngularJS and tweets about that
+    + He also does a lot of work in Angular and tweets about that
     + Ward is featured in many of the [podcasts](#podcasts) above
     + Check out his [Javascript Jabber](#jj) episode on the [MEAN Stack](#mean)
-    + Also check out the [Adventures in Angular](#aia) episodes he co-hosts on testing with AngularJS
+    + Also check out the [Adventures in Angular](#aia) episodes he co-hosts on testing with Angular
 - [@scotch_io](https://twitter.com/scotch_io)
     +  Tweet when new articles com out
     +  Great way to keep up on the sites tutorials
@@ -125,7 +125,7 @@ Overall my suggestion is just search and follow the people who's Blogs articles 
 - [@josepheames](https://twitter.com/josepheames)
     + One of the host of [Javascript Jabber](#jj) and [Adventures in Angular](#aia)
     + One of the organizers of [ng-conf](http://www.ng-conf.org/)
-    + Tweets about angularjs and javascript in general
+    + Tweets about angular and javascript in general
     + He teaches [Pluralsight](#ps) cources as well
 - [@js_dev](https://twitter.com/js_dev) (Aaron Frost)
     + Aaron frost is a co-host on many [Javascript Jabber](#jj) and [Adventures in Angular](#aia) episodes
@@ -175,8 +175,8 @@ Here are some of the books I've found super useful.
     + I prefer the onine once becuase it has interactive excersises at the end of each chapter
     + Realy great resource to learn the ins-and-outs of Javascript
 - [ng-book](https://www.ng-book.com/) <a name="ngbook"></a>
-    + An awesome AngularJS book
-    + This was the first book I read when I started AngularJS and it was extremely helpful
+    + An awesome Angular book
+    + This was the first book I read when I started Angular and it was extremely helpful
     + It's constantly being updated
     + Written by Ari Lerner, co-runner of [ng-newsletter](http://www.ng-newsletter.com/) [(see Twitter section)](#twitter)
     + "The print version of the book is available through [Amazon](http://www.amazon.com/ng-book-The-Complete-Book-AngularJS/dp/099134460X/ref=tmm_pap_title_0?ie=UTF8&qid=1389643028&sr=8-1) and [Createspace](https://www.createspace.com/4572262)." - ng-book homepage
@@ -221,7 +221,7 @@ There are also a ton of Github repos dedicated to collection all of the resource
 - [ReactJS](http://facebook.github.io/react/)
     + Awesome Javascript library from the facebook team
     + Has some great concepts and is a great alternative for any existing view layer in your MVC applicatoin
-- [AngularJS](https://angularjs.org/) <a name="ajs"></a>
+- [Angular](https://angularjs.org/) and [Angular 2](https://angular.io/) <a name="ajs"></a>
     + Fantastic Javascript framework, and currently the one I use the most
     + Extremely popular and a must-know right now
 - [EmberJS](http://emberjs.com/)
@@ -267,7 +267,7 @@ There are also a ton of Github repos dedicated to collection all of the resource
     + Bower is a package manager for all of your client-side (browser) dependencies
     + Use bower to manage your angular, jquery, or bootstrap versions for example
 - [Ionic](http://ionicframework.com/)
-    + A front end SDK written with AngularJS and UI toolkit for creating awesome hybrid mobile apps
+    + A front end SDK written with Angular and UI toolkit for creating awesome hybrid mobile apps
     + Uses cordova to wrap app in a deployable native application
     + Super Super Awesome (See next entry).
 - [ng-Cordova](http://ngcordova.com/) 
@@ -278,7 +278,7 @@ There are also a ton of Github repos dedicated to collection all of the resource
     +  MEAN Stack is a full-stack solution that stands for:
         *  [MongoDB](link)
         *  [ExpressJS](link)
-        *  [AngularJS](#ajs)
+        *  [Angular](#ajs)
         *  [NodeJS](#node)
     +  With MEAN you can use javascript across your entire stack
     +  MongoDB uses JSON for document storage, Node is javascript on the server, express is a library for setting up a REST endpoint with node, and Angular is the javascript framework for your client.
