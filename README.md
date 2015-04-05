@@ -300,7 +300,7 @@ I've decided to add a section covering what topics I'm looking into on a weekly 
     
     This past week Facebook released [React Native](http://facebook.github.io/react-native/). I decided to try it out and was very impressed. For those that have not heard, React native is a way to build native applications using React and javascript. This does not involve the UIWebview. It instead uses the fact that React is decoupled from the DOM, to allow components to render to native views such as iOS(only platform supported at the moment). 
 
-    I followed the 'getting started' guide and the walkthrough for creating a ListView movie application. I was extremely impressed at how easy it was to use. There were a few things that are unique to React Native as expected, but they are easy to pick up once you have some experience with ReactJS. I plan on expanding upon the demo application and building my own demo application. I will post it to my github once I get started.
+    I followed the 'getting started' guide and the walkthrough for creating a ListView movie application. I was extremely impressed at how easy it was to use. There were a few things that are unique to React Native as expected, but they are easy to pick up once you have some experience with ReactJS. I decided to start a demo repo where I expand upon the movies application. It's called [Users-Demo-React-Native](https://github.com/tommcgurl/Users-Demo-React-Native). I am using the [Random User API](http://randomuser.me) from [@randomapi](https://twitter.com/randomapi) to show a master-detail view of users. I will be posting each commit as a 'step' to making the application.
 
 - __March 22__
 
