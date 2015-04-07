@@ -137,6 +137,11 @@ Overall my suggestion is just search and follow the people who's Blogs articles 
 - [@tomdale](https://twitter.com/tomdale)
     + Tom helped create EmberJS and is part of the core team
     + Tom tweets about EmberJS and Javascript
+- [@eisenbergeffect](https://twitter.com/eisenbergeffect) (Rob Eisenberg)
+    + Rob is most famous for his javascript framwork, [Durandal](http://durandaljs.com/)
+    + Rob now works on a new framework called [Aurelia](#aurelia)
+    + He also worked on Angular 2 for a while before leaving and releasing Aurelia.
+    + He also has a [blog](http://eisenbergeffect.bluespire.com) [(see the Blog section)](#blogs)
 - Follow Frameworks and Libraries
     + [@emberjs](https://twitter.com/emberjs)
     + [@reactjs](https://twitter.com/reactjs)
@@ -165,6 +170,9 @@ Overall my suggestion is just search and follow the people who's Blogs articles 
 - [Dan Wahlin's Blog](https://weblogs.asp.net/dwahlin)
     + Another awesome blog for javascript tutorials
     + He covers everything from AngularJS to Core Javascript such as ES6
+-  [Rob Eisenberg's Blog](http://eisenbergeffect.bluespire.com/)
+    +  Rob discusses his new framework [Aurelia](#aurelia)
+    +  He also compares Aurelia to other frameworks such as Angular 2 and his experiences working on Angular 2 and why he decided to leave.
 
 #Books
 Here are some of the books I've found super useful.
@@ -291,6 +299,11 @@ There are also a ton of Github repos dedicated to collection all of the resource
     + This does not create a wrapper around a UIWebview, but instead uses React Components to render native applivation views.
     + For now it only supports iOS.
     + Check out my [post](#react-native-post) below on it.
+- [Aurelia](http://aurelia.io/) <a name="aurelia"></a>
+    + Aurelia is a new framework from [Rob Eisenberg](http://eisenbergeffect.bluespire.com/)
+    + Aurelia uses the latest javascript concepts such as ES6 (or now ES2015), web components and object.observe. 
+    + Also has adaptive binding
+    + Definitely worth checking out.
 
 ## What I'm learning this week
 I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
