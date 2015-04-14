@@ -304,6 +304,17 @@ There are also a ton of Github repos dedicated to collection all of the resource
     + Aurelia uses the latest javascript concepts such as ES6 (or now ES2015), web components and object.observe. 
     + Also has adaptive binding
     + Definitely worth checking out.
+- [ECMAScript6 A.K.A ES6 (Now ES2015)](https://github.com/lukehoban/es6features)
+    + ES6 is the latest standard for Javascript
+    + The link above documents the features that make up ES6
+    + ES6 is expected to be ratified in June 2015 - likehoban/es6features
+    + You can start writing your applications in ES6 today by using a transpiler. The most popular right now are:
+        * Babel (see bellow)
+        * [Google's Traceur](https://github.com/google/traceur-compiler)
+- [Babel](https://babeljs.io/)
+    + Babel is a javascript compiler.
+    + It allows you to use next generation Javascript standards such as ES6 (ES2015) and later javascript standards today
+    + It does this by _transpiling_ your ES6+ code into ES5 javascript so that it can work in browsers today.
 
 ## What I'm learning this week
 I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
