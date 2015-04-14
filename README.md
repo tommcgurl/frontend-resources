@@ -311,7 +311,7 @@ There are also a ton of Github repos dedicated to collection all of the resource
     + You can start writing your applications in ES6 today by using a transpiler. The most popular right now are:
         * Babel (see bellow)
         * [Google's Traceur](https://github.com/google/traceur-compiler)
-- [Babel](https://babeljs.io/)
+- [Babel](https://babeljs.io/) <a name="babel"></a>
     + Babel is a javascript compiler.
     + It allows you to use next generation Javascript standards such as ES6 (ES2015) and later javascript standards today
     + It does this by _transpiling_ your ES6+ code into ES5 javascript so that it can work in browsers today.
@@ -320,6 +320,13 @@ There are also a ton of Github repos dedicated to collection all of the resource
 I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
 
 #### Week of:
+- __April 5__
+    This week I do not have much to update since I was on vacation. During that time however, I managed to start my React-Native User's demo discussed in last week's post. The repo is [Users-Demo-React-Native](https://github.com/tommcgurl/Users-Demo-React-Native). You can read the details of it in last weeks post.
+    
+    So far I've managed to complete a good portion of the application. Most of the basic functionality is complete and I hope to finalize the functionality and spruce it up a bit in my next commits. I'm thinking about extending it a bit further than originally planned in order to display the use of Flux and more CRUD operations. So far I'm very pleased with React Native, and it has been really fun to use.
+
+    During my vacation flight to Austin, TX, I read some awesome articles on ES6 and I started looking into the transpiler [Babel](#babel). I plan on using this in future development so that I can begin working with ES2015. It already has support for JSX and React and has plugins for all the major build systems.
+
 - __March 29__   <a name="react-native-post"></a>
     
     This past week Facebook released [React Native](http://facebook.github.io/react-native/). I decided to try it out and was very impressed. For those that have not heard, React native is a way to build native applications using React and javascript. This does not involve the UIWebview. It instead uses the fact that React is decoupled from the DOM, to allow components to render to native views such as iOS(only platform supported at the moment). 
