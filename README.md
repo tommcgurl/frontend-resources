@@ -45,8 +45,8 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
     + This podcast can also be watched in video form on youtube
     + This is another fantastic Angular podcast.
 - [CodeWinds](http://codewinds.com/podcast.html)
-    + This one hasn't been updated in a while but the existing episodes are great
     + It covers JSConf 2014, Modular Javasctipt, Isomorphic apps, Reactjs, and more
+    + Codewinds is back after a short hiatus and now has plans for weekly episodes.
 
 ## Learning Resources/Tutorials <a name="learning"></a>
 
@@ -326,6 +326,8 @@ I've decided to add a section covering what topics I'm looking into on a weekly 
     So far I've managed to complete a good portion of the application. Most of the basic functionality is complete and I hope to finalize the functionality and spruce it up a bit in my next commits. I'm thinking about extending it a bit further than originally planned in order to display the use of Flux and more CRUD operations. So far I'm very pleased with React Native, and it has been really fun to use.
 
     During my vacation flight to Austin, TX, I read some awesome articles on ES6 and I started looking into the transpiler [Babel](#babel). I plan on using this in future development so that I can begin working with ES2015. It already has support for JSX and React and has plugins for all the major build systems.
+
+    Also, the Codewinds podcast came back finally! I listend to the two most recent episodes. [Episode 14](http://codewinds.com/podcast/014.html) simply covers the reason for the long hiatus. In [Episode 15](http://codewinds.com/podcast/015.html) talks to Michael Jackson and Ryan Florence about ReactJS!
 
 - __March 29__   <a name="react-native-post"></a>
     
