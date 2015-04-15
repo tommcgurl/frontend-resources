@@ -142,6 +142,16 @@ Overall my suggestion is just search and follow the people who's Blogs articles 
     + Rob now works on a new framework called [Aurelia](#aurelia)
     + He also worked on Angular 2 for a while before leaving and releasing Aurelia.
     + He also has a [blog](http://eisenbergeffect.bluespire.com) [(see the Blog section)](#blogs)
+- [@floydophone](https://twitter.com/floydophone) (Pete Hunt)
+    + Pete Hunt is most famous for his work at Facbook
+    + He is part of the ReactJS team
+    + He tweets about ReactJS, Flux, and all things related.
+- [@ryanflorence](https://twitter.com/ryanflorence)
+    + Ryan Florence is a huge advocate for ReactJS and started the popular [react-router](https://github.com/rackt/react-router)
+    + Ryan posts about Javascript, ReactJS updates, news, and his [ReactJS Training Courses](https://reactjs-training.com/)
+- [@mjackson](https://twitter.com/mjackson)
+    + Michael Jackson works with Ryan Florence (above) on the react-router](https://github.com/rackt/react-router)
+    + He posts about javascript as well as his ReactJS training courses with Ryan Florence [ReactJS Training Courses](https://reactjs-training.com/)
 - Follow Frameworks and Libraries
     + [@emberjs](https://twitter.com/emberjs)
     + [@reactjs](https://twitter.com/reactjs)
@@ -241,7 +251,7 @@ There are also a ton of Github repos dedicated to collection all of the resource
     + It's javascript that can run on the server!
     + You can use this to run a javscript task runner like Grunt or Gulp (see below) to make you development way more productive
     + See [MEAN Stack](#mean)
--  [NPM](https://www.npmjs.com/) (Node Package Manager)
+- [NPM](https://www.npmjs.com/) (Node Package Manager)
     +  NPM comes with Nodejs
     +  NPM is amazing.
     +  It is used to manage project dependecies using a little file called package.json
@@ -282,7 +292,7 @@ There are also a ton of Github repos dedicated to collection all of the resource
     + Angular directives and wrappers around the Cordova API
 - [Famo.us](http://famo.us/)
     +  "Famo.us is a free, open source JavaScript framework that helps you create smooth, complex UIs for any screen." - famous homepage
--  [MEAN Stack](http://en.wikipedia.org/wiki/MEAN) <a name="mean"></a>
+- [MEAN Stack](http://en.wikipedia.org/wiki/MEAN) <a name="mean"></a>
     +  MEAN Stack is a full-stack solution that stands for:
         *  [MongoDB](link)
         *  [ExpressJS](link)
