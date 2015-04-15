@@ -240,6 +240,11 @@ There are also a ton of Github repos dedicated to collection all of the resource
 - [react-primer-draft](https://github.com/mikechau/react-primer-draft)
     + A great repo for getting started with building Single Page applications with ReactJS.
     + Does a great job covering all the aspects of React including Component life-cycle hooks, State, Properties, Mixins and more.
+- [Angular2-Education](https://github.com/timjacobi/angular2-education)
+    + "A curated list of helpful material to get started with education on Angular 2" - the readme
+    + This is an awesome collection of resourses for leanring [Angular 2](#ajs)
+- [Awesome-React-Native](https://github.com/jondot/awesome-react-native)
+    + "A curated list of awesome articles, tutorials and resources dealing with React Native." - the readme
 
 ## Things to check out (No particular order)
 - [ReactJS](http://facebook.github.io/react/)
