@@ -156,7 +156,7 @@ Overall my suggestion is just search and follow the people who's Blogs articles 
     + Ryan Florence is a huge advocate for ReactJS and started the popular [react-router](https://github.com/rackt/react-router)
     + Ryan posts about Javascript, ReactJS updates, news, and his [ReactJS Training Courses](https://reactjs-training.com/)
 - [@mjackson](https://twitter.com/mjackson)
-    + Michael Jackson works with Ryan Florence (above) on the react-router](https://github.com/rackt/react-router)
+    + Michael Jackson works with Ryan Florence (above) on the [react-router](https://github.com/rackt/react-router)
     + He posts about javascript as well as his ReactJS training courses with Ryan Florence [ReactJS Training Courses](https://reactjs-training.com/)
 - Follow Frameworks and Libraries
     + [@emberjs](https://twitter.com/emberjs)
