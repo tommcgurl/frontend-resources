@@ -47,6 +47,12 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
 - [CodeWinds](http://codewinds.com/podcast.html)
     + It covers JSConf 2014, Modular Javasctipt, Isomorphic apps, Reactjs, and more
     + Codewinds is back after a short hiatus and now has plans for weekly episodes.
+- [Ember Land](http://ember.land/)
+    + An podcast all about Ember
+    + This is a technical podcast that talks about Ember features, the Ember community, and Ember news
+- [Ember Weekend](https://emberweekend.firebaseapp.com/episodes/our-first-foray)
+    + An weekly EmberJS podcast
+    + The hosts Chase McCarthy and Jonathan Jackson discuss Ember projects they are working on, Ember news, resourses and more.
 
 ## Learning Resources/Tutorials <a name="learning"></a>
 
