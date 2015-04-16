@@ -252,6 +252,20 @@ There are also a ton of Github repos dedicated to collection all of the resource
     + The quesetions focus on some common areas of knowlege for Javascript, HTML, and CSS that a front-end developer should have experience with.
     + This is a good list to go throught to see where you stand on these topics and to get an idea of where you have room for improvement.
     + For example, if you see a question that you don't know how to answer, you now have a topic you can look into to brush up on your skills.
+- [Javascript Style Guide](https://github.com/airbnb/javascript)
+    + This repo is a Javascript style guide from the folks at Airbnb
+    + I think this guide is fantastic.
+    + Since javascript is very open to different styles of writing code, a guide like this is nice to reel things in a bit and get everyone on the same page.
+    + Styleguides like this help make code more standard, readable, and shareable. All of wich make code collaboration and onboarding easier.
+    + There are plenty of benefits to using a styleguide amongst a team or even for your own benefit.
+- [Angular-styleguide](https://github.com/johnpapa/angular-styleguide)
+    + This is an awesome styleguide for Angular
+    + John's styleguide is widely adopted and will get you writing your Angular code in a way that follows best-practice and makes it easier to test, build, and understand.
+    + The benefit of this style guide is that, like any styleguide, more adoption means more people writing code in a way that others are already familiar with.
+    + Notable mention: [Todd Motto's Angular-styleguide](https://github.com/toddmotto/angularjs-styleguide)
+        * This styleguide is very similar to John's, but differs in a few places.
+        * Follow whichever one works best for you. 
+        * Since they are similar enough, you will still get the benefits discussed above.
 
 ## Things to check out (No particular order)
 - [ReactJS](http://facebook.github.io/react/)
