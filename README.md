@@ -266,6 +266,10 @@ There are also a ton of Github repos dedicated to collection all of the resource
         * This styleguide is very similar to John's, but differs in a few places.
         * Follow whichever one works best for you. 
         * Since they are similar enough, you will still get the benefits discussed above.
+- [Git-Style-Guide](https://github.com/agis-/git-style-guide)
+    + This guide covers popular practices for working with git
+    + Getting into open source can be intimidating (I'm still working on it myself). Style guides like this help make contributing to open source via github less intimidating by guiding you on best practices.
+    + This guide covers things like branch naming, commits, merging and more
 
 ## Things to check out (No particular order)
 - [ReactJS](http://facebook.github.io/react/)
