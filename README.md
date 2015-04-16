@@ -245,6 +245,13 @@ There are also a ton of Github repos dedicated to collection all of the resource
     + This is an awesome collection of resourses for leanring [Angular 2](#ajs)
 - [Awesome-React-Native](https://github.com/jondot/awesome-react-native)
     + "A curated list of awesome articles, tutorials and resources dealing with React Native." - the readme
+- [Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+    + This repos is a fantastic resource to keep bookmarked.
+    + It is a list of common questions that someone can ask when interviewing for a front end developer position
+    + This is useful for not only the people asking the questions, but also for those learning javascript
+    + The quesetions focus on some common areas of knowlege for Javascript, HTML, and CSS that a front-end developer should have experience with.
+    + This is a good list to go throught to see where you stand on these topics and to get an idea of where you have room for improvement.
+    + For example, if you see a question that you don't know how to answer, you now have a topic you can look into to brush up on your skills.
 
 ## Things to check out (No particular order)
 - [ReactJS](http://facebook.github.io/react/)
