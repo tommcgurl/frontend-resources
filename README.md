@@ -222,7 +222,7 @@ Here are some of the books I've found super useful.
     + Youtube page for all of the JSConf videos
 
 #Repositories
-There are also a ton of Github repos dedicated to collection all of the resources for a given topic (these are where I got the inspiration for this). These are amazing ways to find a material on a particular framework or library. Here are some of the ones I use.
+There are also a ton of Github repos that are great to watch. Some are dedicated to collecting all of the resources for a given topic (these are where I got the inspiration for this). These are amazing ways to find a material on a particular framework or library. Here are some of the ones I use.
 
 - [Awesome-React](https://github.com/enaqx/awesome-react)
     + "A collection of awesome React tools, resources, videos and shiny things." - the readme
