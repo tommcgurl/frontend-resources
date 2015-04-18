@@ -252,12 +252,12 @@ There are also a ton of Github repos that are great to watch. Some are dedicated
     + The quesetions focus on some common areas of knowlege for Javascript, HTML, and CSS that a front-end developer should have experience with.
     + This is a good list to go throught to see where you stand on these topics and to get an idea of where you have room for improvement.
     + For example, if you see a question that you don't know how to answer, you now have a topic you can look into to brush up on your skills.
+
+## Style and Best Practices Guides
+Style guides are a useful way to get everyone on the same page when it comes to code style. Style and best practice guides help make code more standard, readable, and shareable. All of wich make code collaboration and onboarding easier. There are plenty of benefits to using a styleguide amongst a team or even for your own benefit.
 - [Javascript Style Guide](https://github.com/airbnb/javascript)
     + This repo is a Javascript style guide from the folks at Airbnb
-    + I think this guide is fantastic.
-    + Since javascript is very open to different styles of writing code, a guide like this is nice to reel things in a bit and get everyone on the same page.
-    + Styleguides like this help make code more standard, readable, and shareable. All of wich make code collaboration and onboarding easier.
-    + There are plenty of benefits to using a styleguide amongst a team or even for your own benefit.
+    + This guide will help you take advantages of the benefits listed above.
 - [Angular-styleguide](https://github.com/johnpapa/angular-styleguide)
     + This is an awesome styleguide for Angular
     + John's styleguide is widely adopted and will get you writing your Angular code in a way that follows best-practice and makes it easier to test, build, and understand.
@@ -270,6 +270,7 @@ There are also a ton of Github repos that are great to watch. Some are dedicated
     + This guide covers popular practices for working with git
     + Getting into open source can be intimidating (I'm still working on it myself). Style guides like this help make contributing to open source via github less intimidating by guiding you on best practices.
     + This guide covers things like branch naming, commits, merging and more
+
 
 ## Things to check out (No particular order)
 - [ReactJS](http://facebook.github.io/react/)
