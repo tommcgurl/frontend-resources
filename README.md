@@ -14,6 +14,7 @@ Inspired by all the [awesome lists on Github](https://github.com/bayandin/awesom
 - [Books](#books)
 - [Videos](#videos)
 - [Repositories](#repositories)
+- [Style and Best Practice Guides](#style-and-best-practice-guides)
 - [Things to check out](#things-to-check-out-no-particular-order)
 - [What I'm learning about this week](#what-im-learning-this-week)
 
@@ -253,8 +254,9 @@ There are also a ton of Github repos that are great to watch. Some are dedicated
     + This is a good list to go throught to see where you stand on these topics and to get an idea of where you have room for improvement.
     + For example, if you see a question that you don't know how to answer, you now have a topic you can look into to brush up on your skills.
 
-## Style and Best Practices Guides
+## Style and Best Practice Guides
 Style guides are a useful way to get everyone on the same page when it comes to code style. Style and best practice guides help make code more standard, readable, and shareable. All of wich make code collaboration and onboarding easier. There are plenty of benefits to using a styleguide amongst a team or even for your own benefit.
+
 - [Javascript Style Guide](https://github.com/airbnb/javascript)
     + This repo is a Javascript style guide from the folks at Airbnb
     + This guide will help you take advantages of the benefits listed above.
@@ -270,7 +272,6 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + This guide covers popular practices for working with git
     + Getting into open source can be intimidating (I'm still working on it myself). Style guides like this help make contributing to open source via github less intimidating by guiding you on best practices.
     + This guide covers things like branch naming, commits, merging and more
-
 
 ## Things to check out (No particular order)
 - [ReactJS](http://facebook.github.io/react/)
