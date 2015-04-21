@@ -159,6 +159,9 @@ Overall my suggestion is just search and follow the people who's Blogs articles 
 - [@mjackson](https://twitter.com/mjackson)
     + Michael Jackson works with Ryan Florence (above) on the [react-router](https://github.com/rackt/react-router)
     + He posts about javascript as well as his ReactJS training courses with Ryan Florence [ReactJS Training Courses](https://reactjs-training.com/)
+- [@stevenewcomb](https://twitter.com/stevenewcomb)
+    + Steve Newcomb is currently most famous for being the CEO and founder of famo.us
+    + Follow steve for updates on Famous as well as  some awesome javascript posts
 - Follow Frameworks and Libraries
     + [@emberjs](https://twitter.com/emberjs)
     + [@reactjs](https://twitter.com/reactjs)
@@ -326,7 +329,7 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + "A package manager for the web" - bower.io
     + Bower is a package manager for all of your client-side (browser) dependencies
     + Use bower to manage your angular, jquery, or bootstrap versions for example
-- [Ionic](http://ionicframework.com/)
+- [Ionic](http://ionicframework.com/) <a name="ionic"></a>
     + A front end SDK written with Angular and UI toolkit for creating awesome hybrid mobile apps
     + Uses cordova to wrap app in a deployable native application
     + Super Super Awesome (See next entry).
@@ -372,6 +375,13 @@ Style guides are a useful way to get everyone on the same page when it comes to 
 I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
 
 #### Week of:
+- __April 12__
+    This week I continued to work a bit on the Users-Demo-React-Native. I've also been working with [Ionic](#ionic) a bit again. If you haven't checked out Ionic yet, definitely take some time to give it a look. There is a great [video from ng-conf](https://www.youtube.com/watch?v=wvr11fvCeu4) from the guys at Ionic that shows off some of the awesome stuff you can do with it. I plan on putting a repo up soon with a demo application.
+
+    [The Web Platform Podcast](http://thewebplatform.libsyn.com/) had a great [episode the past week](http://thewebplatform.libsyn.com/39-famous-mobile-performance-mixed-mode) with Steve Newcomb of Famo.us. Steve covered a ton of stuff, including their plans for mixed mode, the future of the company, and much more. Definitely check this episode out. 
+
+    Angular Air had a great [episode on testing with Angular](https://plus.google.com/events/cb42tejb88eliamj65o2ogh12qo) with guests, Julie Ralph of Protractor, Andres Dominquez, and Zan Thrash. They discuss, compare, and contrast the different forms of javascript testing.
+    
 - __April 5__
     This week I do not have much to update since I was on vacation. During that time however, I managed to start my React-Native User's demo discussed in last week's post. The repo is [Users-Demo-React-Native](https://github.com/tommcgurl/Users-Demo-React-Native). You can read the details of it in last weeks post.
     
