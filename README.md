@@ -208,6 +208,10 @@ Here are some of the books I've found super useful.
 - [Essential Javascript](http://www.amazon.com/Effective-JavaScript-Specific-Software-Development/dp/0321812182)
     + This book covers goes deep into the workings of javascript and helps provide a better understanding when working with the language
     + Also check out the [Javascript Jabber episode with the author, David Herman](http://devchat.tv/js-jabber/044-jsj-book-club-effective-javascript-with-david-herman)
+- [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
+    + This is an open source book that "dives deep into the core mechanisms of the Javascript language" - the readme
+    + You can read them all online for free or even buy the print copies
+    + These books cover everything from the super basics in the book [_Up & Going_](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) all the way to [_ES6 & Beyond_](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond)
 
 #Videos
 ####Conference Videos
