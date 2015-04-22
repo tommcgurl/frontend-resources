@@ -228,6 +228,11 @@ Here are some of the books I've found super useful.
     + Youtube page for ng-Europe videos
 - [JSConf 2015](https://www.youtube.com/channel/UCzoVCacndDCfGDf41P-z0iA)
     + Youtube page for all of the JSConf videos
+- [JS Must Watch](https://github.com/bolshchikov/js-must-watch)
+    + "This is a list of must-watch videos devoted to JavaScript" - the readme
+    + This repo has some fantastic javascript videos.
+    + It is sorted by date from 2009 - 2015.
+    + The lastest entry is the two part series, _Using ECMAScript 6 today_.
 
 #Repositories
 There are also a ton of Github repos that are great to watch. Some are dedicated to collecting all of the resources for a given topic (these are where I got the inspiration for this). These are amazing ways to find a material on a particular framework or library. Here are some of the ones I use.
@@ -381,7 +386,7 @@ I've decided to add a section covering what topics I'm looking into on a weekly 
     [The Web Platform Podcast](http://thewebplatform.libsyn.com/) had a great [episode the past week](http://thewebplatform.libsyn.com/39-famous-mobile-performance-mixed-mode) with Steve Newcomb of Famo.us. Steve covered a ton of stuff, including their plans for mixed mode, the future of the company, and much more. Definitely check this episode out. 
 
     Angular Air had a great [episode on testing with Angular](https://plus.google.com/events/cb42tejb88eliamj65o2ogh12qo) with guests, Julie Ralph of Protractor, Andres Dominquez, and Zan Thrash. They discuss, compare, and contrast the different forms of javascript testing.
-    
+
 - __April 5__
     This week I do not have much to update since I was on vacation. During that time however, I managed to start my React-Native User's demo discussed in last week's post. The repo is [Users-Demo-React-Native](https://github.com/tommcgurl/Users-Demo-React-Native). You can read the details of it in last weeks post.
     
