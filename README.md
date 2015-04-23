@@ -375,6 +375,11 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + Babel is a javascript compiler.
     + It allows you to use next generation Javascript standards such as ES6 (ES2015) and later javascript standards today
     + It does this by _transpiling_ your ES6+ code into ES5 javascript so that it can work in browsers today.
+- [Materialize](http://materializecss.com/)
+    + Materialize is an awesome styling library for material design
+    + You can think of it like Bootstrap for material design.
+    + I've been using it recently for prototyping as well as a React application demo and I'm very happy with it.
+    + Try it out on your next hack to style it up!
 
 ## What I'm learning this week
 I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
