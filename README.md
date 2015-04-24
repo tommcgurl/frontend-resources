@@ -17,6 +17,7 @@ Inspired by all the [awesome lists on Github](https://github.com/bayandin/awesom
 - [Style and Best Practice Guides](#style-and-best-practice-guides)
 - [Things to check out](#things-to-check-out-no-particular-order)
 - [What I'm learning about this week](#what-im-learning-this-week)
+- [Road Map](#road-map)
 
 
 ## Podcasts <a name="podcasts"></a>
@@ -419,6 +420,16 @@ I've decided to add a section covering what topics I'm looking into on a weekly 
     
     Angular 2 definitely looks like it packs some changes and I have to take a deeper look before commenting on them. On the surface it looks like it has some serious preformance improvements which I'm always down for. I do like the idea that Angular 2.0 will embrace ES6 and web components. I think this is great for the future of web and for pushing standards. I've started using customer elements (one part of the web component spec) at my job and it helped me solve a unique problem with some ease and elegance. I'm definitely excited to check out and start using Angular 2.
 
+#### Road Map
+Here are a few things I'm planning on adding to this repo.
+
+- A 'Where to start' guide
+    + I have had many questions directed my way in the form of "All of these frameworks and technologies are great, but where do I start?"
+    + I would like this section to help guide developers that may be new to some of this stuff, down the right path to "connecting the dots"
+    + I will explain how some of the ["Things to check out"](#things-to-check-out-no-particular-order) can be used to create an actual application.
+- An tutorial section specifically for beginners
+    + Sometimes its tough to find the right tutorials to jump in to a new library or framework.
+    + I plan on adding links to tutorials guided towards developers trying out a libarary or framework for the first time.
 
 
 
