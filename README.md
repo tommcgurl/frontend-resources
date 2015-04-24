@@ -265,6 +265,10 @@ There are also a ton of Github repos that are great to watch. Some are dedicated
     + The quesetions focus on some common areas of knowlege for Javascript, HTML, and CSS that a front-end developer should have experience with.
     + This is a good list to go throught to see where you stand on these topics and to get an idea of where you have room for improvement.
     + For example, if you see a question that you don't know how to answer, you now have a topic you can look into to brush up on your skills.
+- [ES6 Features](https://github.com/lukehoban/es6features#readme) <a name="es6features"></a>
+    + a repo covering the features of the [ES6 ( now ES2015 )](#es6) standard
+    + It contains examples of all of the new functionaity that are well commented for understanding.
+    + This is a great place to start looking at ES6 and thinking about using [Babel](#babel) so that you can start writing ES6 today!
 
 ## Style and Best Practice Guides
 Style guides are a useful way to get everyone on the same page when it comes to code style. Style and best practice guides help make code more standard, readable, and shareable. All of wich make code collaboration and onboarding easier. There are plenty of benefits to using a styleguide amongst a team or even for your own benefit.
@@ -364,10 +368,10 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + Aurelia uses the latest javascript concepts such as ES6 (or now ES2015), web components and object.observe. 
     + Also has adaptive binding
     + Definitely worth checking out.
-- [ECMAScript6 A.K.A ES6 (Now ES2015)](https://github.com/lukehoban/es6features)
+- [ECMAScript6 A.K.A ES6 (Now ES2015)](https://github.com/lukehoban/es6features) <a name="es6"></a>
     + ES6 is the latest standard for Javascript
     + The link above documents the features that make up ES6
-    + ES6 is expected to be ratified in June 2015 - likehoban/es6features
+    + ES6 is expected to be ratified in June 2015 - lukehoban/es6features
     + You can start writing your applications in ES6 today by using a transpiler. The most popular right now are:
         * Babel (see bellow)
         * [Google's Traceur](https://github.com/google/traceur-compiler)
