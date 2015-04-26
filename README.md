@@ -17,6 +17,7 @@ Inspired by all the [awesome lists on Github](https://github.com/bayandin/awesom
 - [Style and Best Practice Guides](#style-and-best-practice-guides)
 - [Things to check out](#things-to-check-out-no-particular-order)
 - [What I'm learning about this week](#what-im-learning-this-week)
+- [Meetups](#meetups)
 - [Road Map](#road-map)
 
 
@@ -385,6 +386,13 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + You can think of it like Bootstrap for material design.
     + I've been using it recently for prototyping as well as a React application demo and I'm very happy with it.
     + Try it out on your next hack to style it up!
+
+## Meetups
+A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
+
+- [Javascript Meetup Map](http://javascript.meetup.com/)
+    + This is a map from [Meetup.com](http://www.meetup.com/) of all the javascript related meetups available.
+    + Just enter your zipcode and find a meetup in your area!
 
 ## What I'm learning this week
 I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
