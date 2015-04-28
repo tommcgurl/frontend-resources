@@ -56,6 +56,9 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
 - [Ember Weekend](https://emberweekend.firebaseapp.com/episodes/our-first-foray)
     + An weekly EmberJS podcast
     + The hosts Chase McCarthy and Jonathan Jackson discuss Ember projects they are working on, Ember news, resourses and more.
+- [The Changelog](https://changelog.com/podcast/)
+    + The Changelog is another great developer podcast
+    + It covers a wide range of topics including, recently, Typscript, ReactJS, Ember, and the Rust programming language
 
 ## Learning Resources/Tutorials <a name="learning"></a>
 
