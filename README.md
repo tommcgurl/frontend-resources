@@ -401,6 +401,11 @@ A friend of mine has been going to some meetups lately and invited me along to o
 I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
 
 #### Week of:
+- __April 19__
+    This week I thanks to a friend, I had the opportunity to attend the [April Code Genius](https://genius.engineering/photos/). It was an aweosome meetup hosted by the poeople at [Genius](http://genius.com/). Jeremey Ashkenas gave an awesome terminator-themed talk on transpilers and how coffeescript compiles to javascript.[James Somers](https://twitter.com/jsomers) from genius gave an awesome and hilarious talk on genius' image annotation feature in their [Chrome extension](https://chrome.google.com/webstore/detail/genius-beta/ccaokncpmmjiakalbcfdbfmpcaiddjdn?hl=en-US&utm_source=chrome-ntp-launcher).[Dave DeSandro](https://twitter.com/desandro) gave a really great talk on his carousel library [Flickity](http://flickity.metafizzy.co/) and how physics isn't as intimidating as some think.
+
+    It was a great experience and I'm already signed up to go to the [May Code Genius](http://code.genius.com/) with [Jacob Thorton](https://twitter.com/fat) the creator of Bootstrap, Bower, and more. It will definitely be a good time.
+    
 - __April 12__
     This week I continued to work a bit on the Users-Demo-React-Native. I've also been working with [Ionic](#ionic) a bit again. If you haven't checked out Ionic yet, definitely take some time to give it a look. There is a great [video from ng-conf](https://www.youtube.com/watch?v=wvr11fvCeu4) from the guys at Ionic that shows off some of the awesome stuff you can do with it. I plan on putting a repo up soon with a demo application.
 
