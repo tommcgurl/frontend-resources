@@ -214,10 +214,10 @@ Here are some of the books I've found super useful.
     + Written by Ari Lerner, co-runner of [ng-newsletter](http://www.ng-newsletter.com/) [(see Twitter section)](#twitter)
     + "The print version of the book is available through [Amazon](http://www.amazon.com/ng-book-The-Complete-Book-AngularJS/dp/099134460X/ref=tmm_pap_title_0?ie=UTF8&qid=1389643028&sr=8-1) and [Createspace](https://www.createspace.com/4572262)." - ng-book homepage
 - [Essential Javascript](http://www.amazon.com/Effective-JavaScript-Specific-Software-Development/dp/0321812182)
-    + This book covers goes deep into the workings of javascript and helps provide a better understanding when working with the language
+    + This book goes deep into the workings of javascript and helps provide a better understanding when working with the language
     + Also check out the [Javascript Jabber episode with the author, David Herman](http://devchat.tv/js-jabber/044-jsj-book-club-effective-javascript-with-david-herman)
 - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
-    + This is an open source book that "dives deep into the core mechanisms of the Javascript language" - the readme
+    + This is an open source book series that "dives deep into the core mechanisms of the Javascript language" - the readme
     + You can read them all online for free or even buy the print copies
     + These books cover everything from the super basics in the book [_Up & Going_](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) all the way to [_ES6 & Beyond_](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond)
 
@@ -276,7 +276,7 @@ There are also a ton of Github repos that are great to watch. Some are dedicated
     + This is a great place to start looking at ES6 and thinking about using [Babel](#babel) so that you can start writing ES6 today!
 
 ## Style and Best Practice Guides
-Style guides are a useful way to get everyone on the same page when it comes to code style. Style and best practice guides help make code more standard, readable, and shareable. All of wich make code collaboration and onboarding easier. There are plenty of benefits to using a styleguide amongst a team or even for your own benefit.
+Style guides are a useful way to get everyone on the same page when it comes to code style. Style and best practice guides help make code more standard, readable, and shareable. All of which make code collaboration and onboarding easier. There are plenty of benefits to using a styleguide amongst a team or even for your own benefit.
 
 - [Javascript Style Guide](https://github.com/airbnb/javascript)
     + This repo is a Javascript style guide from the folks at Airbnb
