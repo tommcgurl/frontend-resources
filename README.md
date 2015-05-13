@@ -389,6 +389,11 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + You can think of it like Bootstrap for material design.
     + I've been using it recently for prototyping as well as a React application demo and I'm very happy with it.
     + Try it out on your next hack to style it up!
+- [JSON Server](https://github.com/typicode/json-server)
+    + "Get a full fake REST API with zero coding in less than 30 seconds (seriously)" - the readme.md
+    + This is an awesome module for setting up a mock backend using JSON.
+    + Focus working on your frontend and iterate on your backend models easily.
+    + Check out [egghead.io](https://egghead.io/)'s tutorial, [Creating Demo APIs with json-server](https://egghead.io/lessons/nodejs-creating-demo-apis-with-json-server)
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
