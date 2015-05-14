@@ -233,6 +233,11 @@ Here are some of the books I've found super useful.
     + Youtube page for ng-Europe videos
 - [JSConf 2015](https://www.youtube.com/channel/UCzoVCacndDCfGDf41P-z0iA)
     + Youtube page for all of the JSConf videos
+- [Fluent Conf 2015](https://www.youtube.com/watch?v=2ksXo2_Lfl0&list=PL055Epbe6d5ZqIHE7NA5f6Iq_bZNjuWvS)
+    + Youtube playlist for all the Fluent Conf 2015 talks
+    + Some really influential members of the javascript community talk all things web and javascript.
+
+####Other
 - [JS Must Watch](https://github.com/bolshchikov/js-must-watch)
     + "This is a list of must-watch videos devoted to JavaScript" - the readme
     + This repo has some fantastic javascript videos.
