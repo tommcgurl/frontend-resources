@@ -87,7 +87,11 @@ Here are some of the great websites that offer tutorials.
 - [Learn ES6 (harmony)](http://learnharmony.org/)
     + This site lets you try out the latest features of [ES6](#es6) right in the browser. 
     + Learn the new features while trying them out yourself.
-    + Try out arrow functions, object destructuring, method shorthand, template strings, classes and more
+    + Try out arrow functions, object destructuring, method shorthand, template strings, classes and more.
+- [Functional Programming Tutorial](http://reactive-extensions.github.io/learnrx/)
+    + This interactive tutorial is a great way to learn the basics of functional programming.
+    + This tutorial takes you through using functions such as map, filter, and reduce to make your code more concise and durable.
+    + "Functional programming provides developers with the tools to abstract common collection operations into reusable, composable building blocks."
 
 ## Twitter
 Here are some of the people/groups that I follow on twitter that post some great front-end news and articles.
