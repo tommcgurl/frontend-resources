@@ -59,6 +59,8 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
 - [The Changelog](https://changelog.com/podcast/)
     + The Changelog is another great developer podcast
     + It covers a wide range of topics including, recently, Typscript, ReactJS, Ember, and the Rust programming language
+- [React Podcast](http://reactpodcast.com/) (By monthly)
+    + A new podcast centering around Facebook's ReactJS 
 
 ## Learning Resources/Tutorials <a name="learning"></a>
 
