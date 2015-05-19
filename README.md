@@ -84,6 +84,10 @@ Here are some of the great websites that offer tutorials.
     + Many time the repo will link out to a blog to go along with the tutorial
 - [Codrops](http://tympanus.net/codrops/)
     + Great Web design tutorials and inspirations
+- [Learn ES6 (harmony)](http://learnharmony.org/)
+    + This site lets you try out the latest features of [ES6](#es6) right in the browser. 
+    + Learn the new features while trying them out yourself.
+    + Try out arrow functions, object destructuring, method shorthand, template strings, classes and more
 
 ## Twitter
 Here are some of the people/groups that I follow on twitter that post some great front-end news and articles.
