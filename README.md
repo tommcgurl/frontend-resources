@@ -409,6 +409,11 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + This is an awesome module for setting up a mock backend using JSON.
     + Focus working on your frontend and iterate on your backend models easily.
     + Check out [egghead.io](https://egghead.io/)'s tutorial, [Creating Demo APIs with json-server](https://egghead.io/lessons/nodejs-creating-demo-apis-with-json-server)
+- [Reapp](http://reapp.io/)
+    + Reapp is to ReactJS what ionic is to angular
+    + Reapp let's you build awesome mobile apps with ReactJS
+    + It contains a set of React Components known as React UI Kit
+    + It uses webpack and babel out of the box
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
