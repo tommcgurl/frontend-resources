@@ -414,6 +414,10 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + Reapp let's you build awesome mobile apps with ReactJS
     + It contains a set of React Components known as React UI Kit
     + It uses webpack and babel out of the box
+- [ImmutableJS](https://facebook.github.io/immutable-js/)
+    + Immutability in javascript is a popular conversation right now in the community.
+    + This is Facebook's library for creating immutable collections. 
+    + The site does a good job explaining the benefits of Immutable data.
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
