@@ -414,6 +414,10 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + Reapp let's you build awesome mobile apps with ReactJS
     + It contains a set of React Components known as React UI Kit
     + It uses webpack and babel out of the box
+- [ImmutableJS](https://facebook.github.io/immutable-js/)
+    + Immutability in javascript is a popular conversation right now in the community.
+    + This is Facebook's library for creating immutable collections. 
+    + The site does a good job explaining the benefits of Immutable data.
 - [JSPM](http://jspm.io/)
     + JSPM is a browser package manager that handles loading all types of modules (AMD, CommonJS, and ES6) in the same was as the [ES6 module loader](https://github.com/ModuleLoader/es6-module-loader).
     + This is a great option for developers looking to use ES6 modules today.
