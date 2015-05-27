@@ -414,6 +414,9 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + Reapp let's you build awesome mobile apps with ReactJS
     + It contains a set of React Components known as React UI Kit
     + It uses webpack and babel out of the box
+- [JSPM](http://jspm.io/)
+    + JSPM is a browser package manager that handles loading all types of modules (AMD, CommonJS, and ES6) in the same was as the [ES6 module loader](https://github.com/ModuleLoader/es6-module-loader).
+    + This is a great option for developers looking to use ES6 modules today.
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
