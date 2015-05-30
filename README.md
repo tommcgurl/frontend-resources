@@ -433,6 +433,9 @@ A friend of mine has been going to some meetups lately and invited me along to o
 I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
 
 #### Week of:
+-   May 17
+    I've fallen a bit behind in updating this post section :/ but I'm going to try and keep it up to date. I've been working recently on a new repo experiment. I have decided to start posting something I've been working on. It's basically my version of the popular TodoMVC. My plan is to make a craft beer catalogging app in a few of the popular frameworks/libraries. I've began posting my first version. It uses the [Ionic Framework](#ionic) which uses Angular. The repo is called [brewbook-ionic](https://github.com/tommcgurl/brewbook-ionic). Next I plan on implementing it in React with Flux.
+
 - __April 19__
     This week I thanks to a friend, I had the opportunity to attend the [April Code Genius](https://genius.engineering/photos/). It was an awesome meetup hosted by the folks at [Genius](http://genius.com/). Jeremey Ashkenas gave an awesome terminator-themed talk on transpilers and how coffeescript compiles to javascript. [James Somers](https://twitter.com/jsomers) from genius gave an awesome and hilarious talk on genius' image annotation feature in their [Chrome extension](https://chrome.google.com/webstore/detail/genius-beta/ccaokncpmmjiakalbcfdbfmpcaiddjdn?hl=en-US&utm_source=chrome-ntp-launcher). [Dave DeSandro](https://twitter.com/desandro) gave a really great talk on his carousel library [Flickity](http://flickity.metafizzy.co/) and how physics isn't as intimidating as some think.
 
