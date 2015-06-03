@@ -421,6 +421,10 @@ Style guides are a useful way to get everyone on the same page when it comes to 
 - [JSPM](http://jspm.io/)
     + JSPM is a browser package manager that handles loading all types of modules (AMD, CommonJS, and ES6) in the same was as the [ES6 module loader](https://github.com/ModuleLoader/es6-module-loader).
     + This is a great option for developers looking to use ES6 modules today.
+- [RxJS](https://github.com/Reactive-Extensions/RxJS/tree/master/doc)
+    + RxJS is a library for that helps writing asynchronus and event based programs.
+    + RxJS makes it easy to write *reactive* programs in javascript
+    + Check out [egghead.io's RxJS section](https://egghead.io/technologies/rx) to learn the basics.
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
