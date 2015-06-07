@@ -425,6 +425,9 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + RxJS is a library for that helps writing asynchronus and event based programs.
     + RxJS makes it easy to write *reactive* programs in javascript
     + Check out [egghead.io's RxJS section](https://egghead.io/technologies/rx) to learn the basics.
+- [Webpack](http://webpack.github.io/docs/what-is-webpack.html)
+    + Webpack is a module bundler similar to Browserify
+    + Webpack is well suited for large single page apps that need to break up their bundles into diffrent modules
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
