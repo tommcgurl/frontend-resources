@@ -177,6 +177,17 @@ Overall my suggestion is just search and follow the people who's Blogs articles 
 - [@stevenewcomb](https://twitter.com/stevenewcomb)
     + Steve Newcomb is currently most famous for being the CEO and founder of famo.us
     + Follow steve for updates on Famous as well as  some awesome javascript posts
+- [@_ericelliott](https://twitter.com/_ericelliott?lang=en)
+    + Eric is a fantastic person to follow for Javascript goodies.
+    + He tweets frequently and his tweets always contain awesome javascript info and resources.
+    + I'm constantly retweeting his stuff becuase it's realy awesome.
+- [@stackjs](https://twitter.com/stackjs)
+    + Javascript stacks is another great resource for Javascript resourses and info.
+    + They post about cool new libraries, code pens, jsbin, jsfiddles, and other javascript tidbits.
+    + This is another frequent tweeter.
+- [@echojs](https://twitter.com/echojs)
+    + "Community-driven news site entirely focused on JavaScript development, HTML5, and front-end news."
+    + Echojs is a great resource that tweets all things js news, blogs, and repos.
 - Follow Frameworks and Libraries
     + [@emberjs](https://twitter.com/emberjs)
     + [@reactjs](https://twitter.com/reactjs)
