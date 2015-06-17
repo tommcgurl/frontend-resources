@@ -439,6 +439,10 @@ Style guides are a useful way to get everyone on the same page when it comes to 
 - [Webpack](http://webpack.github.io/docs/what-is-webpack.html)
     + Webpack is a module bundler similar to Browserify
     + Webpack is well suited for large single page apps that need to break up their bundles into diffrent modules
+- [Flow](https://code.facebook.com/posts/1505962329687926/flow-a-new-static-type-checker-for-javascript/)
+    + Flow is a static type checker for javascript (Much like [typescript](http://www.typescriptlang.org/))
+    + It is often used in conjunction with React becuase it supports JSX
+    + Check out the [Javascript Jabber podcast episode on flow](http://devchat.tv/js-jabber/163-jsj-flow-with-jeff-morrison-and-avik-chaudhuri)
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
