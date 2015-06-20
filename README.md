@@ -443,6 +443,10 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + Flow is a static type checker for javascript (Much like [typescript](http://www.typescriptlang.org/))
     + It is often used in conjunction with React becuase it supports JSX
     + Check out the [Javascript Jabber podcast episode on flow](http://devchat.tv/js-jabber/163-jsj-flow-with-jeff-morrison-and-avik-chaudhuri)
+- [AmpersandJS](http://ampersandjs.com/)
+    + A modular MVC framework similar to BackboneJS
+    + It's modularity allows you to pull in only the components that you need
+    + Try using the [ampersand-collection](https://github.com/ampersandjs/ampersand-collection) as the store for your [ReactJS](#things-to-check-out-no-particular-order) app.
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
