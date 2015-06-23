@@ -459,6 +459,11 @@ A friend of mine has been going to some meetups lately and invited me along to o
 I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
 
 #### Week of:
+-   June 14
+    This week I've been taking a look at AmpersandJS. It's a nice modular alternative to BackboneJS and I think it will work nicely as the 'store' component to a Flux application. I plan on using Ampersand collections and models as the stores for ReactJS version of BrewBook. Since AmpersandJS Models and Collections emit events just like BackboneJS Models and Collections, they are easy to integrate with a React view layer in a flux application.
+
+    I also started modifying Firebase's [BackboneFire](https://github.com/firebase/backbonefire) library so that will work with AmpersandJS Models and Collections as apposed to Backbone Models and Collections. I'm calling it **[ampfire](https://github.com/tommcgurl/ampfire)**. Right now I have it broken into two parts, ampfire-model and ampfire-collection. I wanted to follow Ampersands modularity. Once I'm done it will be easy to integrate your Ampersand stores with Firebase.
+
 -   May 17
     I've fallen a bit behind in updating this post section :/ but I'm going to try and keep it up to date. I've been working recently on a new repo experiment. I have decided to start posting something I've been working on. It's basically my version of the popular TodoMVC. My plan is to make a craft beer catalogging app in a few of the popular frameworks/libraries. I've began posting my first version. It uses the [Ionic Framework](#ionic) which uses Angular. The repo is called [brewbook-ionic](https://github.com/tommcgurl/brewbook-ionic). Next I plan on implementing it in React with Flux.
 
