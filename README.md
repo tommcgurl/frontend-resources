@@ -459,20 +459,28 @@ A friend of mine has been going to some meetups lately and invited me along to o
 I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
 
 #### Week of:
--   June 14
+-   __June 21__
+
+    This week I published my first two npm packages! I published the modules I was working on last week ([ampfire-collection](https://www.npmjs.com/package/ampfire-collection) and [ampfire-model](https://www.npmjs.com/package/ampfire-model)). It was a pretty awesome experience publishing something to npm for the first time. The [npm site](https://www.npmjs.com/) has a great [guide on how to publish a package](https://docs.npmjs.com/getting-started/publishing-npm-packages), so I just followed that. It was a super easy processes. Essentially, you just create a [CommonJS](http://www.commonjs.org/) module and export the API that you want. Then your package.json dictates all of the info for your package, including the name that it is exposed as to consumers of the package. You can even add some *keywords* to your package.json to make it more discoverable on npm. I plan on updated the packages with some tests and even a demo soon. I definitely recommend checking out the guide above and try publishing any libraries you may have created that you think others could benefit from.
+
+-   __June 14__
+
     This week I've been taking a look at AmpersandJS. It's a nice modular alternative to BackboneJS and I think it will work nicely as the 'store' component to a Flux application. I plan on using Ampersand collections and models as the stores for ReactJS version of BrewBook. Since AmpersandJS Models and Collections emit events just like BackboneJS Models and Collections, they are easy to integrate with a React view layer in a flux application.
 
     I also started modifying Firebase's [BackboneFire](https://github.com/firebase/backbonefire) library so that will work with AmpersandJS Models and Collections as apposed to Backbone Models and Collections. I'm calling it **[ampfire](https://github.com/tommcgurl/ampfire)**. Right now I have it broken into two parts, ampfire-model and ampfire-collection. I wanted to follow Ampersands modularity. Once I'm done it will be easy to integrate your Ampersand stores with Firebase.
 
--   May 17
+-   __May 17__
+
     I've fallen a bit behind in updating this post section :/ but I'm going to try and keep it up to date. I've been working recently on a new repo experiment. I have decided to start posting something I've been working on. It's basically my version of the popular TodoMVC. My plan is to make a craft beer catalogging app in a few of the popular frameworks/libraries. I've began posting my first version. It uses the [Ionic Framework](#ionic) which uses Angular. The repo is called [brewbook-ionic](https://github.com/tommcgurl/brewbook-ionic). Next I plan on implementing it in React with Flux.
 
 - __April 19__
+
     This week I thanks to a friend, I had the opportunity to attend the [April Code Genius](https://genius.engineering/photos/). It was an awesome meetup hosted by the folks at [Genius](http://genius.com/). Jeremey Ashkenas gave an awesome terminator-themed talk on transpilers and how coffeescript compiles to javascript. [James Somers](https://twitter.com/jsomers) from genius gave an awesome and hilarious talk on genius' image annotation feature in their [Chrome extension](https://chrome.google.com/webstore/detail/genius-beta/ccaokncpmmjiakalbcfdbfmpcaiddjdn?hl=en-US&utm_source=chrome-ntp-launcher). [Dave DeSandro](https://twitter.com/desandro) gave a really great talk on his carousel library [Flickity](http://flickity.metafizzy.co/) and how physics isn't as intimidating as some think.
 
     It was a great experience and I'm already signed up to go to the [May Code Genius](http://code.genius.com/) with [Jacob Thorton](https://twitter.com/fat) the creator of Bootstrap, Bower, and more. It will definitely be a good time.
     
 - __April 12__
+
     This week I continued to work a bit on the Users-Demo-React-Native. I've also been working with [Ionic](#ionic) a bit again. If you haven't checked out Ionic yet, definitely take some time to give it a look. There is a great [video from ng-conf](https://www.youtube.com/watch?v=wvr11fvCeu4) from the guys at Ionic that shows off some of the awesome stuff you can do with it. I plan on putting a repo up soon with a demo application.
 
     [The Web Platform Podcast](http://thewebplatform.libsyn.com/) had a great [episode the past week](http://thewebplatform.libsyn.com/39-famous-mobile-performance-mixed-mode) with Steve Newcomb of Famo.us. Steve covered a ton of stuff, including their plans for mixed mode, the future of the company, and much more. Definitely check this episode out. 
@@ -480,6 +488,7 @@ I've decided to add a section covering what topics I'm looking into on a weekly 
     Angular Air had a great [episode on testing with Angular](https://plus.google.com/events/cb42tejb88eliamj65o2ogh12qo) with guests, Julie Ralph of Protractor, Andres Dominquez, and Zan Thrash. They discuss, compare, and contrast the different forms of javascript testing.
 
 - __April 5__
+
     This week I do not have much to update since I was on vacation. During that time however, I managed to start my React-Native User's demo discussed in last week's post. The repo is [Users-Demo-React-Native](https://github.com/tommcgurl/Users-Demo-React-Native). You can read the details of it in last weeks post.
     
     So far I've managed to complete a good portion of the application. Most of the basic functionality is complete and I hope to finalize the functionality and spruce it up a bit in my next commits. I'm thinking about extending it a bit further than originally planned in order to display the use of Flux and more CRUD operations. So far I'm very pleased with React Native, and it has been really fun to use.
