@@ -237,7 +237,7 @@ Here are some of the books I've found super useful.
 - [Essential Javascript](http://www.amazon.com/Effective-JavaScript-Specific-Software-Development/dp/0321812182)
     + This book goes deep into the workings of javascript and helps provide a better understanding when working with the language
     + Also check out the [Javascript Jabber episode with the author, David Herman](http://devchat.tv/js-jabber/044-jsj-book-club-effective-javascript-with-david-herman)
-- [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
+- [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) <a name="ydkjs"></a>
     + This is an open source book series that "dives deep into the core mechanisms of the Javascript language" - the readme
     + You can read them all online for free or even buy the print copies
     + These books cover everything from the super basics in the book [_Up & Going_](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) all the way to [_ES6 & Beyond_](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond)
@@ -321,7 +321,7 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + This guide covers things like branch naming, commits, merging and more
 
 ## Things to check out (No particular order)
-- [ReactJS](http://facebook.github.io/react/)
+- [ReactJS](http://facebook.github.io/react/) <a name="react"></a>
     + Awesome Javascript library from the facebook team
     + Has some great concepts and is a great alternative for any existing view layer in your MVC applicatoin
 - [Angular](https://angularjs.org/) and [Angular 2](https://angular.io/) <a name="ajs"></a>
@@ -436,7 +436,7 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + RxJS is a library for that helps writing asynchronus and event based programs.
     + RxJS makes it easy to write *reactive* programs in javascript
     + Check out [egghead.io's RxJS section](https://egghead.io/technologies/rx) to learn the basics.
-- [Webpack](http://webpack.github.io/docs/what-is-webpack.html)
+- [Webpack](http://webpack.github.io/docs/what-is-webpack.html) <a name="webpack"></a>
     + Webpack is a module bundler similar to Browserify
     + Webpack is well suited for large single page apps that need to break up their bundles into diffrent modules
 - [Flow](https://code.facebook.com/posts/1505962329687926/flow-a-new-static-type-checker-for-javascript/)
@@ -459,6 +459,12 @@ A friend of mine has been going to some meetups lately and invited me along to o
 I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
 
 #### Week of:
+-   __July 5__
+
+    This week I've been looking more into [Webpack](#webpack) and [Babel](#babel). I plan on using Webpack for the [ReactJS](#react) version of my BrewBook app. I also think it's time I started writing ES6 so I'll be using Babel as a transpiler. I started reading some great articles on using Webpack with ReactJS and Babel. [Setting Up a Single Page React Web App with React-router and Webpack](http://jmfurlott.com/tutorial-setting-up-a-single-page-react-web-app-with-react-router-and-webpack/) is a great article on getting started with Webpack and the babel-loader. 
+
+    I also started [ES6 and Beyond](https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20%26%20beyond) from the awesome [You Don't Know JS series](#ydkjs). It is an amazing resource that really covers the new ES6+ features in depth. I can't wait to start using these features.
+
 -   __June 21__
 
     This week I published my first two npm packages! I published the modules I was working on last week ([ampfire-collection](https://www.npmjs.com/package/ampfire-collection) and [ampfire-model](https://www.npmjs.com/package/ampfire-model)). It was a pretty awesome experience publishing something to npm for the first time. The [npm site](https://www.npmjs.com/) has a great [guide on how to publish a package](https://docs.npmjs.com/getting-started/publishing-npm-packages), so I just followed that. It was a super easy processes. Essentially, you just create a [CommonJS](http://www.commonjs.org/) module and export the API that you want. Then your package.json dictates all of the info for your package, including the name that it is exposed as to consumers of the package. You can even add some *keywords* to your package.json to make it more discoverable on npm. I plan on updated the packages with some tests and even a demo soon. I definitely recommend checking out the guide above and try publishing any libraries you may have created that you think others could benefit from.
