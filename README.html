@@ -1,0 +1,1757 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>body {
+  width: 45em;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+
+body .markdown-body
+{
+  padding: 30px;
+}
+
+@font-face {
+  font-family: fontawesome-mini;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.markdown-body sup {
+  top: -0.5em;
+}
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body .codehilitetable {
+  border: 0;
+  border-spacing: 0;
+}
+
+.markdown-body .codehilitetable tr {
+  border: 0;
+}
+
+.markdown-body .codehilitetable pre,
+.markdown-body .codehilitetable div.codehilite {
+  margin: 0;
+}
+
+.markdown-body .linenos,
+.markdown-body .code,
+.markdown-body .codehilitetable td {
+  border: 0;
+  padding: 0;
+}
+
+.markdown-body td:not(.linenos) .linenodiv {
+  padding: 0 !important;
+}
+
+.markdown-body .code {
+  width: 100%;
+}
+
+.markdown-body .linenos div pre,
+.markdown-body .linenodiv pre,
+.markdown-body .linenodiv {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.markdown-body .code div pre,
+.markdown-body .code div {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before,
+.markdown-body hr:after {
+  display: table;
+  content: " ";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .headeranchor-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.markdown-body .headeranchor-link:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .headeranchor,
+.markdown-body h2 .headeranchor,
+.markdown-body h3 .headeranchor,
+.markdown-body h4 .headeranchor,
+.markdown-body h5 .headeranchor,
+.markdown-body h6 .headeranchor {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.markdown-body h1:hover .headeranchor-link,
+.markdown-body h2:hover .headeranchor-link,
+.markdown-body h3:hover .headeranchor-link,
+.markdown-body h4:hover .headeranchor-link,
+.markdown-body h5:hover .headeranchor-link,
+.markdown-body h6:hover .headeranchor-link {
+  height: 1em;
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .headeranchor-link .headeranchor,
+.markdown-body h2:hover .headeranchor-link .headeranchor,
+.markdown-body h3:hover .headeranchor-link .headeranchor,
+.markdown-body h4:hover .headeranchor-link .headeranchor,
+.markdown-body h5:hover .headeranchor-link .headeranchor,
+.markdown-body h6:hover .headeranchor-link .headeranchor {
+  display: inline-block;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body .admonition {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code,
+.markdown-body samp {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .codehilite {
+  margin-bottom: 16px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .codehilite pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+/* Admonition */
+.markdown-body .admonition {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #333;
+  padding: 10px 10px 10px 30px;
+}
+
+.markdown-body .admonition table {
+  color: #333;
+}
+
+.markdown-body .admonition p {
+  padding: 0;
+}
+
+.markdown-body .admonition-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.markdown-body .admonition>.admonition-title {
+  color: #333;
+}
+
+.markdown-body .attention>.admonition-title {
+  color: #a6d796;
+}
+
+.markdown-body .caution>.admonition-title {
+  color: #d7a796;
+}
+
+.markdown-body .hint>.admonition-title {
+  color: #96c6d7;
+}
+
+.markdown-body .danger>.admonition-title {
+  color: #c25f77;
+}
+
+.markdown-body .question>.admonition-title {
+  color: #96a6d7;
+}
+
+.markdown-body .note>.admonition-title {
+  color: #d7c896;
+}
+
+.markdown-body .admonition:before,
+.markdown-body .attention:before,
+.markdown-body .caution:before,
+.markdown-body .hint:before,
+.markdown-body .danger:before,
+.markdown-body .question:before,
+.markdown-body .note:before {
+  font: normal normal 16px fontawesome-mini;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.markdown-body .admonition:before {
+  content: "\f056\00a0";
+  color: 333;
+}
+
+.markdown-body .attention:before {
+  content: "\f058\00a0";
+  color: #a6d796;
+}
+
+.markdown-body .caution:before {
+  content: "\f06a\00a0";
+  color: #d7a796;
+}
+
+.markdown-body .hint:before {
+  content: "\f05a\00a0";
+  color: #96c6d7;
+}
+
+.markdown-body .danger:before {
+  content: "\f057\00a0";
+  color: #c25f77;
+}
+
+.markdown-body .question:before {
+  content: "\f059\00a0";
+  color: #96a6d7;
+}
+
+.markdown-body .note:before {
+  content: "\f040\00a0";
+  color: #d7c896;
+}
+
+.markdown-body .admonition::after {
+  content: normal;
+}
+
+.markdown-body .attention {
+  border-left: 6px solid #a6d796;
+}
+
+.markdown-body .caution {
+  border-left: 6px solid #d7a796;
+}
+
+.markdown-body .hint {
+  border-left: 6px solid #96c6d7;
+}
+
+.markdown-body .danger {
+  border-left: 6px solid #c25f77;
+}
+
+.markdown-body .question {
+  border-left: 6px solid #96a6d7;
+}
+
+.markdown-body .note {
+  border-left: 6px solid #d7c896;
+}
+
+.markdown-body .admonition>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .admonition>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* progress bar*/
+.markdown-body .progress {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ededed;
+  position: relative;
+  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.markdown-body .progress-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; margin: 0;
+  line-height: 24px;
+  color: #333;
+  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
+  -webkit-font-smoothing: antialiased !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.markdown-body .progress-bar {
+  height: 24px;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #96c6d7;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(
+    135deg, rgba(255, 255, 255, .4) 27%,
+    transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%,
+    transparent 77%, transparent
+  );
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+}
+
+.markdown-body .progress-100plus .progress-bar {
+  background-color: #a6d796;
+}
+
+.markdown-body .progress-80plus .progress-bar {
+  background-color: #c6d796;
+}
+
+.markdown-body .progress-60plus .progress-bar {
+  background-color: #d7c896;
+}
+
+.markdown-body .progress-40plus .progress-bar {
+  background-color: #d7a796;
+}
+
+.markdown-body .progress-20plus .progress-bar {
+  background-color: #d796a6;
+}
+
+.markdown-body .progress-0plus .progress-bar {
+  background-color: #c25f77;
+}
+
+.markdown-body .candystripe-animate .progress-bar{
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.markdown-body .gloss .progress-bar {
+  box-shadow:
+    inset 0 4px 12px rgba(255, 255, 255, .7),
+    inset 0 -12px 0 rgba(0, 0, 0, .05);
+}
+
+/* Multimarkdown Critic Blocks */
+.markdown-body .critic_mark {
+  background: #ff0;
+}
+
+.markdown-body .critic_delete {
+  color: #c82829;
+  text-decoration: line-through;
+}
+
+.markdown-body .critic_insert {
+  color: #718c00 ;
+  text-decoration: underline;
+}
+
+.markdown-body .critic_comment {
+  color: #8e908c;
+  font-style: italic;
+}
+
+.markdown-body .headeranchor {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headeranchor:before {
+  content: '\f05c';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+/* Media */
+@media only screen and (min-width: 480px) {
+  .markdown-body {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body {
+    font-size:16px;
+  }
+}
+
+@media print {
+  .markdown-body * {
+    background: transparent !important;
+    color: black !important;
+    filter:none !important;
+    -ms-filter: none !important;
+  }
+
+  .markdown-body {
+    font-size:12pt;
+    max-width:100%;
+    outline:none;
+    border: 0;
+  }
+
+  .markdown-body a,
+  .markdown-body a:visited {
+    text-decoration: underline;
+  }
+
+  .markdown-body .headeranchor-link {
+    display: none;
+  }
+
+  .markdown-body a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .markdown-body abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .markdown-body .ir a:after,
+  .markdown-body a[href^="javascript:"]:after,
+  .markdown-body a[href^="#"]:after {
+    content: "";
+  }
+
+  .markdown-body pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .markdown-body pre,
+  .markdown-body blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body .progress,
+  .markdown-body .progress-bar {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .markdown-body .progress {
+    border: 1px solid #ddd;
+  }
+
+  .markdown-body .progress-bar {
+    height: 22px;
+    border-right: 1px solid #ddd;
+  }
+
+  .markdown-body tr,
+  .markdown-body img {
+    page-break-inside: avoid;
+  }
+
+  .markdown-body img {
+    max-width: 100% !important;
+  }
+
+  .markdown-body p,
+  .markdown-body h2,
+  .markdown-body h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+}
+</style><title>README</title></head><body><article class="markdown-body"><h1 id="frontend-resources"><a name="user-content-frontend-resources" href="#frontend-resources" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Frontend-Resources <a name="top"></a></h1>
+<p>A collection of all the resources I use to keep up with the latest in front-end web development - Tom McGurl <a href="https://twitter.com/tom_mcgurl">@Tom_McGurl</a></p>
+<p>Front-end Web Development is rapidly growing and changing. Sometimes it&rsquo;s tough to keep up with all of the libraries and frameworks out there. As a lead javascript developer at my company, I&rsquo;m often approached by co-workers and friends who are looking to get into front-end development or polish their skills. I decided to make this repo to list all of the great resources I use everyday to keep up to date and to learn about all the awesome things happening on the web!</p>
+<p>Inspired by all the <a href="https://github.com/bayandin/awesome-awesomeness">awesome lists on Github</a> (also see the <a href="#repos">Repositories section</a>)</p>
+<h2 id="table-of-contents"><a name="user-content-table-of-contents" href="#table-of-contents" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Table of Contents</h2>
+<ul>
+<li><a href="#podcasts">Podcasts</a></li>
+<li><a href="#learning">Learning Resources/Tutorials</a></li>
+<li><a href="#twitter">Twitter</a></li>
+<li><a href="#blogs">Blogs</a></li>
+<li><a href="#books">Books</a></li>
+<li><a href="#videos">Videos</a></li>
+<li><a href="#repositories">Repositories</a></li>
+<li><a href="#style-and-best-practice-guides">Style and Best Practice Guides</a></li>
+<li><a href="#things-to-check-out-no-particular-order">Things to check out</a></li>
+<li><a href="#what-im-learning-this-week">What I&rsquo;m learning about this week</a></li>
+<li><a href="#meetups">Meetups</a></li>
+<li><a href="#road-map">Road Map</a></li>
+</ul>
+<h2 id="podcasts"><a name="user-content-podcasts" href="#podcasts" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Podcasts <a name="podcasts"></a></h2>
+<p>Podcasts are an amazing way to get the latest news and info on all the awesome things happening in web development (especially if you&rsquo;re a commuter ;) ). This is where I get most of my news/ keep up with the happenings in the Javascript community.</p>
+<ul>
+<li><a name="jj"></a><a href="http://devchat.tv/js-jabber/">Javascript Jabber</a> (Weekly every Wednesday)<ul>
+<li>An awesome podcast for everything Javascript and my personal favorite!</li>
+<li>Don&rsquo;t skip over the early episodes, even though they may not be current they have awesome info on things like backbone, coffeescript, ember,  javascript objects and many more</li>
+<li>Hosted consistently by Charles Max Wood of <a href="http://devchat.tv/">devchat.tv</a>, check out his other podcasts, they are all awesome!</li>
+<li>Other co-hosts are also great <a href="#twitter">(see the Twitter section)</a>!</li>
+</ul>
+</li>
+<li><a href="http://shoptalkshow.com/">ShopTalk</a> (Weekly)<ul>
+<li>Another great podcast</li>
+<li>Hosted by Dave Rupert and Chris Coyier (of CSS tricks)</li>
+<li>They cover a lot of different areas and have some design focused episodes as well as javascript episodes</li>
+</ul>
+</li>
+<li><a href="http://thewebplatform.libsyn.com/">The Web Platform Podcast</a><ul>
+<li>Another great podcast that covers all sorts of frontend technologies</li>
+<li>They cover things from Web Components to Web RTC and much more</li>
+</ul>
+</li>
+<li><a name="aia"></a><a href="http://devchat.tv/adventures-in-angular">Adventures in Angular</a> (Weekly every Thursday)<ul>
+<li>An amazing Angular podcast from the same guys that do Javascript Jabber</li>
+<li>A must-listen to for anyone getting into or already using Angular</li>
+</ul>
+</li>
+<li><a href="http://nodeup.com/">NodeUp</a><ul>
+<li>NodeJS podcast that covers a wide range of Node related topics and covers the future of NodeJS as well as tips for NodeJS developers.</li>
+</ul>
+</li>
+<li><a href="https://frontsidethepodcast.simplecast.fm/">Frontside the Podcast</a><ul>
+<li>The hosts do a lot of work in EmberJS so there are some really fantastic discussions on the EmberJS framework</li>
+<li>They also cover a wide range of topics from discussions about being a developer, current tech trends, and news</li>
+</ul>
+</li>
+<li><a name="ngair"></a><a href="https://ng-air.github.io/">Angular Air</a><ul>
+<li>This podcast can also be watched in video form on youtube</li>
+<li>This is another fantastic Angular podcast.</li>
+</ul>
+</li>
+<li><a href="http://codewinds.com/podcast.html">CodeWinds</a><ul>
+<li>It covers JSConf 2014, Modular Javasctipt, Isomorphic apps, Reactjs, and more</li>
+<li>Codewinds is back after a short hiatus and now has plans for weekly episodes.</li>
+</ul>
+</li>
+<li><a href="http://ember.land/">Ember Land</a><ul>
+<li>An podcast all about Ember</li>
+<li>This is a technical podcast that talks about Ember features, the Ember community, and Ember news</li>
+</ul>
+</li>
+<li><a href="https://emberweekend.firebaseapp.com/episodes/our-first-foray">Ember Weekend</a><ul>
+<li>An weekly EmberJS podcast</li>
+<li>The hosts Chase McCarthy and Jonathan Jackson discuss Ember projects they are working on, Ember news, resourses and more.</li>
+</ul>
+</li>
+<li><a href="https://changelog.com/podcast/">The Changelog</a><ul>
+<li>The Changelog is another great developer podcast</li>
+<li>It covers a wide range of topics including, recently, Typscript, ReactJS, Ember, and the Rust programming language</li>
+</ul>
+</li>
+<li><a href="http://reactpodcast.com/">React Podcast</a> (By monthly)<ul>
+<li>A new podcast centering around Facebook&rsquo;s ReactJS </li>
+</ul>
+</li>
+</ul>
+<h2 id="learning-resourcestutorials"><a name="user-content-learning-resourcestutorials" href="#learning-resourcestutorials" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Learning Resources/Tutorials <a name="learning"></a></h2>
+<p>Here are some of the great websites that offer tutorials.</p>
+<ul>
+<li><a href="https://egghead.io/">Egghead.io</a> <a name="eio"></a><ul>
+<li>A super awesome site that specializes in small &lsquo;bite sized&rsquo; video tutorials</li>
+<li>I direcet anyone who asks me for great Angular tutorials to go here</li>
+<li>They have videos covering things such as Angular,Core Javascript, React, ES6, D3, and NodeJS</li>
+<li>A must for any front-end developer</li>
+<li>Many of the hosts and guests from the podcasts above contribute tutorials to this site</li>
+</ul>
+</li>
+<li><a href="http://www.pluralsight.com/tag/developer?pageSize=48&amp;sort=new">Pluralsight</a> <a name="ps"></a><ul>
+<li>This site has tons of material on everything development.</li>
+<li>Many of the hosts and guests from the podcasts above contribute tutorials to this site</li>
+</ul>
+</li>
+<li><a href="https://scotch.io/">Scotch.io</a><ul>
+<li>This is a great site with many tutorials on everything front-end</li>
+<li>They cover the entire <a href="#mean">MEAN</a> (Mongodb, Expressjs, Angular, and NodeJS) stack</li>
+<li>They have a great Reactjs series</li>
+<li>They do an article each week on the top <a href="http://codepen.io/">Code Pens</a></li>
+<li>Great site to bookmark on your phone</li>
+</ul>
+</li>
+<li><a href="https://github.com/">Github</a><ul>
+<li>This one should be obvious, but there are a ton of tutorial repos here, just search for what you are interested in.</li>
+<li>Many time the repo will link out to a blog to go along with the tutorial</li>
+</ul>
+</li>
+<li><a href="http://tympanus.net/codrops/">Codrops</a><ul>
+<li>Great Web design tutorials and inspirations</li>
+</ul>
+</li>
+<li><a href="http://learnharmony.org/">Learn ES6 (harmony)</a><ul>
+<li>This site lets you try out the latest features of <a href="#es6">ES6</a> right in the browser. </li>
+<li>Learn the new features while trying them out yourself.</li>
+<li>Try out arrow functions, object destructuring, method shorthand, template strings, classes and more.</li>
+</ul>
+</li>
+<li><a href="http://reactive-extensions.github.io/learnrx/">Functional Programming Tutorial</a><ul>
+<li>This interactive tutorial is a great way to learn the basics of functional programming.</li>
+<li>This tutorial takes you through using functions such as map, filter, and reduce to make your code more concise and durable.</li>
+<li>&ldquo;Functional programming provides developers with the tools to abstract common collection operations into reusable, composable building blocks.&rdquo;</li>
+</ul>
+</li>
+</ul>
+<h2 id="twitter"><a name="user-content-twitter" href="#twitter" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Twitter</h2>
+<p>Here are some of the people/groups that I follow on twitter that post some great front-end news and articles.</p>
+<p>Overall my suggestion is just search and follow the people who&rsquo;s Blogs articles you&rsquo;ve read or who&rsquo;s names you know from podcasts,tutorials, videos, conferences, and the community in general.</p>
+<ul>
+<li><a href="https://twitter.com/eggheadio">@eggheadio</a><ul>
+<li>Posts when new videos come out</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/javascriptdaily">@JavaScriptDaily</a><ul>
+<li>The name says it all</li>
+<li>Javascript news</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/reactjsnewsnk">@ReactJSNews</a><ul>
+<li>Shares ReactJS news, tutorials, and creations</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/codrops">@codrops</a><ul>
+<li>They post when new articles come out and when they release their &lsquo;Web Design &amp; Development News: Collective&rsquo;</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/embersherpa">@EmberSherpa</a><ul>
+<li>Tweets about EmberJS resources news and the community</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/emberweekly">@EmberWeekly</a><ul>
+<li>EmberJS news, articles, tips, and code</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/angularjs">@angularjs</a> <ul>
+<li>Another self-explanitory one.</li>
+<li>Angular news</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/jashkenas">@jashkenas</a> (Jeremy Ashkenas)<ul>
+<li>Jeremy Ashkenas created BackboneJS, UnderscoreJS, and Coffeescript!</li>
+<li>Follow Jeremy for for tweets about the above and Javascript in general</li>
+<li>Check out the <a href="#jj">Javascript Jabber</a> episode with Jeremy on Backbone</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/wycats">@wycats</a> (Yehuda Katz)<ul>
+<li>Yehuda is a member of the EmberJS, Ruby on Rails, JQuery, and now Rust core teams</li>
+<li>Yehuda tweets about Ember and Javascript</li>
+<li>Also check out Yahuda many of the <a href="#podcasts">podcasts</a> I&rsquo;ve listed above.</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/danwahlin">@DanWahlin</a><ul>
+<li>Dan tweets about javascript news and articles</li>
+<li>He also has a great blog with some good tutorials and posts</li>
+<li>Check out his awesome <a href="https://weblogs.asp.net/dwahlin">blog</a> <a href="#blogs">(see the Blog section)</a></li>
+</ul>
+</li>
+<li><a href="https://twitter.com/john_papa">@John_Papa</a><ul>
+<li>John is featured on the <a href="http://devchat.tv/adventures-in-angular">Adventures in Angular podcast</a>(See above)</li>
+<li>He tweets about javascript tidbits and especially angularjs</li>
+<li>He also has a <a href="http://www.johnpapa.net/">blog</a> <a href="#blogs">(see the Blog section)</a></li>
+</ul>
+</li>
+<li><a href="https://twitter.com/wardbell">@wardbell</a><ul>
+<li>Ward built <a href="http://www.getbreezenow.com/">BreezeJS</a></li>
+<li>He also does a lot of work in Angular and tweets about that</li>
+<li>Ward is featured in many of the <a href="#podcasts">podcasts</a> above</li>
+<li>Check out his <a href="#jj">Javascript Jabber</a> episode on the <a href="#mean">MEAN Stack</a></li>
+<li>Also check out the <a href="#aia">Adventures in Angular</a> episodes he co-hosts on testing with Angular</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/scotch_io">@scotch_io</a><ul>
+<li>Tweet when new articles com out</li>
+<li>Great way to keep up on the sites tutorials</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/bennadel">@BenNadel</a><ul>
+<li>Ben is always posting things about javascript</li>
+<li>He also has a great <a href="http://www.bennadel.com/">blog</a> <a href="#blogs">(see the Blog section)</a></li>
+</ul>
+</li>
+<li><a href="https://twitter.com/josepheames">@josepheames</a><ul>
+<li>One of the host of <a href="#jj">Javascript Jabber</a> and <a href="#aia">Adventures in Angular</a></li>
+<li>One of the organizers of <a href="http://www.ng-conf.org/">ng-conf</a></li>
+<li>Tweets about angular and javascript in general</li>
+<li>He teaches <a href="#ps">Pluralsight</a> cources as well</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/js_dev">@js_dev</a> (Aaron Frost)<ul>
+<li>Aaron frost is a co-host on many <a href="#jj">Javascript Jabber</a> and <a href="#aia">Adventures in Angular</a> episodes</li>
+<li>He is also an organizer of <a href="http://www.ng-conf.org/">ng-conf</a></li>
+<li>He also has video tutorials on <a href="#eio">egghead.io</a></li>
+</ul>
+</li>
+<li><a href="https://twitter.com/auser">@auser</a> (Ari Lerner)<ul>
+<li>Ari is the author of the popular <a href="#ngbook">ng-book</a></li>
+<li>A lot of posts about AngularJS news updates and of course ng-book</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/tomdale">@tomdale</a><ul>
+<li>Tom helped create EmberJS and is part of the core team</li>
+<li>Tom tweets about EmberJS and Javascript</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/eisenbergeffect">@eisenbergeffect</a> (Rob Eisenberg)<ul>
+<li>Rob is most famous for his javascript framwork, <a href="http://durandaljs.com/">Durandal</a></li>
+<li>Rob now works on a new framework called <a href="#aurelia">Aurelia</a></li>
+<li>He also worked on Angular 2 for a while before leaving and releasing Aurelia.</li>
+<li>He also has a <a href="http://eisenbergeffect.bluespire.com">blog</a> <a href="#blogs">(see the Blog section)</a></li>
+</ul>
+</li>
+<li><a href="https://twitter.com/floydophone">@floydophone</a> (Pete Hunt)<ul>
+<li>Pete Hunt is most famous for his work at Facbook</li>
+<li>He is part of the ReactJS team</li>
+<li>He tweets about ReactJS, Flux, and all things related.</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/ryanflorence">@ryanflorence</a><ul>
+<li>Ryan Florence is a huge advocate for ReactJS and started the popular <a href="https://github.com/rackt/react-router">react-router</a></li>
+<li>Ryan posts about Javascript, ReactJS updates, news, and his <a href="https://reactjs-training.com/">ReactJS Training Courses</a></li>
+</ul>
+</li>
+<li><a href="https://twitter.com/mjackson">@mjackson</a><ul>
+<li>Michael Jackson works with Ryan Florence (above) on the <a href="https://github.com/rackt/react-router">react-router</a></li>
+<li>He posts about javascript as well as his ReactJS training courses with Ryan Florence <a href="https://reactjs-training.com/">ReactJS Training Courses</a></li>
+</ul>
+</li>
+<li><a href="https://twitter.com/stevenewcomb">@stevenewcomb</a><ul>
+<li>Steve Newcomb is currently most famous for being the CEO and founder of famo.us</li>
+<li>Follow steve for updates on Famous as well as  some awesome javascript posts</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/_ericelliott?lang=en">@_ericelliott</a><ul>
+<li>Eric is a fantastic person to follow for Javascript goodies.</li>
+<li>He tweets frequently and his tweets always contain awesome javascript info and resources.</li>
+<li>I&rsquo;m constantly retweeting his stuff becuase it&rsquo;s realy awesome.</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/stackjs">@stackjs</a><ul>
+<li>Javascript stacks is another great resource for Javascript resourses and info.</li>
+<li>They post about cool new libraries, code pens, jsbin, jsfiddles, and other javascript tidbits.</li>
+<li>This is another frequent tweeter.</li>
+</ul>
+</li>
+<li><a href="https://twitter.com/echojs">@echojs</a><ul>
+<li>&ldquo;Community-driven news site entirely focused on JavaScript development, HTML5, and front-end news.&rdquo;</li>
+<li>Echojs is a great resource that tweets all things js news, blogs, and repos.</li>
+</ul>
+</li>
+<li>Follow Frameworks and Libraries<ul>
+<li><a href="https://twitter.com/emberjs">@emberjs</a></li>
+<li><a href="https://twitter.com/reactjs">@reactjs</a></li>
+<li><a href="https://twitter.com/gruntjs">@gruntjs</a></li>
+<li><a href="https://twitter.com/gulpjs">@gulpjs</a></li>
+<li><a href="https://twitter.com/nodejs">@nodejs</a></li>
+<li><a href="https://twitter.com/official_iojs">@official_iojs</a></li>
+<li><a href="https://twitter.com/ionicframework">@Ionicframework</a></li>
+<li><a href="https://twitter.com/befamous">@befamous</a> (Famo.us)</li>
+<li>and so on&hellip;</li>
+<li>Just search for things you use in your day-to-day development</li>
+</ul>
+</li>
+</ul>
+<h2 id="blogs"><a name="user-content-blogs" href="#blogs" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Blogs</h2>
+<ul>
+<li><a href="https://medium.com/search?q=javascript">Medium</a><ul>
+<li>&ldquo;Medium is a place to share your stories and ideas&rdquo; - Medium.com/about</li>
+<li>I&rsquo;ve linked above to the &lsquo;Javascript&rsquo; section of Medium (I just did a search for &lsquo;javascript&rsquo;)</li>
+<li>This site is great and many awesome developers post and link to articles here</li>
+<li>It&rsquo;s also a great place to get started with spreading your ideas without having to buy your own domain or setup a blog site</li>
+</ul>
+</li>
+<li><a href="http://www.johnpapa.net/">John Pappa&rsquo;s Blog: Evangalist On The Loose</a><ul>
+<li>Blogs about everyting Javascript and angular</li>
+<li>He has some great posts</li>
+</ul>
+</li>
+<li><a href="http://www.bennadel.com/">Ben Nadel&rsquo;s Blog</a><ul>
+<li>Ben has some awesome posts and tutorials</li>
+<li>You can learn a lot aobut javascript on this site</li>
+<li>You&rsquo;ll also always be able to spot him in all of his great photos from different conferences ;)</li>
+</ul>
+</li>
+<li><a href="https://weblogs.asp.net/dwahlin">Dan Wahlin&rsquo;s Blog</a><ul>
+<li>Another awesome blog for javascript tutorials</li>
+<li>He covers everything from AngularJS to Core Javascript such as ES6</li>
+</ul>
+</li>
+<li><a href="http://eisenbergeffect.bluespire.com/">Rob Eisenberg&rsquo;s Blog</a><ul>
+<li>Rob discusses his new framework <a href="#aurelia">Aurelia</a></li>
+<li>He also compares Aurelia to other frameworks such as Angular 2 and his experiences working on Angular 2 and why he decided to leave.</li>
+</ul>
+</li>
+</ul>
+<h1 id="books"><a name="user-content-books" href="#books" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Books</h1>
+<p>Here are some of the books I&rsquo;ve found super useful.</p>
+<ul>
+<li><a href="http://eloquentjavascript.net/">Elequent Javascript</a><ul>
+<li>This book is fantastic!</li>
+<li>There is an online version and a <a href="http://www.amazon.com/gp/product/1593275846/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1593275846&amp;linkCode=as2&amp;tag=marijhaver-20&amp;linkId=VPXXXSRYC5COG5R5">paperback version</a></li>
+<li>I prefer the onine once becuase it has interactive excersises at the end of each chapter</li>
+<li>Realy great resource to learn the ins-and-outs of Javascript</li>
+</ul>
+</li>
+<li><a href="https://www.ng-book.com/">ng-book</a> <a name="ngbook"></a><ul>
+<li>An awesome Angular book</li>
+<li>This was the first book I read when I started Angular and it was extremely helpful</li>
+<li>It&rsquo;s constantly being updated</li>
+<li>Written by Ari Lerner, co-runner of <a href="http://www.ng-newsletter.com/">ng-newsletter</a> <a href="#twitter">(see Twitter section)</a></li>
+<li>&ldquo;The print version of the book is available through <a href="http://www.amazon.com/ng-book-The-Complete-Book-AngularJS/dp/099134460X/ref=tmm_pap_title_0?ie=UTF8&amp;qid=1389643028&amp;sr=8-1">Amazon</a> and <a href="https://www.createspace.com/4572262">Createspace</a>.&rdquo; - ng-book homepage</li>
+</ul>
+</li>
+<li><a href="http://www.amazon.com/Effective-JavaScript-Specific-Software-Development/dp/0321812182">Essential Javascript</a><ul>
+<li>This book goes deep into the workings of javascript and helps provide a better understanding when working with the language</li>
+<li>Also check out the <a href="http://devchat.tv/js-jabber/044-jsj-book-club-effective-javascript-with-david-herman">Javascript Jabber episode with the author, David Herman</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/getify/You-Dont-Know-JS">You Don&rsquo;t Know JS</a><ul>
+<li>This is an open source book series that &ldquo;dives deep into the core mechanisms of the Javascript language&rdquo; - the readme</li>
+<li>You can read them all online for free or even buy the print copies</li>
+<li>These books cover everything from the super basics in the book <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&amp;%20going/README.md#you-dont-know-js-up--going"><em>Up &amp; Going</em></a> all the way to <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&amp;%20beyond/README.md#you-dont-know-js-es6--beyond"><em>ES6 &amp; Beyond</em></a></li>
+</ul>
+</li>
+</ul>
+<h1 id="videos"><a name="user-content-videos" href="#videos" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Videos</h1>
+<h4 id="conference-videos"><a name="user-content-conference-videos" href="#conference-videos" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Conference Videos</h4>
+<ul>
+<li><a href="https://www.youtube.com/user/ngconfvideos">ng-conf 2015</a><ul>
+<li>This is the youtube page for all the ng-conf videos - March 5-6 (Salt Lake City, Utah)</li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/watch?v=o12-90Dm-Qs&amp;list=PLE7tQUdRKcyacwiUPs0CjPYt6tJub4xXU">Ember Conf 2015</a><ul>
+<li>This is the youtube page for all the videos from Ember Conf 2015 - March 3-4 (Portland, Oregon)</li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/watch?v=KVZ-P-ZI6W4&amp;list=PLb0IAmt7-GS1cbw4qonlQztYV1TAW0sCr">Reactjs Conf 2015</a><ul>
+<li>This is the youtube page for the videos from Reactjs conf 2015 - January 28-29 (Facebook HQ, CA)</li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/channel/UCEGUP3TJJfMsEM_1y8iviSQ">ng-Europe 2014</a><ul>
+<li>Youtube page for ng-Europe videos</li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/channel/UCzoVCacndDCfGDf41P-z0iA">JSConf 2015</a><ul>
+<li>Youtube page for all of the JSConf videos</li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/watch?v=2ksXo2_Lfl0&amp;list=PL055Epbe6d5ZqIHE7NA5f6Iq_bZNjuWvS">Fluent Conf 2015</a><ul>
+<li>Youtube playlist for all the Fluent Conf 2015 talks</li>
+<li>Some really influential members of the javascript community talk all things web and javascript.</li>
+</ul>
+</li>
+</ul>
+<h4 id="other"><a name="user-content-other" href="#other" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Other</h4>
+<ul>
+<li><a href="https://github.com/bolshchikov/js-must-watch">JS Must Watch</a><ul>
+<li>&ldquo;This is a list of must-watch videos devoted to JavaScript&rdquo; - the readme</li>
+<li>This repo has some fantastic javascript videos.</li>
+<li>It is sorted by date from 2009 - 2015.</li>
+<li>The lastest entry is the two part series, <em>Using ECMAScript 6 today</em>.</li>
+</ul>
+</li>
+</ul>
+<h1 id="repositories"><a name="user-content-repositories" href="#repositories" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Repositories</h1>
+<p>There are also a ton of Github repos that are great to watch. Some are dedicated to collecting all of the resources for a given topic (these are where I got the inspiration for this). These are amazing ways to find a material on a particular framework or library. Here are some of the ones I use.</p>
+<ul>
+<li><a href="https://github.com/enaqx/awesome-react">Awesome-React</a><ul>
+<li>&ldquo;A collection of awesome React tools, resources, videos and shiny things.&rdquo; - the readme</li>
+</ul>
+</li>
+<li><a href="https://github.com/gianarb/awesome-angularjs">Awesome-AngularJS</a><ul>
+<li>&ldquo;A list of awesome AngularJs services, directives, utilities and resources.&rdquo; - the readme</li>
+</ul>
+</li>
+<li><a href="https://github.com/sindresorhus/awesome-nodejs">Awesome-NodeJS</a><ul>
+<li>&ldquo;A curated list of delightful Node.js packages and resources.&rdquo; - the readme</li>
+</ul>
+</li>
+<li><a href="https://github.com/dypsilon/frontend-dev-bookmarks">Frontend Development</a><ul>
+<li>An amazing huge list of awesome Frontent Development resources</li>
+<li>&ldquo;A huge list of frontend development resources I collected over time. Sorted from general knowledge at the top to concrete problems at the bottom.&rdquo; - <a href="https://github.com/dypsilon">dypsilon</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/sorrycc/awesome-javascript">Awesome-Javascript</a><ul>
+<li>&ldquo;A collection of awesome browser-side JavaScript libraries, resources and shiny things.&rdquo; - the readme</li>
+</ul>
+</li>
+<li><a href="https://github.com/nmec/awesome-ember">Awesome-Ember</a><ul>
+<li>&ldquo;A curated list of awesome Ember.js things.&rdquo; - the readme</li>
+</ul>
+</li>
+<li><a href="https://github.com/mikechau/react-primer-draft">react-primer-draft</a><ul>
+<li>A great repo for getting started with building Single Page applications with ReactJS.</li>
+<li>Does a great job covering all the aspects of React including Component life-cycle hooks, State, Properties, Mixins and more.</li>
+</ul>
+</li>
+<li><a href="https://github.com/timjacobi/angular2-education">Angular2-Education</a><ul>
+<li>&ldquo;A curated list of helpful material to get started with education on Angular 2&rdquo; - the readme</li>
+<li>This is an awesome collection of resourses for leanring <a href="#ajs">Angular 2</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/jondot/awesome-react-native">Awesome-React-Native</a><ul>
+<li>&ldquo;A curated list of awesome articles, tutorials and resources dealing with React Native.&rdquo; - the readme</li>
+</ul>
+</li>
+<li><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions">Front-end-Developer-Interview-Questions</a><ul>
+<li>This repos is a fantastic resource to keep bookmarked.</li>
+<li>It is a list of common questions that someone can ask when interviewing for a front end developer position</li>
+<li>This is useful for not only the people asking the questions, but also for those learning javascript</li>
+<li>The quesetions focus on some common areas of knowlege for Javascript, HTML, and CSS that a front-end developer should have experience with.</li>
+<li>This is a good list to go throught to see where you stand on these topics and to get an idea of where you have room for improvement.</li>
+<li>For example, if you see a question that you don&rsquo;t know how to answer, you now have a topic you can look into to brush up on your skills.</li>
+</ul>
+</li>
+<li><a href="https://github.com/lukehoban/es6features#readme">ES6 Features</a> <a name="es6features"></a><ul>
+<li>a repo covering the features of the <a href="#es6">ES6 ( now ES2015 )</a> standard</li>
+<li>It contains examples of all of the new functionaity that are well commented for understanding.</li>
+<li>This is a great place to start looking at ES6 and thinking about using <a href="#babel">Babel</a> so that you can start writing ES6 today!</li>
+</ul>
+</li>
+</ul>
+<h2 id="style-and-best-practice-guides"><a name="user-content-style-and-best-practice-guides" href="#style-and-best-practice-guides" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Style and Best Practice Guides</h2>
+<p>Style guides are a useful way to get everyone on the same page when it comes to code style. Style and best practice guides help make code more standard, readable, and shareable. All of which make code collaboration and onboarding easier. There are plenty of benefits to using a styleguide amongst a team or even for your own benefit.</p>
+<ul>
+<li><a href="https://github.com/airbnb/javascript">Javascript Style Guide</a><ul>
+<li>This repo is a Javascript style guide from the folks at Airbnb</li>
+<li>This guide will help you take advantages of the benefits listed above.</li>
+</ul>
+</li>
+<li><a href="https://github.com/johnpapa/angular-styleguide">Angular-styleguide</a><ul>
+<li>This is an awesome styleguide for Angular</li>
+<li>John&rsquo;s styleguide is widely adopted and will get you writing your Angular code in a way that follows best-practice and makes it easier to test, build, and understand.</li>
+<li>The benefit of this style guide is that, like any styleguide, more adoption means more people writing code in a way that others are already familiar with.</li>
+<li>Notable mention: <a href="https://github.com/toddmotto/angularjs-styleguide">Todd Motto&rsquo;s Angular-styleguide</a><ul>
+<li>This styleguide is very similar to John&rsquo;s, but differs in a few places.</li>
+<li>Follow whichever one works best for you. </li>
+<li>Since they are similar enough, you will still get the benefits discussed above.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://github.com/agis-/git-style-guide">Git-Style-Guide</a><ul>
+<li>This guide covers popular practices for working with git</li>
+<li>Getting into open source can be intimidating (I&rsquo;m still working on it myself). Style guides like this help make contributing to open source via github less intimidating by guiding you on best practices.</li>
+<li>This guide covers things like branch naming, commits, merging and more</li>
+</ul>
+</li>
+</ul>
+<h2 id="things-to-check-out-no-particular-order"><a name="user-content-things-to-check-out-no-particular-order" href="#things-to-check-out-no-particular-order" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Things to check out (No particular order)</h2>
+<ul>
+<li><a href="http://facebook.github.io/react/">ReactJS</a><ul>
+<li>Awesome Javascript library from the facebook team</li>
+<li>Has some great concepts and is a great alternative for any existing view layer in your MVC applicatoin</li>
+</ul>
+</li>
+<li><a href="https://angularjs.org/">Angular</a> and <a href="https://angular.io/">Angular 2</a> <a name="ajs"></a><ul>
+<li>Fantastic Javascript framework, and currently the one I use the most</li>
+<li>Extremely popular and a must-know right now</li>
+</ul>
+</li>
+<li><a href="http://emberjs.com/">EmberJS</a><ul>
+<li>&ldquo;A framework for creating ambitious web applications&rdquo; - emberjs homepage</li>
+</ul>
+</li>
+<li><a href="http://nodejs.org/">NodeJS</a> and now <a href="https://iojs.org/">io.js</a> as well! <a name="node"></a><ul>
+<li>I&rsquo;m sure almost everyone knows about Node at this point, but iojs is the latest fork of node, and created in the interest of ensureing nodejs&rsquo;s future moving forward.</li>
+<li>I don&rsquo;t think I can explain it any better than the website lead in</li>
+<li>A must know for Front-end developers</li>
+<li>It&rsquo;s javascript that can run on the server!</li>
+<li>You can use this to run a javscript task runner like Grunt or Gulp (see below) to make you development way more productive</li>
+<li>See <a href="#mean">MEAN Stack</a></li>
+</ul>
+</li>
+<li><a href="https://www.npmjs.com/">NPM</a> (Node Package Manager)<ul>
+<li>NPM comes with Nodejs</li>
+<li>NPM is amazing.</li>
+<li>It is used to manage project dependecies using a little file called package.json</li>
+<li>NPM is quickly becoming a core element in front-end web development and in my opinion a driving force for javascripts success</li>
+<li>With tools like <a href="http://browserify.org/">Browserify</a> and <a href="https://github.com/systemjs/systemjs">SystemJS</a> you can now use NPM to manage your browser and nodejs dependencies</li>
+</ul>
+</li>
+<li>Javascript Task Runners<ul>
+<li>You can use task runners to do things like<ul>
+<li>start a server</li>
+<li>watch for changes in html, css, and js and refresh your browser when you save</li>
+<li>Pre-process your Sass or Less and generate css</li>
+<li>Create sprite sheets from images</li>
+<li>So much more&hellip; </li>
+</ul>
+</li>
+<li>There are many options, and I&rsquo;ve listed some below try them all and choose the one that works best for you/your team</li>
+<li><a href="http://gruntjs.com/">Grunt</a><ul>
+<li>An awesome javascript task runner that will make you super productive</li>
+<li>Grunt take a configuration approach in which you configure your tasks using a gruntfile</li>
+</ul>
+</li>
+<li><a href="http://gulpjs.com/">Gulp</a> <ul>
+<li>An alternative to Grunt that favors code over configuration files</li>
+<li>With Gulp you write code that pipes your output into the next process and is easy to grok for those that prefer straight code over a config files</li>
+</ul>
+</li>
+<li>See also <a href="https://github.com/broccolijs/broccoli">Brocolli</a> and <a href="http://brunch.io/">Brunch</a></li>
+</ul>
+</li>
+<li><a href="http://yeoman.io/">Yeoman</a><ul>
+<li>A scaffolding tool that can generate a project scaffold for you</li>
+<li>Yeoman is awesome for hitting the ground running on any project!</li>
+<li>Generate out the boilerplate code for your next project with some of the great open source generators out there</li>
+<li>Here are some of my favorites<ul>
+<li><a href="https://github.com/DaftMonk/generator-angular-fullstack">Angular Fullstack</a></li>
+<li><a href="https://github.com/yeoman/generator-angular">Angular</a></li>
+<li><a href="https://github.com/newtriks/generator-react-webpack">React-Webpack</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="http://bower.io/">Bower</a><ul>
+<li>&ldquo;A package manager for the web&rdquo; - bower.io</li>
+<li>Bower is a package manager for all of your client-side (browser) dependencies</li>
+<li>Use bower to manage your angular, jquery, or bootstrap versions for example</li>
+</ul>
+</li>
+<li><a href="http://ionicframework.com/">Ionic</a> <a name="ionic"></a><ul>
+<li>A front end SDK written with Angular and UI toolkit for creating awesome hybrid mobile apps</li>
+<li>Uses cordova to wrap app in a deployable native application</li>
+<li>Super Super Awesome (See next entry).</li>
+</ul>
+</li>
+<li><a href="http://ngcordova.com/">ng-Cordova</a> <ul>
+<li>Angular directives and wrappers around the Cordova API</li>
+</ul>
+</li>
+<li><a href="http://famo.us/">Famo.us</a><ul>
+<li>&ldquo;Famo.us is a free, open source JavaScript framework that helps you create smooth, complex UIs for any screen.&rdquo; - famous homepage</li>
+</ul>
+</li>
+<li><a href="http://en.wikipedia.org/wiki/MEAN">MEAN Stack</a> <a name="mean"></a><ul>
+<li>MEAN Stack is a full-stack solution that stands for:<ul>
+<li><a href="link">MongoDB</a></li>
+<li><a href="link">ExpressJS</a></li>
+<li><a href="#ajs">Angular</a></li>
+<li><a href="#node">NodeJS</a></li>
+</ul>
+</li>
+<li>With MEAN you can use javascript across your entire stack</li>
+<li>MongoDB uses JSON for document storage, Node is javascript on the server, express is a library for setting up a REST endpoint with node, and Angular is the javascript framework for your client.</li>
+</ul>
+</li>
+<li><a href="https://www.firebase.com/">Firebase</a><ul>
+<li>Firebase is a backend as a service</li>
+<li>Firebase let&rsquo;s you store and sync data in real-time</li>
+</ul>
+</li>
+<li><a href="http://facebook.github.io/react-native/">React Native</a><ul>
+<li>Build native applcations using React and javascript</li>
+<li>This is truely an awesome concept.</li>
+<li>This does not create a wrapper around a UIWebview, but instead uses React Components to render native applivation views.</li>
+<li>For now it only supports iOS.</li>
+<li>Check out my <a href="#react-native-post">post</a> below on it.</li>
+</ul>
+</li>
+<li><a href="http://aurelia.io/">Aurelia</a> <a name="aurelia"></a><ul>
+<li>Aurelia is a new framework from <a href="http://eisenbergeffect.bluespire.com/">Rob Eisenberg</a></li>
+<li>Aurelia uses the latest javascript concepts such as ES6 (or now ES2015), web components and object.observe. </li>
+<li>Also has adaptive binding</li>
+<li>Definitely worth checking out.</li>
+</ul>
+</li>
+<li><a href="https://github.com/lukehoban/es6features">ECMAScript6 A.K.A ES6 (Now ES2015)</a> <a name="es6"></a><ul>
+<li>ES6 is the latest standard for Javascript</li>
+<li>The link above documents the features that make up ES6</li>
+<li>ES6 is expected to be ratified in June 2015 - lukehoban/es6features</li>
+<li>You can start writing your applications in ES6 today by using a transpiler. The most popular right now are:<ul>
+<li>Babel (see bellow)</li>
+<li><a href="https://github.com/google/traceur-compiler">Google&rsquo;s Traceur</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://babeljs.io/">Babel</a> <a name="babel"></a><ul>
+<li>Babel is a javascript compiler.</li>
+<li>It allows you to use next generation Javascript standards such as ES6 (ES2015) and later javascript standards today</li>
+<li>It does this by <em>transpiling</em> your ES6+ code into ES5 javascript so that it can work in browsers today.</li>
+</ul>
+</li>
+<li><a href="http://materializecss.com/">Materialize</a><ul>
+<li>Materialize is an awesome styling library for material design</li>
+<li>You can think of it like Bootstrap for material design.</li>
+<li>I&rsquo;ve been using it recently for prototyping as well as a React application demo and I&rsquo;m very happy with it.</li>
+<li>Try it out on your next hack to style it up!</li>
+</ul>
+</li>
+<li><a href="https://github.com/typicode/json-server">JSON Server</a><ul>
+<li>&ldquo;Get a full fake REST API with zero coding in less than 30 seconds (seriously)&rdquo; - the readme.md</li>
+<li>This is an awesome module for setting up a mock backend using JSON.</li>
+<li>Focus working on your frontend and iterate on your backend models easily.</li>
+<li>Check out <a href="https://egghead.io/">egghead.io</a>&lsquo;s tutorial, <a href="https://egghead.io/lessons/nodejs-creating-demo-apis-with-json-server">Creating Demo APIs with json-server</a></li>
+</ul>
+</li>
+<li><a href="http://reapp.io/">Reapp</a><ul>
+<li>Reapp is to ReactJS what ionic is to angular</li>
+<li>Reapp let&rsquo;s you build awesome mobile apps with ReactJS</li>
+<li>It contains a set of React Components known as React UI Kit</li>
+<li>It uses webpack and babel out of the box</li>
+</ul>
+</li>
+<li><a href="https://facebook.github.io/immutable-js/">ImmutableJS</a><ul>
+<li>Immutability in javascript is a popular conversation right now in the community.</li>
+<li>This is Facebook&rsquo;s library for creating immutable collections. </li>
+<li>The site does a good job explaining the benefits of Immutable data.</li>
+</ul>
+</li>
+<li><a href="http://jspm.io/">JSPM</a><ul>
+<li>JSPM is a browser package manager that handles loading all types of modules (AMD, CommonJS, and ES6) in the same was as the <a href="https://github.com/ModuleLoader/es6-module-loader">ES6 module loader</a>.</li>
+<li>This is a great option for developers looking to use ES6 modules today.</li>
+</ul>
+</li>
+<li><a href="https://github.com/Reactive-Extensions/RxJS/tree/master/doc">RxJS</a><ul>
+<li>RxJS is a library for that helps writing asynchronus and event based programs.</li>
+<li>RxJS makes it easy to write <em>reactive</em> programs in javascript</li>
+<li>Check out <a href="https://egghead.io/technologies/rx">egghead.io&rsquo;s RxJS section</a> to learn the basics.</li>
+</ul>
+</li>
+<li><a href="http://webpack.github.io/docs/what-is-webpack.html">Webpack</a><ul>
+<li>Webpack is a module bundler similar to Browserify</li>
+<li>Webpack is well suited for large single page apps that need to break up their bundles into diffrent modules</li>
+</ul>
+</li>
+<li><a href="https://code.facebook.com/posts/1505962329687926/flow-a-new-static-type-checker-for-javascript/">Flow</a><ul>
+<li>Flow is a static type checker for javascript (Much like <a href="http://www.typescriptlang.org/">typescript</a>)</li>
+<li>It is often used in conjunction with React becuase it supports JSX</li>
+<li>Check out the <a href="http://devchat.tv/js-jabber/163-jsj-flow-with-jeff-morrison-and-avik-chaudhuri">Javascript Jabber podcast episode on flow</a></li>
+</ul>
+</li>
+<li><a href="http://ampersandjs.com/">AmpersandJS</a><ul>
+<li>A modular MVC framework similar to BackboneJS</li>
+<li>It&rsquo;s modularity allows you to pull in only the components that you need</li>
+<li>Try using the <a href="https://github.com/ampersandjs/ampersand-collection">ampersand-collection</a> as the store for your <a href="#things-to-check-out-no-particular-order">ReactJS</a> app.</li>
+</ul>
+</li>
+</ul>
+<h2 id="meetups"><a name="user-content-meetups" href="#meetups" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Meetups</h2>
+<p>A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.</p>
+<ul>
+<li><a href="http://javascript.meetup.com/">Javascript Meetup Map</a><ul>
+<li>This is a map from <a href="http://www.meetup.com/">Meetup.com</a> of all the javascript related meetups available.</li>
+<li>Just enter your zipcode and find a meetup in your area!</li>
+</ul>
+</li>
+</ul>
+<h2 id="what-im-learning-this-week"><a name="user-content-what-im-learning-this-week" href="#what-im-learning-this-week" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>What I&rsquo;m learning this week</h2>
+<p>I&rsquo;ve decided to add a section covering what topics I&rsquo;m looking into on a weekly basis. I&rsquo;m putting it here for now until I move some of this over to a blog.</p>
+<h4 id="week-of"><a name="user-content-week-of" href="#week-of" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Week of:</h4>
+<ul>
+<li>
+<p><strong>July 5</strong></p>
+<p>This week I continued to add some features to my </p>
+</li>
+<li>
+<p><strong>June 21</strong></p>
+<p>This week I published my first two npm packages! I published the modules I was working on last week (<a href="https://www.npmjs.com/package/ampfire-collection">ampfire-collection</a> and <a href="https://www.npmjs.com/package/ampfire-model">ampfire-model</a>). It was a pretty awesome experience publishing something to npm for the first time. The <a href="https://www.npmjs.com/">npm site</a> has a great <a href="https://docs.npmjs.com/getting-started/publishing-npm-packages">guide on how to publish a package</a>, so I just followed that. It was a super easy processes. Essentially, you just create a <a href="http://www.commonjs.org/">CommonJS</a> module and export the API that you want. Then your package.json dictates all of the info for your package, including the name that it is exposed as to consumers of the package. You can even add some <em>keywords</em> to your package.json to make it more discoverable on npm. I plan on updated the packages with some tests and even a demo soon. I definitely recommend checking out the guide above and try publishing any libraries you may have created that you think others could benefit from.</p>
+</li>
+<li>
+<p><strong>June 14</strong></p>
+<p>This week I&rsquo;ve been taking a look at AmpersandJS. It&rsquo;s a nice modular alternative to BackboneJS and I think it will work nicely as the &lsquo;store&rsquo; component to a Flux application. I plan on using Ampersand collections and models as the stores for ReactJS version of BrewBook. Since AmpersandJS Models and Collections emit events just like BackboneJS Models and Collections, they are easy to integrate with a React view layer in a flux application.</p>
+<p>I also started modifying Firebase&rsquo;s <a href="https://github.com/firebase/backbonefire">BackboneFire</a> library so that will work with AmpersandJS Models and Collections as apposed to Backbone Models and Collections. I&rsquo;m calling it <strong><a href="https://github.com/tommcgurl/ampfire">ampfire</a></strong>. Right now I have it broken into two parts, ampfire-model and ampfire-collection. I wanted to follow Ampersands modularity. Once I&rsquo;m done it will be easy to integrate your Ampersand stores with Firebase.</p>
+</li>
+<li>
+<p><strong>May 17</strong></p>
+<p>I&rsquo;ve fallen a bit behind in updating this post section :/ but I&rsquo;m going to try and keep it up to date. I&rsquo;ve been working recently on a new repo experiment. I have decided to start posting something I&rsquo;ve been working on. It&rsquo;s basically my version of the popular TodoMVC. My plan is to make a craft beer catalogging app in a few of the popular frameworks/libraries. I&rsquo;ve began posting my first version. It uses the <a href="#ionic">Ionic Framework</a> which uses Angular. The repo is called <a href="https://github.com/tommcgurl/brewbook-ionic">brewbook-ionic</a>. Next I plan on implementing it in React with Flux.</p>
+</li>
+<li>
+<p><strong>April 19</strong></p>
+<p>This week I thanks to a friend, I had the opportunity to attend the <a href="https://genius.engineering/photos/">April Code Genius</a>. It was an awesome meetup hosted by the folks at <a href="http://genius.com/">Genius</a>. Jeremey Ashkenas gave an awesome terminator-themed talk on transpilers and how coffeescript compiles to javascript. <a href="https://twitter.com/jsomers">James Somers</a> from genius gave an awesome and hilarious talk on genius&rsquo; image annotation feature in their <a href="https://chrome.google.com/webstore/detail/genius-beta/ccaokncpmmjiakalbcfdbfmpcaiddjdn?hl=en-US&amp;utm_source=chrome-ntp-launcher">Chrome extension</a>. <a href="https://twitter.com/desandro">Dave DeSandro</a> gave a really great talk on his carousel library <a href="http://flickity.metafizzy.co/">Flickity</a> and how physics isn&rsquo;t as intimidating as some think.</p>
+<p>It was a great experience and I&rsquo;m already signed up to go to the <a href="http://code.genius.com/">May Code Genius</a> with <a href="https://twitter.com/fat">Jacob Thorton</a> the creator of Bootstrap, Bower, and more. It will definitely be a good time.</p>
+</li>
+<li>
+<p><strong>April 12</strong></p>
+<p>This week I continued to work a bit on the Users-Demo-React-Native. I&rsquo;ve also been working with <a href="#ionic">Ionic</a> a bit again. If you haven&rsquo;t checked out Ionic yet, definitely take some time to give it a look. There is a great <a href="https://www.youtube.com/watch?v=wvr11fvCeu4">video from ng-conf</a> from the guys at Ionic that shows off some of the awesome stuff you can do with it. I plan on putting a repo up soon with a demo application.</p>
+<p><a href="http://thewebplatform.libsyn.com/">The Web Platform Podcast</a> had a great <a href="http://thewebplatform.libsyn.com/39-famous-mobile-performance-mixed-mode">episode the past week</a> with Steve Newcomb of Famo.us. Steve covered a ton of stuff, including their plans for mixed mode, the future of the company, and much more. Definitely check this episode out. </p>
+<p>Angular Air had a great <a href="https://plus.google.com/events/cb42tejb88eliamj65o2ogh12qo">episode on testing with Angular</a> with guests, Julie Ralph of Protractor, Andres Dominquez, and Zan Thrash. They discuss, compare, and contrast the different forms of javascript testing.</p>
+</li>
+<li>
+<p><strong>April 5</strong></p>
+<p>This week I do not have much to update since I was on vacation. During that time however, I managed to start my React-Native User&rsquo;s demo discussed in last week&rsquo;s post. The repo is <a href="https://github.com/tommcgurl/Users-Demo-React-Native">Users-Demo-React-Native</a>. You can read the details of it in last weeks post.</p>
+<p>So far I&rsquo;ve managed to complete a good portion of the application. Most of the basic functionality is complete and I hope to finalize the functionality and spruce it up a bit in my next commits. I&rsquo;m thinking about extending it a bit further than originally planned in order to display the use of Flux and more CRUD operations. So far I&rsquo;m very pleased with React Native, and it has been really fun to use.</p>
+<p>During my vacation flight to Austin, TX, I read some awesome articles on ES6 and I started looking into the transpiler <a href="#babel">Babel</a>. I plan on using this in future development so that I can begin working with ES2015. It already has support for JSX and React and has plugins for all the major build systems.</p>
+<p>Also, the Codewinds podcast came back finally! I listend to the two most recent episodes. <a href="http://codewinds.com/podcast/014.html">Episode 14</a> simply covers the reason for the long hiatus. In <a href="http://codewinds.com/podcast/015.html">Episode 15</a> talks to Michael Jackson and Ryan Florence about ReactJS!</p>
+</li>
+<li>
+<p><strong>March 29</strong>   <a name="react-native-post"></a></p>
+<p>This past week Facebook released <a href="http://facebook.github.io/react-native/">React Native</a>. I decided to try it out and was very impressed. For those that have not heard, React native is a way to build native applications using React and javascript. This does not involve the UIWebview. It instead uses the fact that React is decoupled from the DOM, to allow components to render to native views such as iOS(only platform supported at the moment). </p>
+<p>I followed the &lsquo;getting started&rsquo; guide and the walkthrough for creating a ListView movie application. I was extremely impressed at how easy it was to use. There were a few things that are unique to React Native as expected, but they are easy to pick up once you have some experience with ReactJS. I decided to start a demo repo where I expand upon the movies application. It&rsquo;s called <a href="https://github.com/tommcgurl/Users-Demo-React-Native">Users-Demo-React-Native</a>. I am using the <a href="http://randomuser.me">Random User API</a> from <a href="https://twitter.com/randomapi">@randomapi</a> to show a master-detail view of users. I will be posting each commit as a &lsquo;step&rsquo; to making the application.</p>
+</li>
+<li>
+<p><strong>March 22</strong></p>
+<p>This week I&rsquo;m taking a look at <a href="https://angular.io/">Angular 2.0</a>. I have yet to catch up on all the ng-conf videos but plan on doing that by the end of the week. Scotch.io posted an article on <em><a href="https://scotch.io/bar-talk/the-best-news-from-angulars-ng-conf-2015">The Best News From ng-Conf 2015</a></em> a few weeks ago that does a great job summarizing the major points from the conference. I got a chance to listen to <a href="http://devchat.tv/adventures-in-angular/034-aia-live-from-ng-conf-2015">Adventures in Angular Episode 34</a>, where the guys discuss the conference and it definitely got me excited. </p>
+<p>I also listened to the <a href="https://plus.google.com/events/cmhq7mqarkoful8u7iusbjsdjtk">Angular Air episode 6</a> with the ionic team. They talk about their excitement for Angular 2 and how they are working closely with the angular team while working on Ionic 2. As someone who loves to use Ionic, I&rsquo;m super excited to see what it&rsquo;s next version has in store. Check out this <a href="http://ionicframework.com/blog/angular-2-ionic/">blog post</a> from the <a href="http://ionicframework.com/blog/">Ionic blog</a> that goes into more detail on Angular 2 and Ionic 2.</p>
+<p>Angular 2 definitely looks like it packs some changes and I have to take a deeper look before commenting on them. On the surface it looks like it has some serious preformance improvements which I&rsquo;m always down for. I do like the idea that Angular 2.0 will embrace ES6 and web components. I think this is great for the future of web and for pushing standards. I&rsquo;ve started using customer elements (one part of the web component spec) at my job and it helped me solve a unique problem with some ease and elegance. I&rsquo;m definitely excited to check out and start using Angular 2.</p>
+</li>
+</ul>
+<h4 id="road-map"><a name="user-content-road-map" href="#road-map" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Road Map</h4>
+<p>Here are a few things I&rsquo;m planning on adding to this repo.</p>
+<ul>
+<li>A &lsquo;Where to start&rsquo; guide<ul>
+<li>I have had many questions directed my way in the form of &ldquo;All of these frameworks and technologies are great, but where do I start?&rdquo;</li>
+<li>I would like this section to help guide developers that may be new to some of this stuff, down the right path to &ldquo;connecting the dots&rdquo;</li>
+<li>I will explain how some of the <a href="#things-to-check-out-no-particular-order">&ldquo;Things to check out&rdquo;</a> can be used to create an actual application.</li>
+</ul>
+</li>
+<li>An tutorial section specifically for beginners<ul>
+<li>Sometimes its tough to find the right tutorials to jump in to a new library or framework.</li>
+<li>I plan on adding links to tutorials guided towards developers trying out a libarary or framework for the first time.</li>
+</ul>
+</li>
+</ul></article></body></html>

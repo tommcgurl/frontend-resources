@@ -94,6 +94,9 @@ Here are some of the great websites that offer tutorials.
     + This interactive tutorial is a great way to learn the basics of functional programming.
     + This tutorial takes you through using functions such as map, filter, and reduce to make your code more concise and durable.
     + "Functional programming provides developers with the tools to abstract common collection operations into reusable, composable building blocks."
+- [Dashing D3](https://www.dashingd3js.com/table-of-contents)
+    + This is an interactive tutorial on the charting library D3.
+    + It is a nice tutorial that goes over the basics and builds off them to teach you D3 in a fun interactive way.
 
 ## Twitter
 Here are some of the people/groups that I follow on twitter that post some great front-end news and articles.
