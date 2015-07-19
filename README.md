@@ -61,6 +61,9 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
     + It covers a wide range of topics including, recently, Typscript, ReactJS, Ember, and the Rust programming language
 - [React Podcast](http://reactpodcast.com/) (By monthly)
     + A new podcast centering around Facebook's ReactJS 
+- [5 Minutes of Javascript](https://fivejs.codeschool.com/) (weekly)
+    + An awesome podcast with updates on what's going on in the JS community
+    + In 5 minutes they cover the past weeks JS news
 
 ## Learning Resources/Tutorials <a name="learning"></a>
 
