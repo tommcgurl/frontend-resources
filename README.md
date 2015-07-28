@@ -453,6 +453,10 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + A modular MVC framework similar to BackboneJS
     + It's modularity allows you to pull in only the components that you need
     + Try using the [ampersand-collection](https://github.com/ampersandjs/ampersand-collection) as the store for your [ReactJS](#things-to-check-out-no-particular-order) app.
+- [React-Router](http://rackt.github.io/react-router/)
+    + An awesome router built for ReactJS.
+    + Extremely useful when building apps with React.
+    + Similar to other routers and inspired by the amazing EmberJS router.
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
