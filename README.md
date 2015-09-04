@@ -469,6 +469,16 @@ A friend of mine has been going to some meetups lately and invited me along to o
 I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
 
 #### Week of:
+-   __August 30__
+
+	It's been a while since my last post and I'm happy to say that the break was due to me switching jobs! I've started an exciting and awesome new role that has me working and experimenting with a lot of exciting front-end technology. This past week in particular I've been working on writing my own Yeoman generators. It's been super fun and simple.
+
+	I decided to write a generator to make things easier while I'm working on the React version of my Brew Book application. I found myself spending a lot of time typing out the React Class Components. This led me to create a generator to generate out a React Component Class, it's folder, and corresponding sass file.
+
+	After using Yeoman for so long it was awesome to finally write my own generator. It's super simple since it's just node with ejs for the templating.
+
+	I'm hoping publish one of my generators soon.
+
 -   __July 5__
 
     This week I've been looking more into [Webpack](#webpack) and [Babel](#babel). I plan on using Webpack for the [ReactJS](#react) version of my BrewBook app. I also think it's time I started writing ES6 so I'll be using Babel as a transpiler. I started reading some great articles on using Webpack with ReactJS and Babel. [Setting Up a Single Page React Web App with React-router and Webpack](http://jmfurlott.com/tutorial-setting-up-a-single-page-react-web-app-with-react-router-and-webpack/) is a great article on getting started with Webpack and the babel-loader. 
