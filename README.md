@@ -398,7 +398,7 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + Build native applcations using React and javascript
     + This is truely an awesome concept.
     + This does not create a wrapper around a UIWebview, but instead uses React Components to render native applivation views.
-    + For now it only supports iOS.
+    + It supports both iOS and Android!
     + Check out my [post](#react-native-post) below on it.
 - [Aurelia](http://aurelia.io/) <a name="aurelia"></a>
     + Aurelia is a new framework from [Rob Eisenberg](http://eisenbergeffect.bluespire.com/)
@@ -457,6 +457,10 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + An awesome router built for ReactJS.
     + Extremely useful when building apps with React.
     + Similar to other routers and inspired by the amazing EmberJS router.
+- [Redux](http://rackt.github.io/redux/)
+	+ A state container for javascript apps.
+	+ Redux works really well with React apps becuase it builds of the ideas of flux.
+	+ It's state maintenence allows for live code editing and even a time traveling debugger making the developer experience awesome.
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
