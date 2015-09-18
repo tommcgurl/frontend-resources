@@ -187,6 +187,9 @@ Overall my suggestion is just search and follow the people who's Blogs articles 
     + Eric is a fantastic person to follow for Javascript goodies.
     + He tweets frequently and his tweets always contain awesome javascript info and resources.
     + I'm constantly retweeting his stuff becuase it's realy awesome.
+- [@dan_abramov](https://twitter.com/dan_abramov) <a name="danabramov"></a>
+	+ Dan Abramov is the creator of [Redux](#redux) and some awesome React components and libraries.
+	+ Dan tweets about javascript, React, and of course Redux.
 - [@stackjs](https://twitter.com/stackjs)
     + Javascript stacks is another great resource for Javascript resourses and info.
     + They post about cool new libraries, code pens, jsbin, jsfiddles, and other javascript tidbits.
@@ -457,10 +460,11 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + An awesome router built for ReactJS.
     + Extremely useful when building apps with React.
     + Similar to other routers and inspired by the amazing EmberJS router.
-- [Redux](http://rackt.github.io/redux/)
+- [Redux](http://rackt.github.io/redux/) <a name="redux"></a>
 	+ A state container for javascript apps.
 	+ Redux works really well with React apps becuase it builds of the ideas of flux.
 	+ It's state maintenence allows for live code editing and even a time traveling debugger making the developer experience awesome.
+	+ Check out [this video](https://www.youtube.com/watch?v=xsSnOQynTHs) from React Europe 2015, where the creator [Dan Abramov](#danabramov) demonstrates his live reloading and time traveling debugging.
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
