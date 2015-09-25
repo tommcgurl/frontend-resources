@@ -182,7 +182,7 @@ Overall my suggestion is just search and follow the people who's Blogs articles 
     + He posts about javascript as well as his ReactJS training courses with Ryan Florence [ReactJS Training Courses](https://reactjs-training.com/)
 - [@stevenewcomb](https://twitter.com/stevenewcomb)
     + Steve Newcomb is currently most famous for being the CEO and founder of famo.us
-    + Follow steve for updates on Famous as well as  some awesome javascript posts
+    + Follow steve for updates on Famous as well as  some awesome javascript posts.
 - [@_ericelliott](https://twitter.com/_ericelliott?lang=en)
     + Eric is a fantastic person to follow for Javascript goodies.
     + He tweets frequently and his tweets always contain awesome javascript info and resources.
@@ -419,12 +419,12 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + Babel is a javascript compiler.
     + It allows you to use next generation Javascript standards such as ES6 (ES2015) and later javascript standards today
     + It does this by _transpiling_ your ES6+ code into ES5 javascript so that it can work in browsers today.
-- [Materialize](http://materializecss.com/)
+- [Materialize](http://materializecss.com/) <a name="materialize"></a>
     + Materialize is an awesome styling library for material design
     + You can think of it like Bootstrap for material design.
     + I've been using it recently for prototyping as well as a React application demo and I'm very happy with it.
     + Try it out on your next hack to style it up!
-- [JSON Server](https://github.com/typicode/json-server)
+- [JSON Server](https://github.com/typicode/json-server) <a name="json-server"></a>
     + "Get a full fake REST API with zero coding in less than 30 seconds (seriously)" - the readme.md
     + This is an awesome module for setting up a mock backend using JSON.
     + Focus working on your frontend and iterate on your backend models easily.
@@ -482,6 +482,20 @@ A friend of mine has been going to some meetups lately and invited me along to o
 I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
 
 #### Week of:
+-   __September 20__
+
+	The new job now has me commuting by train instead of by car. This presents me with some great time to work on some fun projects. I picked up a Macbook air 11" that has worked out great as a travel machine. One of the limitations though is that I am not connected to the internet while I'm on the trian so everything I do has to work offline. So I have a setup that has been working for me which I will describe. I plan on extending this into an actual blog post at some point soon.
+
+	For some background, the app I'm currently working on uses ReactJS as a view layer and AmpersandJS models as the model layer. I'm also writing in ES6 via the Babel transpiler, using webpack, and the webpack dev server. For a UI library I'm using [Materialize](#materialize).
+
+	Okay so the first issue was documentation. I needed a way to view docs offline. For that I use both Dash (an OS X app for offline docs) and [DevDocs.io](DevDocs.io) that I mentioned above.
+
+	Next, I needed a way to make requests for data so that I could model out my stores. For this I used [json-server](#json-server) which is an awsome and easy way to serve up json data.
+
+	Next, it's important that you aren't trying to use a CDN for any of your apps resources, since the request for those files will fail when offline. Instead try to contain everything within the app either via bower or npm.
+
+	All npm and Bower dependencies should be installed prior to trying to work offline. One thing I did was create a seperate project where I install all of the libraries/frameworks I think I will use, and add them to a massive package.json/bower.json. Then, when I need them for one of my apps, I pull them out of that project rather than trying to fetch them from a server.
+	
 -   __August 30__
 
 	It's been a while since my last post and I'm happy to say that the break was due to me switching jobs! I've started an exciting and awesome new role that has me working and experimenting with a lot of exciting front-end technology. This past week in particular I've been working on writing my own Yeoman generators. It's been super fun and simple.
