@@ -465,6 +465,11 @@ Style guides are a useful way to get everyone on the same page when it comes to 
 	+ Redux works really well with React apps becuase it builds of the ideas of flux.
 	+ It's state maintenence allows for live code editing and even a time traveling debugger making the developer experience awesome.
 	+ Check out [this video](https://www.youtube.com/watch?v=xsSnOQynTHs) from React Europe 2015, where the creator [Dan Abramov](#danabramov) demonstrates his live reloading and time traveling debugging.
+- [DevDocs.io](devdocs.io)
+	+ Devdocs is a fantastic open source web app for offline documentation.
+	+ Similar to the OS X app Dash, but web based.
+	+ They use local storage to allow users to save their favorite front-end library/framework documentation for organized, searchable, and offline viewing.
+	+ They even recently added the React Native docs!
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
