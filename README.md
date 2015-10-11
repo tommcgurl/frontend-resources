@@ -470,7 +470,7 @@ Style guides are a useful way to get everyone on the same page when it comes to 
 	+ Similar to the OS X app Dash, but web based.
 	+ They use local storage to allow users to save their favorite front-end library/framework documentation for organized, searchable, and offline viewing.
 	+ They even recently added the React Native docs!
-- [Elm](http://elm-lang.org/)  
+- [Elm](http://elm-lang.org/) <a name="elm"></a>
     + Elm is a functional programming language that compiles to javascript.
     + Its architecture makes it easy to build great web apps.
     + Elm was the inspiration behind the redux architecture.
@@ -493,6 +493,16 @@ A friend of mine has been going to some meetups lately and invited me along to o
 I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
 
 #### Week of:
+-   __October 4__
+    
+    I recently listened to the [Javascript Jabber episode on the Elm language](https://devchat.tv/js-jabber/175-jsj-elm-with-evan-czaplicki-and-richard-feldman) with Evan Czaplicki (The creator) and Richard Feldman. It was an awesome and inciteful episode. Shortly after I was lucky enough that my company was able to bring in Richard Feldman to give a talk on his experience with using [Elm](#elm) for his day to day web app development. I decided to give it a shot and I have really liked it so far.
+
+    At first it took a while to get used to the syntax (and I'm still far from fully understanding or writing it well), but after going through the docs a ton, things are finally starting to come together. The documentation has been fantastic.
+
+    I'm trying it out by building a small application (one that I already started in React). So far it's been going pretty well. The static typing has allowed the compiler to catch any issues, and it makes it really easy to write nice clean code. Once I'm finished with the demo I will be posting it on my github in the form of a tutorial. 
+
+    Definitely check out Elm! It has a fantastic architecture and its functional style makes writing code clean and fun! It's also the inspiration for the popular [Redux architecture](#redux).
+    
 -   __August 30__
 
 	It's been a while since my last post and I'm happy to say that the break was due to me switching jobs! I've started an exciting and awesome new role that has me working and experimenting with a lot of exciting front-end technology. This past week in particular I've been working on writing my own Yeoman generators. It's been super fun and simple.
