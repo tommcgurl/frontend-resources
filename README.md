@@ -470,6 +470,11 @@ Style guides are a useful way to get everyone on the same page when it comes to 
 	+ Similar to the OS X app Dash, but web based.
 	+ They use local storage to allow users to save their favorite front-end library/framework documentation for organized, searchable, and offline viewing.
 	+ They even recently added the React Native docs!
+- [Elm](http://elm-lang.org/)  
+    + Elm is a functional programming language that compiles to javascript.
+    + Its architecture makes it easy to build great web apps.
+    + Elm was the inspiration behind the redux architecture.
+    + Definitely check out Elm if you are interested in functional programming and super fast rendering inspired by reacts virtual dom.
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
