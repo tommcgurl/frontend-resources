@@ -475,6 +475,12 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + Its architecture makes it easy to build great web apps.
     + Elm was the inspiration behind the redux architecture.
     + Definitely check out Elm if you are interested in functional programming and super fast rendering inspired by reacts virtual dom.
+- [Virtual Dom](https://github.com/Matt-Esch/virtual-dom)
+    + "A JavaScript DOM model supporting element creation, diff computation and patch operations for efficient re-rendering". - Docs.
+    + "virtual-dom is a collection of modules designed to provide a declarative way of representing the DOM for your app." - Docs
+    + Virtual Dom was inspired by the notion of Virtual Dom from ReactJS and basically seperates out that aspect into its own library.  
+    + This concept has gained a ton of popularity since it was implemented and widely introduced to the javascript community by ReactJS.
+    + Check this library out and see if it could work in your existing app, as a replacement for your view layer.
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
