@@ -470,6 +470,17 @@ Style guides are a useful way to get everyone on the same page when it comes to 
 	+ Similar to the OS X app Dash, but web based.
 	+ They use local storage to allow users to save their favorite front-end library/framework documentation for organized, searchable, and offline viewing.
 	+ They even recently added the React Native docs!
+- [Elm](http://elm-lang.org/) <a name="elm"></a>
+    + Elm is a functional programming language that compiles to javascript.
+    + Its architecture makes it easy to build great web apps.
+    + Elm was the inspiration behind the redux architecture.
+    + Definitely check out Elm if you are interested in functional programming and super fast rendering inspired by reacts virtual dom.
+- [Virtual Dom](https://github.com/Matt-Esch/virtual-dom)
+    + "A JavaScript DOM model supporting element creation, diff computation and patch operations for efficient re-rendering". - Docs.
+    + "virtual-dom is a collection of modules designed to provide a declarative way of representing the DOM for your app." - Docs
+    + Virtual Dom was inspired by the notion of Virtual Dom from ReactJS and basically seperates out that aspect into its own library.  
+    + This concept has gained a ton of popularity since it was implemented and widely introduced to the javascript community by ReactJS.
+    + Check this library out and see if it could work in your existing app, as a replacement for your view layer.
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
@@ -482,6 +493,17 @@ A friend of mine has been going to some meetups lately and invited me along to o
 I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
 
 #### Week of:
+	
+-   __October 4__
+    
+    I recently listened to the [Javascript Jabber episode on the Elm language](https://devchat.tv/js-jabber/175-jsj-elm-with-evan-czaplicki-and-richard-feldman) with Evan Czaplicki (The creator) and Richard Feldman. It was an awesome and inciteful episode. Shortly after I was lucky enough that my company was able to bring in Richard Feldman to give a talk on his experience with using [Elm](#elm) for his day to day web app development. I decided to give it a shot and I have really liked it so far.
+
+    At first it took a while to get used to the syntax (and I'm still far from fully understanding or writing it well), but after going through the docs a ton, things are finally starting to come together. The documentation has been fantastic.
+
+    I'm trying it out by building a small application (one that I already started in React). So far it's been going pretty well. The static typing has allowed the compiler to catch any issues, and it makes it really easy to write nice clean code. Once I'm finished with the demo I will be posting it on my github in the form of a tutorial. 
+
+    Definitely check out Elm! It has a fantastic architecture and its functional style makes writing code clean and fun! It's also the inspiration for the popular [Redux architecture](#redux).
+    
 -   __September 20__
 
 	The new job now has me commuting by train instead of by car. This presents me with some great time to work on some fun projects. I picked up a Macbook air 11" that has worked out great as a travel machine. One of the limitations though is that I am not connected to the internet while I'm on the trian so everything I do has to work offline. So I have a setup that has been working for me which I will describe. I plan on extending this into an actual blog post at some point soon.
@@ -495,7 +517,7 @@ I've decided to add a section covering what topics I'm looking into on a weekly 
 	Next, it's important that you aren't trying to use a CDN for any of your apps resources, since the request for those files will fail when offline. Instead try to contain everything within the app either via bower or npm.
 
 	All npm and Bower dependencies should be installed prior to trying to work offline. One thing I did was create a seperate project where I install all of the libraries/frameworks I think I will use, and add them to a massive package.json/bower.json. Then, when I need them for one of my apps, I pull them out of that project rather than trying to fetch them from a server.
-	
+
 -   __August 30__
 
 	It's been a while since my last post and I'm happy to say that the break was due to me switching jobs! I've started an exciting and awesome new role that has me working and experimenting with a lot of exciting front-end technology. This past week in particular I've been working on writing my own Yeoman generators. It's been super fun and simple.
