@@ -481,6 +481,12 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + Virtual Dom was inspired by the notion of Virtual Dom from ReactJS and basically seperates out that aspect into its own library.  
     + This concept has gained a ton of popularity since it was implemented and widely introduced to the javascript community by ReactJS.
     + Check this library out and see if it could work in your existing app, as a replacement for your view layer.
+- [Electron](http://electron.atom.io/)
+	+ "Build cross platform desktop apps with web technologies" - website
+	+ Electron allows you to build desktop applications using Javascript, HTML and CSS
+	+ Electron was used to build Github's [Atom Editor](https://atom.io/), as well as the popular chat client, Slack, a pretty impressive app.
+	+ Electron allows you to build awesome native desktop applications, and the ones I've seen made with it so far are really great.
+	+ Scotch.io has a tutorial on [building an app with Angular and Electron](https://scotch.io/tutorials/creating-desktop-applications-with-angularjs-and-github-electron)
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
