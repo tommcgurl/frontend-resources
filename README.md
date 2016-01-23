@@ -225,7 +225,7 @@ Overall my suggestion is just search and follow the people who's Blogs articles 
 - [Dan Wahlin's Blog](https://weblogs.asp.net/dwahlin)
     + Another awesome blog for javascript tutorials
     + He covers everything from AngularJS to Core Javascript such as ES6
--  [Rob Eisenberg's Blog](http://eisenbergeffect.bluespire.com/)
+- [Rob Eisenberg's Blog](http://eisenbergeffect.bluespire.com/)
     +  Rob discusses his new framework [Aurelia](#aurelia)
     +  He also compares Aurelia to other frameworks such as Angular 2 and his experiences working on Angular 2 and why he decided to leave.
 
@@ -499,7 +499,15 @@ A friend of mine has been going to some meetups lately and invited me along to o
 I've decided to add a section covering what topics I'm looking into on a weekly basis. I'm putting it here for now until I move some of this over to a blog.
 
 #### Week of:
-	
+
+-   __January 17__
+    
+    It's been quite a while since I've updated this so I apologize. I've been keeping busy though. It's 2016 now and 2015 was a great year for JavaScript. We saw React gain popularity while Angular's popularity waned a bit in the wake of Angular 2. While it looks like Angular 2 is finally upon us, having recently gone beta, we have yet to see how the community will take to it. I'll definitly write more on that as things pan out.
+
+    Over that last few months I've had the opportunity to work on some brilliant apps at work. I was lucky enough to work on our mobile app which is still being written using React Native with Redux. I more recently have been working on another project at work, a reponsive web app using React with Redux. Between those two apps and some hack week projects at work I've definitely gotten to dive into Redux a bit more and can say that I'm definitely enjoying it. It's not without its quirks, but it definitely helps me understand my application in a way that other architectures don't.
+
+    In my free time I've been doing something different. I've really started to dig into the [Elm programming language](#elm), and I have to say, I'm really enjoying it! It's been extremely fun (and challenging) learning a new language. Being fully functional, and statically typed, Elm is very different than what I'm used to with JavaScript. That said, those differences seem to be what make it so great. I'm even enjoying writing tests. In fact, Elm makes writing unit tests so easy, that I've actively been practicing TDD while working with it. I’m planning on putting up a tutorial on building a small app with Elm soon. In the meantime if anyone is interested in Elm, the github repo, [awesome-elm](https://github.com/isRuslan/awesome-elm), has some wonderful resources for getting started. 
+
 -   __October 4__
     
     I recently listened to the [Javascript Jabber episode on the Elm language](https://devchat.tv/js-jabber/175-jsj-elm-with-evan-czaplicki-and-richard-feldman) with Evan Czaplicki (The creator) and Richard Feldman. It was an awesome and inciteful episode. Shortly after I was lucky enough that my company was able to bring in Richard Feldman to give a talk on his experience with using [Elm](#elm) for his day to day web app development. I decided to give it a shot and I have really liked it so far.
