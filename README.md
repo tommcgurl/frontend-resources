@@ -465,6 +465,7 @@ Style guides are a useful way to get everyone on the same page when it comes to 
 	+ Redux works really well with React apps becuase it builds of the ideas of flux.
 	+ It's state maintenence allows for live code editing and even a time traveling debugger making the developer experience awesome.
 	+ Check out [this video](https://www.youtube.com/watch?v=xsSnOQynTHs) from React Europe 2015, where the creator [Dan Abramov](#danabramov) demonstrates his live reloading and time traveling debugging.
+    + [Egghead.io](Egghead.io) has an awesome and free [series on Redux](https://egghead.io/series/getting-started-with-redux) by [Dan Abramov](#danabramov). Definitely check it out. He does a great job explaining Redux with some testing and ES6 along the way.
 - [DevDocs.io](devdocs.io)
 	+ Devdocs is a fantastic open source web app for offline documentation.
 	+ Similar to the OS X app Dash, but web based.
