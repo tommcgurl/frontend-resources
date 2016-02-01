@@ -494,7 +494,7 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + [Egghead.io](Egghead.io) currently has a [free series on CycleJS.](https://egghead.io/series/cycle-js-fundamentals)
 - [CSS-Modules](https://github.com/css-modules/css-modules)
     + CSS-Modules lets developers easily scope and compose styles. 
-    +"A CSS Module is a CSS file in which all class names and animation names are scoped locally by default." - readme
+    + "A CSS Module is a CSS file in which all class names and animation names are scoped locally by default." - readme
     + Glen Maddern, one of the authors, has an awesome [blog  post on CSS Modules](http://glenmaddern.com/articles/css-modules)
 
 ## Meetups
