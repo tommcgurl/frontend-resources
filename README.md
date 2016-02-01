@@ -492,6 +492,10 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + "A functional and reactive JavaScript framework for cleaner code" - website
     + CycleJS is a framework that uses Observables from [RxJS](#rxjs) and combines them with a reactive programming library in order to simplify your application architecture.
     + [Egghead.io](Egghead.io) currently has a [free series on CycleJS.](https://egghead.io/series/cycle-js-fundamentals)
+- [CSS-Modules](https://github.com/css-modules/css-modules)
+    + CSS-Modules lets developers easily scope and compose styles. 
+    +"A CSS Module is a CSS file in which all class names and animation names are scoped locally by default." - readme
+    + Glen Maddern, one of the authors, has an awesome [blog  post on CSS Modules](http://glenmaddern.com/articles/css-modules)
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
@@ -615,7 +619,6 @@ Here are a few things I'm planning on adding to this repo.
 - An tutorial section specifically for beginners
     + Sometimes its tough to find the right tutorials to jump in to a new library or framework.
     + I plan on adding links to tutorials guided towards developers trying out a libarary or framework for the first time.
-
 
 
 
