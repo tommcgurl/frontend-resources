@@ -6,7 +6,7 @@ Front-end Web Development is rapidly growing and changing. Sometimes it's tough 
 
 Inspired by all the [awesome lists on Github](https://github.com/bayandin/awesome-awesomeness) (also see the [Repositories section](#repos))
 
-##Table of Contents 
+##Table of Contents
 - [Podcasts](#podcasts)
 - [Learning Resources/Tutorials](#learning)
 - [Twitter](#twitter)
@@ -60,7 +60,7 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
     + The Changelog is another great developer podcast
     + It covers a wide range of topics including, recently, Typscript, ReactJS, Ember, and the Rust programming language
 - [React Podcast](http://reactpodcast.com/) (By monthly)
-    + A new podcast centering around Facebook's ReactJS 
+    + A new podcast centering around Facebook's ReactJS
 - [5 Minutes of Javascript](https://fivejs.codeschool.com/) (weekly)
     + An awesome podcast with updates on what's going on in the JS community
     + In 5 minutes they cover the past weeks JS news
@@ -90,7 +90,7 @@ Here are some of the great websites that offer tutorials.
 - [Codrops](http://tympanus.net/codrops/)
     + Great Web design tutorials and inspirations
 - [Learn ES6 (harmony)](http://learnharmony.org/)
-    + This site lets you try out the latest features of [ES6](#es6) right in the browser. 
+    + This site lets you try out the latest features of [ES6](#es6) right in the browser.
     + Learn the new features while trying them out yourself.
     + Try out arrow functions, object destructuring, method shorthand, template strings, classes and more.
 - [Functional Programming Tutorial](http://reactive-extensions.github.io/learnrx/)
@@ -119,7 +119,7 @@ Overall my suggestion is just search and follow the people who's Blogs articles 
     +  Tweets about EmberJS resources news and the community
 - [@EmberWeekly](https://twitter.com/emberweekly)
     +  EmberJS news, articles, tips, and code
-- [@angularjs](https://twitter.com/angularjs) 
+- [@angularjs](https://twitter.com/angularjs)
     +  Another self-explanitory one.
     +  Angular news
 -  [@jashkenas](https://twitter.com/jashkenas) (Jeremy Ashkenas)
@@ -322,7 +322,7 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + The benefit of this style guide is that, like any styleguide, more adoption means more people writing code in a way that others are already familiar with.
     + Notable mention: [Todd Motto's Angular-styleguide](https://github.com/toddmotto/angularjs-styleguide)
         * This styleguide is very similar to John's, but differs in a few places.
-        * Follow whichever one works best for you. 
+        * Follow whichever one works best for you.
         * Since they are similar enough, you will still get the benefits discussed above.
 - [Git-Style-Guide](https://github.com/agis-/git-style-guide)
     + This guide covers popular practices for working with git
@@ -357,12 +357,12 @@ Style guides are a useful way to get everyone on the same page when it comes to 
         * watch for changes in html, css, and js and refresh your browser when you save
         * Pre-process your Sass or Less and generate css
         * Create sprite sheets from images
-        * So much more... 
+        * So much more...
     - There are many options, and I've listed some below try them all and choose the one that works best for you/your team
     + [Grunt](http://gruntjs.com/)
         + An awesome javascript task runner that will make you super productive
         * Grunt take a configuration approach in which you configure your tasks using a gruntfile
-    + [Gulp](http://gulpjs.com/) 
+    + [Gulp](http://gulpjs.com/)
         * An alternative to Grunt that favors code over configuration files
         * With Gulp you write code that pipes your output into the next process and is easy to grok for those that prefer straight code over a config files
     + See also [Brocolli](https://github.com/broccolijs/broccoli) and [Brunch](http://brunch.io/)
@@ -382,7 +382,7 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + A front end SDK written with Angular and UI toolkit for creating awesome hybrid mobile apps
     + Uses cordova to wrap app in a deployable native application
     + Super Super Awesome (See next entry).
-- [ng-Cordova](http://ngcordova.com/) 
+- [ng-Cordova](http://ngcordova.com/)
     + Angular directives and wrappers around the Cordova API
 - [Famo.us](http://famo.us/)
     +  "Famo.us is a free, open source JavaScript framework that helps you create smooth, complex UIs for any screen." - famous homepage
@@ -405,7 +405,7 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + Check out my [post](#react-native-post) below on it.
 - [Aurelia](http://aurelia.io/) <a name="aurelia"></a>
     + Aurelia is a new framework from [Rob Eisenberg](http://eisenbergeffect.bluespire.com/)
-    + Aurelia uses the latest javascript concepts such as ES6 (or now ES2015), web components and object.observe. 
+    + Aurelia uses the latest javascript concepts such as ES6 (or now ES2015), web components and object.observe.
     + Also has adaptive binding
     + Definitely worth checking out.
 - [ECMAScript6 A.K.A ES6 (Now ES2015)](https://github.com/lukehoban/es6features) <a name="es6"></a>
@@ -436,7 +436,7 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + It uses webpack and babel out of the box
 - [ImmutableJS](https://facebook.github.io/immutable-js/)
     + Immutability in javascript is a popular conversation right now in the community.
-    + This is Facebook's library for creating immutable collections. 
+    + This is Facebook's library for creating immutable collections.
     + The site does a good job explaining the benefits of Immutable data.
 - [JSPM](http://jspm.io/)
     + JSPM is a browser package manager that handles loading all types of modules (AMD, CommonJS, and ES6) in the same was as the [ES6 module loader](https://github.com/ModuleLoader/es6-module-loader).
@@ -461,16 +461,16 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + Extremely useful when building apps with React.
     + Similar to other routers and inspired by the amazing EmberJS router.
 - [Redux](http://rackt.github.io/redux/) <a name="redux"></a>
-	+ A state container for javascript apps.
-	+ Redux works really well with React apps becuase it builds of the ideas of flux.
-	+ It's state maintenence allows for live code editing and even a time traveling debugger making the developer experience awesome.
-	+ Check out [this video](https://www.youtube.com/watch?v=xsSnOQynTHs) from React Europe 2015, where the creator [Dan Abramov](#danabramov) demonstrates his live reloading and time traveling debugging.
-    + [Egghead.io](Egghead.io) has an awesome and free [series on Redux](https://egghead.io/series/getting-started-with-redux) by [Dan Abramov](#danabramov). Definitely check it out. He does a great job explaining Redux with some testing and ES6 along the way.
+  	+ A state container for javascript apps.
+  	+ Redux works really well with React apps becuase it builds of the ideas of flux.
+  	+ It's state maintenence allows for live code editing and even a time traveling debugger making the developer experience awesome.
+  	+ Check out [this video](https://www.youtube.com/watch?v=xsSnOQynTHs) from React Europe 2015, where the creator [Dan Abramov](#danabramov) demonstrates his live reloading and time traveling debugging.
+      + [Egghead.io](Egghead.io) has an awesome and free [series on Redux](https://egghead.io/series/getting-started-with-redux) by [Dan Abramov](#danabramov). Definitely check it out. He does a great job explaining Redux with some testing and ES6 along the way.
 - [DevDocs.io](devdocs.io)
-	+ Devdocs is a fantastic open source web app for offline documentation.
-	+ Similar to the OS X app Dash, but web based.
-	+ They use local storage to allow users to save their favorite front-end library/framework documentation for organized, searchable, and offline viewing.
-	+ They even recently added the React Native docs!
+  	+ Devdocs is a fantastic open source web app for offline documentation.
+  	+ Similar to the OS X app Dash, but web based.
+  	+ They use local storage to allow users to save their favorite front-end library/framework documentation for organized, searchable, and offline viewing.
+  	+ They even recently added the React Native docs!
 - [Elm](http://elm-lang.org/) <a name="elm"></a>
     + Elm is a functional programming language that compiles to javascript.
     + Its architecture makes it easy to build great web apps.
@@ -483,19 +483,24 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + This concept has gained a ton of popularity since it was implemented and widely introduced to the javascript community by ReactJS.
     + Check this library out and see if it could work in your existing app, as a replacement for your view layer.
 - [Electron](http://electron.atom.io/)
-	+ "Build cross platform desktop apps with web technologies" - website
-	+ Electron allows you to build desktop applications using Javascript, HTML and CSS
-	+ Electron was used to build Github's [Atom Editor](https://atom.io/), as well as the popular chat client, Slack, a pretty impressive app.
-	+ Electron allows you to build awesome native desktop applications, and the ones I've seen made with it so far are really great.
-	+ Scotch.io has a tutorial on [building an app with Angular and Electron](https://scotch.io/tutorials/creating-desktop-applications-with-angularjs-and-github-electron)
+  	+ "Build cross platform desktop apps with web technologies" - website
+  	+ Electron allows you to build desktop applications using Javascript, HTML and CSS
+  	+ Electron was used to build Github's [Atom Editor](https://atom.io/), as well as the popular chat client, Slack, a pretty impressive app.
+  	+ Electron allows you to build awesome native desktop applications, and the ones I've seen made with it so far are really great.
+  	+ Scotch.io has a tutorial on [building an app with Angular and Electron](https://scotch.io/tutorials/creating-desktop-applications-with-angularjs-and-github-electron)
 - [CycleJS](http://cycle.js.org/)
     + "A functional and reactive JavaScript framework for cleaner code" - website
     + CycleJS is a framework that uses Observables from [RxJS](#rxjs) and combines them with a reactive programming library in order to simplify your application architecture.
     + [Egghead.io](Egghead.io) currently has a [free series on CycleJS.](https://egghead.io/series/cycle-js-fundamentals)
 - [CSS-Modules](https://github.com/css-modules/css-modules)
-    + CSS-Modules lets developers easily scope and compose styles. 
+    + CSS-Modules lets developers easily scope and compose styles.
     + "A CSS Module is a CSS file in which all class names and animation names are scoped locally by default." - readme
     + Glen Maddern, one of the authors, has an awesome [blog  post on CSS Modules](http://glenmaddern.com/articles/css-modules)
+- [MobX](https://mobxjs.github.io/mobx/)
+    + "Simple, scalable, state management"
+    + MobX is a library for managing state within your applications.
+    + It is similar to [redux](#redux) but has some key differences including the fact that is is built on Observables and uses a Functional Reactive Programming (FRP) pattern.
+    + Here is a blog post from Formidable labs on why they chose to use Mobx over Redux https://formidable.com/blog/2016/06/02/why-we-chose-mobx-over-redux-for-spectacle-editor/
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
@@ -510,23 +515,23 @@ I've decided to add a section covering what topics I'm looking into on a weekly 
 #### Week of:
 
 -   __January 17__
-    
-    It's been quite a while since I've updated this so I apologize. I've been keeping busy though. It's 2016 now and 2015 was a great year for JavaScript. We saw React gain popularity while Angular's popularity waned a bit in the wake of Angular 2. While it looks like Angular 2 is finally upon us, having recently gone beta, we have yet to see how the community will take to it. I'll definitly write more on that as things pan out.
 
-    Over that last few months I've had the opportunity to work on some brilliant apps at work. I was lucky enough to work on our mobile app which is still being written using React Native with Redux. I more recently have been working on another project at work, a reponsive web app using React with Redux. Between those two apps and some hack week projects at work I've definitely gotten to dive into Redux a bit more and can say that I'm definitely enjoying it. It's not without its quirks, but it definitely helps me understand my application in a way that other architectures don't.
+    It's been quite a while since I've updated this so I apologize. I've been keeping busy though. It's 2016 now and 2015 was a great year for JavaScript. We saw React gain popularity while Angular's popularity waned a bit in the wake of Angular 2. While it looks like Angular 2 is finally upon us, having recently gone beta, we have yet to see how the community will take to it. I'll definitely write more on that as things pan out.
 
-    In my free time I've been doing something different. I've really started to dig into the [Elm programming language](#elm), and I have to say, I'm really enjoying it! It's been extremely fun (and challenging) learning a new language. Being fully functional, and statically typed, Elm is very different than what I'm used to with JavaScript. That said, those differences seem to be what make it so great. I'm even enjoying writing tests. In fact, Elm makes writing unit tests so easy, that I've actively been practicing TDD while working with it. I’m planning on putting up a tutorial on building a small app with Elm soon. In the meantime if anyone is interested in Elm, the github repo, [awesome-elm](https://github.com/isRuslan/awesome-elm), has some wonderful resources for getting started. 
+    Over that last few months I've had the opportunity to work on some brilliant apps at work. I was lucky enough to work on our mobile app which is still being written using React Native with Redux. I more recently have been working on another project at work, a responsive web app using React with Redux. Between those two apps and some hack week projects at work I've definitely gotten to dive into Redux a bit more and can say that I'm definitely enjoying it. It's not without its quirks, but it definitely helps me understand my application in a way that other architectures don't.
+
+    In my free time I've been doing something different. I've really started to dig into the [Elm programming language](#elm), and I have to say, I'm really enjoying it! It's been extremely fun (and challenging) learning a new language. Being fully functional, and statically typed, Elm is very different than what I'm used to with JavaScript. That said, those differences seem to be what make it so great. I'm even enjoying writing tests. In fact, Elm makes writing unit tests so easy, that I've actively been practicing TDD while working with it. I’m planning on putting up a tutorial on building a small app with Elm soon. In the meantime if anyone is interested in Elm, the github repo, [awesome-elm](https://github.com/isRuslan/awesome-elm), has some wonderful resources for getting started.
 
 -   __October 4__
-    
+
     I recently listened to the [Javascript Jabber episode on the Elm language](https://devchat.tv/js-jabber/175-jsj-elm-with-evan-czaplicki-and-richard-feldman) with Evan Czaplicki (The creator) and Richard Feldman. It was an awesome and inciteful episode. Shortly after I was lucky enough that my company was able to bring in Richard Feldman to give a talk on his experience with using [Elm](#elm) for his day to day web app development. I decided to give it a shot and I have really liked it so far.
 
     At first it took a while to get used to the syntax (and I'm still far from fully understanding or writing it well), but after going through the docs a ton, things are finally starting to come together. The documentation has been fantastic.
 
-    I'm trying it out by building a small application (one that I already started in React). So far it's been going pretty well. The static typing has allowed the compiler to catch any issues, and it makes it really easy to write nice clean code. Once I'm finished with the demo I will be posting it on my github in the form of a tutorial. 
+    I'm trying it out by building a small application (one that I already started in React). So far it's been going pretty well. The static typing has allowed the compiler to catch any issues, and it makes it really easy to write nice clean code. Once I'm finished with the demo I will be posting it on my github in the form of a tutorial.
 
     Definitely check out Elm! It has a fantastic architecture and its functional style makes writing code clean and fun! It's also the inspiration for the popular [Redux architecture](#redux).
-    
+
 -   __September 20__
 
 	The new job now has me commuting by train instead of by car. This presents me with some great time to work on some fun projects. I picked up a Macbook air 11" that has worked out great as a travel machine. One of the limitations though is that I am not connected to the internet while I'm on the trian so everything I do has to work offline. So I have a setup that has been working for me which I will describe. I plan on extending this into an actual blog post at some point soon.
@@ -553,7 +558,7 @@ I've decided to add a section covering what topics I'm looking into on a weekly 
 
 -   __July 5__
 
-    This week I've been looking more into [Webpack](#webpack) and [Babel](#babel). I plan on using Webpack for the [ReactJS](#react) version of my BrewBook app. I also think it's time I started writing ES6 so I'll be using Babel as a transpiler. I started reading some great articles on using Webpack with ReactJS and Babel. [Setting Up a Single Page React Web App with React-router and Webpack](http://jmfurlott.com/tutorial-setting-up-a-single-page-react-web-app-with-react-router-and-webpack/) is a great article on getting started with Webpack and the babel-loader. 
+    This week I've been looking more into [Webpack](#webpack) and [Babel](#babel). I plan on using Webpack for the [ReactJS](#react) version of my BrewBook app. I also think it's time I started writing ES6 so I'll be using Babel as a transpiler. I started reading some great articles on using Webpack with ReactJS and Babel. [Setting Up a Single Page React Web App with React-router and Webpack](http://jmfurlott.com/tutorial-setting-up-a-single-page-react-web-app-with-react-router-and-webpack/) is a great article on getting started with Webpack and the babel-loader.
 
     I also started [ES6 and Beyond](https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20%26%20beyond) from the awesome [You Don't Know JS series](#ydkjs). It is an amazing resource that really covers the new ES6+ features in depth. I can't wait to start using these features.
 
@@ -576,19 +581,19 @@ I've decided to add a section covering what topics I'm looking into on a weekly 
     This week I thanks to a friend, I had the opportunity to attend the [April Code Genius](https://genius.engineering/photos/). It was an awesome meetup hosted by the folks at [Genius](http://genius.com/). Jeremey Ashkenas gave an awesome terminator-themed talk on transpilers and how coffeescript compiles to javascript. [James Somers](https://twitter.com/jsomers) from genius gave an awesome and hilarious talk on genius' image annotation feature in their [Chrome extension](https://chrome.google.com/webstore/detail/genius-beta/ccaokncpmmjiakalbcfdbfmpcaiddjdn?hl=en-US&utm_source=chrome-ntp-launcher). [Dave DeSandro](https://twitter.com/desandro) gave a really great talk on his carousel library [Flickity](http://flickity.metafizzy.co/) and how physics isn't as intimidating as some think.
 
     It was a great experience and I'm already signed up to go to the [May Code Genius](http://code.genius.com/) with [Jacob Thorton](https://twitter.com/fat) the creator of Bootstrap, Bower, and more. It will definitely be a good time.
-    
+
 - __April 12__
 
     This week I continued to work a bit on the Users-Demo-React-Native. I've also been working with [Ionic](#ionic) a bit again. If you haven't checked out Ionic yet, definitely take some time to give it a look. There is a great [video from ng-conf](https://www.youtube.com/watch?v=wvr11fvCeu4) from the guys at Ionic that shows off some of the awesome stuff you can do with it. I plan on putting a repo up soon with a demo application.
 
-    [The Web Platform Podcast](http://thewebplatform.libsyn.com/) had a great [episode the past week](http://thewebplatform.libsyn.com/39-famous-mobile-performance-mixed-mode) with Steve Newcomb of Famo.us. Steve covered a ton of stuff, including their plans for mixed mode, the future of the company, and much more. Definitely check this episode out. 
+    [The Web Platform Podcast](http://thewebplatform.libsyn.com/) had a great [episode the past week](http://thewebplatform.libsyn.com/39-famous-mobile-performance-mixed-mode) with Steve Newcomb of Famo.us. Steve covered a ton of stuff, including their plans for mixed mode, the future of the company, and much more. Definitely check this episode out.
 
     Angular Air had a great [episode on testing with Angular](https://plus.google.com/events/cb42tejb88eliamj65o2ogh12qo) with guests, Julie Ralph of Protractor, Andres Dominquez, and Zan Thrash. They discuss, compare, and contrast the different forms of javascript testing.
 
 - __April 5__
 
     This week I do not have much to update since I was on vacation. During that time however, I managed to start my React-Native User's demo discussed in last week's post. The repo is [Users-Demo-React-Native](https://github.com/tommcgurl/Users-Demo-React-Native). You can read the details of it in last weeks post.
-    
+
     So far I've managed to complete a good portion of the application. Most of the basic functionality is complete and I hope to finalize the functionality and spruce it up a bit in my next commits. I'm thinking about extending it a bit further than originally planned in order to display the use of Flux and more CRUD operations. So far I'm very pleased with React Native, and it has been really fun to use.
 
     During my vacation flight to Austin, TX, I read some awesome articles on ES6 and I started looking into the transpiler [Babel](#babel). I plan on using this in future development so that I can begin working with ES2015. It already has support for JSX and React and has plugins for all the major build systems.
@@ -596,17 +601,17 @@ I've decided to add a section covering what topics I'm looking into on a weekly 
     Also, the Codewinds podcast came back finally! I listend to the two most recent episodes. [Episode 14](http://codewinds.com/podcast/014.html) simply covers the reason for the long hiatus. In [Episode 15](http://codewinds.com/podcast/015.html) talks to Michael Jackson and Ryan Florence about ReactJS!
 
 - __March 29__   <a name="react-native-post"></a>
-    
-    This past week Facebook released [React Native](http://facebook.github.io/react-native/). I decided to try it out and was very impressed. For those that have not heard, React native is a way to build native applications using React and javascript. This does not involve the UIWebview. It instead uses the fact that React is decoupled from the DOM, to allow components to render to native views such as iOS(only platform supported at the moment). 
+
+    This past week Facebook released [React Native](http://facebook.github.io/react-native/). I decided to try it out and was very impressed. For those that have not heard, React native is a way to build native applications using React and javascript. This does not involve the UIWebview. It instead uses the fact that React is decoupled from the DOM, to allow components to render to native views such as iOS(only platform supported at the moment).
 
     I followed the 'getting started' guide and the walkthrough for creating a ListView movie application. I was extremely impressed at how easy it was to use. There were a few things that are unique to React Native as expected, but they are easy to pick up once you have some experience with ReactJS. I decided to start a demo repo where I expand upon the movies application. It's called [Users-Demo-React-Native](https://github.com/tommcgurl/Users-Demo-React-Native). I am using the [Random User API](http://randomuser.me) from [@randomapi](https://twitter.com/randomapi) to show a master-detail view of users. I will be posting each commit as a 'step' to making the application.
 
 - __March 22__
 
-    This week I'm taking a look at [Angular 2.0](https://angular.io/). I have yet to catch up on all the ng-conf videos but plan on doing that by the end of the week. Scotch.io posted an article on _[The Best News From ng-Conf 2015](https://scotch.io/bar-talk/the-best-news-from-angulars-ng-conf-2015)_ a few weeks ago that does a great job summarizing the major points from the conference. I got a chance to listen to [Adventures in Angular Episode 34](http://devchat.tv/adventures-in-angular/034-aia-live-from-ng-conf-2015), where the guys discuss the conference and it definitely got me excited. 
+    This week I'm taking a look at [Angular 2.0](https://angular.io/). I have yet to catch up on all the ng-conf videos but plan on doing that by the end of the week. Scotch.io posted an article on _[The Best News From ng-Conf 2015](https://scotch.io/bar-talk/the-best-news-from-angulars-ng-conf-2015)_ a few weeks ago that does a great job summarizing the major points from the conference. I got a chance to listen to [Adventures in Angular Episode 34](http://devchat.tv/adventures-in-angular/034-aia-live-from-ng-conf-2015), where the guys discuss the conference and it definitely got me excited.
 
     I also listened to the [Angular Air episode 6](https://plus.google.com/events/cmhq7mqarkoful8u7iusbjsdjtk) with the ionic team. They talk about their excitement for Angular 2 and how they are working closely with the angular team while working on Ionic 2. As someone who loves to use Ionic, I'm super excited to see what it's next version has in store. Check out this [blog post](http://ionicframework.com/blog/angular-2-ionic/) from the [Ionic blog](http://ionicframework.com/blog/) that goes into more detail on Angular 2 and Ionic 2.
-    
+
     Angular 2 definitely looks like it packs some changes and I have to take a deeper look before commenting on them. On the surface it looks like it has some serious preformance improvements which I'm always down for. I do like the idea that Angular 2.0 will embrace ES6 and web components. I think this is great for the future of web and for pushing standards. I've started using customer elements (one part of the web component spec) at my job and it helped me solve a unique problem with some ease and elegance. I'm definitely excited to check out and start using Angular 2.
 
 #### Road Map
@@ -619,7 +624,3 @@ Here are a few things I'm planning on adding to this repo.
 - An tutorial section specifically for beginners
     + Sometimes its tough to find the right tutorials to jump in to a new library or framework.
     + I plan on adding links to tutorials guided towards developers trying out a libarary or framework for the first time.
-
-
-
-
