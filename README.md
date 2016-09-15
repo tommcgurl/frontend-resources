@@ -397,7 +397,7 @@ Style guides are a useful way to get everyone on the same page when it comes to 
 - [Firebase](https://www.firebase.com/)
     + Firebase is a backend as a service
     + Firebase let's you store and sync data in real-time
-- [React Native](http://facebook.github.io/react-native/)
+- [React Native](http://facebook.github.io/react-native/) <a name="react-native"></a>
     + Build native applcations using React and javascript
     + This is truely an awesome concept.
     + This does not create a wrapper around a UIWebview, but instead uses React Components to render native applivation views.
@@ -501,6 +501,14 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + MobX is a library for managing state within your applications.
     + It is similar to [redux](#redux) but has some key differences including the fact that is is built on Observables and uses a Functional Reactive Programming (FRP) pattern.
     + Here is a blog post from Formidable labs on why they chose to use Mobx over Redux https://formidable.com/blog/2016/06/02/why-we-chose-mobx-over-redux-for-spectacle-editor/
+- [ExponentJS](https://getexponent.com/)
+    + Exponent is a platform for building native iOS and Android apps using [React Native](#react-native).
+    + It allows you to write a React Native app without ever having to open XCode or Android studio.
+    + It also has a nice application generator to get you started.
+- [Ignite](https://infinite.red/ignite)
+    + Ignite is a React Native Application generator.
+    + Ignite helps you get started building [React Native](#react-native) applications by scaffolding out an application.
+    + It comes with a lot out of the box and is a great starting point for anyone looking to build a React Native application.
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
