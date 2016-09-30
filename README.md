@@ -64,6 +64,13 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
 - [5 Minutes of Javascript](https://fivejs.codeschool.com/) (weekly)
     + An awesome podcast with updates on what's going on in the JS community
     + In 5 minutes they cover the past weeks JS news
+- [Javascript Air](https://javascriptair.com/) (weekly)
+    + A Fantastic podcast about all things Javascript.
+    + They also do live streaming of the podcast so users can tweet in questions
+    + Really great topics.
+- [React 30](https://react30.com/)
+    + A podcast dedicated to React and from the same team as Javascript Air
+    + This podcast covers some awesome [ReactJS](#react) topics in 30 minutes!
 
 ## Learning Resources/Tutorials <a name="learning"></a>
 
