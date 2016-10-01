@@ -71,6 +71,10 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
 - [React 30](https://react30.com/)
     + A podcast dedicated to React and from the same team as Javascript Air
     + This podcast covers some awesome [ReactJS](#react) topics in 30 minutes!
+- [Frontend Happy Hour](http://frontendhappyhour.com/)
+    + A group of developers discuss all things Front end over drinks.
+    + This is a great podcast and the topics are awesome and super informative.
+    + They cover things such as, the future of javascript, frameworks, keeping up with frontend trends, and more.
 
 ## Learning Resources/Tutorials <a name="learning"></a>
 
