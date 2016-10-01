@@ -75,6 +75,9 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
     + A group of developers discuss all things Front end over drinks.
     + This is a great podcast and the topics are awesome and super informative.
     + They cover things such as, the future of javascript, frameworks, keeping up with frontend trends, and more.
+- [React Native Radio](https://devchat.tv/react-native-radio)
+    + A podcast that focuses on [React Native](#react-native)
+    + This is a great resource for anyone interested in or working with React Native!
 
 ## Learning Resources/Tutorials <a name="learning"></a>
 
