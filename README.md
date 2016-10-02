@@ -219,7 +219,6 @@ Overall my suggestion is just search and follow the people who's Blogs articles 
     + [@nodejs](https://twitter.com/nodejs)
     + [@official_iojs](https://twitter.com/official_iojs)
     + [@Ionicframework](https://twitter.com/ionicframework)
-    + [@befamous](https://twitter.com/befamous) (Famo.us)
     + and so on...
     + Just search for things you use in your day-to-day development
 
@@ -264,22 +263,29 @@ Here are some of the books I've found super useful.
     + This is an open source book series that "dives deep into the core mechanisms of the Javascript language" - the readme
     + You can read them all online for free or even buy the print copies
     + These books cover everything from the super basics in the book [_Up & Going_](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) all the way to [_ES6 & Beyond_](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond)
+    
 
 #Videos
 ####Conference Videos
-- [ng-conf 2015](https://www.youtube.com/user/ngconfvideos)
-    + This is the youtube page for all the ng-conf videos - March 5-6 (Salt Lake City, Utah)
-- [Ember Conf 2015](https://www.youtube.com/watch?v=o12-90Dm-Qs&list=PLE7tQUdRKcyacwiUPs0CjPYt6tJub4xXU)
-    + This is the youtube page for all the videos from Ember Conf 2015 - March 3-4 (Portland, Oregon)
-- [Reactjs Conf 2015](https://www.youtube.com/watch?v=KVZ-P-ZI6W4&list=PLb0IAmt7-GS1cbw4qonlQztYV1TAW0sCr)
-    + This is the youtube page for the videos from Reactjs conf 2015 - January 28-29 (Facebook HQ, CA)
-- [ng-Europe 2014](https://www.youtube.com/channel/UCEGUP3TJJfMsEM_1y8iviSQ)
-    + Youtube page for ng-Europe videos
-- [JSConf 2015](https://www.youtube.com/channel/UCzoVCacndDCfGDf41P-z0iA)
-    + Youtube page for all of the JSConf videos
-- [Fluent Conf 2015](https://www.youtube.com/watch?v=2ksXo2_Lfl0&list=PL055Epbe6d5ZqIHE7NA5f6Iq_bZNjuWvS)
-    + Youtube playlist for all the Fluent Conf 2015 talks
-    + Some really influential members of the javascript community talk all things web and javascript.
+- 2015
+  - [ng-conf 2015](https://www.youtube.com/user/ngconfvideos)
+      + This is the youtube page for all the ng-conf videos - March 5-6 (Salt Lake City, Utah)
+  - [Ember Conf 2015](https://www.youtube.com/watch?v=o12-90Dm-Qs&list=PLE7tQUdRKcyacwiUPs0CjPYt6tJub4xXU)
+      + This is the youtube page for all the videos from Ember Conf 2015 - March 3-4 (Portland, Oregon)
+  - [Reactjs Conf 2015](https://www.youtube.com/watch?v=KVZ-P-ZI6W4&list=PLb0IAmt7-GS1cbw4qonlQztYV1TAW0sCr)
+      + This is the youtube page for the videos from Reactjs conf 2015 - January 28-29 (Facebook HQ, CA)
+  - [ng-Europe 2014](https://www.youtube.com/channel/UCEGUP3TJJfMsEM_1y8iviSQ)
+      + Youtube page for ng-Europe videos
+  - [JSConf 2015](https://www.youtube.com/channel/UCzoVCacndDCfGDf41P-z0iA)
+      + Youtube page for all of the JSConf videos
+  - [Fluent Conf 2015](https://www.youtube.com/watch?v=2ksXo2_Lfl0&list=PL055Epbe6d5ZqIHE7NA5f6Iq_bZNjuWvS)
+      + Youtube playlist for all the Fluent Conf 2015 talks
+      + Some really influential members of the javascript community talk all things web and javascript.
+- 2016
+  - [ReactJS Conf 2016](https://www.youtube.com/playlist?list=PLb0IAmt7-GS0M8Q95RIc2lOM6nc77q1IY)
+    + Youtube playlist for all of the ReactJS Conf 2016 videos - February 22 & 23 (San Francisco, CA)
+  - [React Rally 2016](https://www.youtube.com/watch?v=_MAD4Oly9yg&list=PLUD4kD-wL_zYSfU3tIYsb4WqfFQzO_EjQ)
+    + Youtube playlist for all the React Rally videos - August 25-26 (Salt Lake City, UT)
 
 ####Other
 - [JS Must Watch](https://github.com/bolshchikov/js-must-watch)
@@ -398,8 +404,6 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + Super Super Awesome (See next entry).
 - [ng-Cordova](http://ngcordova.com/)
     + Angular directives and wrappers around the Cordova API
-- [Famo.us](http://famo.us/)
-    +  "Famo.us is a free, open source JavaScript framework that helps you create smooth, complex UIs for any screen." - famous homepage
 - [MEAN Stack](http://en.wikipedia.org/wiki/MEAN) <a name="mean"></a>
     +  MEAN Stack is a full-stack solution that stands for:
         *  [MongoDB](link)
