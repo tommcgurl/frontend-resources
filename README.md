@@ -263,7 +263,7 @@ Here are some of the books I've found super useful.
     + This is an open source book series that "dives deep into the core mechanisms of the Javascript language" - the readme
     + You can read them all online for free or even buy the print copies
     + These books cover everything from the super basics in the book [_Up & Going_](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) all the way to [_ES6 & Beyond_](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond)
-    
+
 
 #Videos
 ####Conference Videos
@@ -286,6 +286,10 @@ Here are some of the books I've found super useful.
     + Youtube playlist for all of the ReactJS Conf 2016 videos - February 22 & 23 (San Francisco, CA)
   - [React Rally 2016](https://www.youtube.com/watch?v=_MAD4Oly9yg&list=PLUD4kD-wL_zYSfU3tIYsb4WqfFQzO_EjQ)
     + Youtube playlist for all the React Rally videos - August 25-26 (Salt Lake City, UT)
+  - [Elm Conf 2016](https://www.youtube.com/playlist?list=PLglJM3BYAMPH2zuz1nbKHQyeawE4SN0Cd)
+    + Youtube playist for all the Elm Conf videos - September 15 (St. Louis, Missouri)
+
+
 
 ####Other
 - [JS Must Watch](https://github.com/bolshchikov/js-must-watch)
