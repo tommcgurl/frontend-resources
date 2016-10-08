@@ -78,6 +78,9 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
 - [React Native Radio](https://devchat.tv/react-native-radio)
     + A podcast that focuses on [React Native](#react-native)
     + This is a great resource for anyone interested in or working with React Native!
+- [Elm Town](https://elmtown.github.io/)
+    + A Podcast dedicated to the Elm Programming language.
+    + A great resource for anyone interested in, or working with Elm!
 
 ## Learning Resources/Tutorials <a name="learning"></a>
 
