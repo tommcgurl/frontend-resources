@@ -277,6 +277,8 @@ Here are some of the books I've found super useful.
       + This is the youtube page for all the videos from Ember Conf 2015 - March 3-4 (Portland, Oregon)
   - [Reactjs Conf 2015](https://www.youtube.com/watch?v=KVZ-P-ZI6W4&list=PLb0IAmt7-GS1cbw4qonlQztYV1TAW0sCr)
       + This is the youtube page for the videos from Reactjs conf 2015 - January 28-29 (Facebook HQ, CA)
+  - [React Rally 2015](https://www.youtube.com/playlist?list=PLUD4kD-wL_zZhHy-G8hPNZTvx_M35loXQ)
+      + This is the youtube playlist for the React Rally videos - August 24-25 (Salt Lake City, UT)
   - [ng-Europe 2014](https://www.youtube.com/channel/UCEGUP3TJJfMsEM_1y8iviSQ)
       + Youtube page for ng-Europe videos
   - [JSConf 2015](https://www.youtube.com/channel/UCzoVCacndDCfGDf41P-z0iA)
