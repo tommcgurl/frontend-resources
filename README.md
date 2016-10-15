@@ -338,6 +338,9 @@ There are also a ton of Github repos that are great to watch. Some are dedicated
     + a repo covering the features of the [ES6 ( now ES2015 )](#es6) standard
     + It contains examples of all of the new functionaity that are well commented for understanding.
     + This is a great place to start looking at ES6 and thinking about using [Babel](#babel) so that you can start writing ES6 today!
+- [JS Stack From Scratch](https://github.com/verekia/js-stack-from-scratch)
+    + A step by step guide to building a modern Javascript Stack from Scratch
+    + This repo walks users through creating a modern web application using the latest JavaScript trends.
 
 ## Style and Best Practice Guides
 Style guides are a useful way to get everyone on the same page when it comes to code style. Style and best practice guides help make code more standard, readable, and shareable. All of which make code collaboration and onboarding easier. There are plenty of benefits to using a styleguide amongst a team or even for your own benefit.
