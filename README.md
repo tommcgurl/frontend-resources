@@ -81,6 +81,9 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
 - [Elm Town](https://elmtown.github.io/)
     + A Podcast dedicated to the Elm Programming language.
     + A great resource for anyone interested in, or working with Elm!
+- [Space Dojo](http://podcast.crater.io/)
+    + A roundtable podcast about Javascript.
+    + This podcast has some episodes covering awesome topics such as NativeScript, Redux, Elm, and React.
 
 ## Learning Resources/Tutorials <a name="learning"></a>
 
