@@ -120,6 +120,10 @@ Here are some of the great websites that offer tutorials.
 - [Dashing D3](https://www.dashingd3js.com/table-of-contents)
     + This is an interactive tutorial on the charting library D3.
     + It is a nice tutorial that goes over the basics and builds off them to teach you D3 in a fun interactive way.
+- [Full Stack Radio](http://www.fullstackradio.com/)
+    + "A podcast for developers interested in building great software products." - webostie
+    + This podcast covers the full stack but has some great frontend topics.
+    + This is a fantastic podcast for those interested in not only the frontend, but how it connects to the entire stack.
 
 ## Twitter
 Here are some of the people/groups that I follow on twitter that post some great front-end news and articles.
