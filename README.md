@@ -84,6 +84,11 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
 - [Space Dojo](http://podcast.crater.io/)
     + A roundtable podcast about Javascript.
     + This podcast has some episodes covering awesome topics such as NativeScript, Redux, Elm, and React.
+- [Full Stack Radio](http://www.fullstackradio.com/)
+    + "A podcast for developers interested in building great software products." - webostie
+    + This podcast covers the full stack but has some great frontend topics.
+    + This is a fantastic podcast for those interested in not only the frontend, but how it connects to the entire stack.
+
 
 ## Learning Resources/Tutorials <a name="learning"></a>
 
@@ -120,10 +125,6 @@ Here are some of the great websites that offer tutorials.
 - [Dashing D3](https://www.dashingd3js.com/table-of-contents)
     + This is an interactive tutorial on the charting library D3.
     + It is a nice tutorial that goes over the basics and builds off them to teach you D3 in a fun interactive way.
-- [Full Stack Radio](http://www.fullstackradio.com/)
-    + "A podcast for developers interested in building great software products." - webostie
-    + This podcast covers the full stack but has some great frontend topics.
-    + This is a fantastic podcast for those interested in not only the frontend, but how it connects to the entire stack.
 
 ## Twitter
 Here are some of the people/groups that I follow on twitter that post some great front-end news and articles.
@@ -546,6 +547,11 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + Ignite is a React Native Application generator.
     + Ignite helps you get started building [React Native](#react-native) applications by scaffolding out an application.
     + It comes with a lot out of the box and is a great starting point for anyone looking to build a React Native application.
+- [Yarn](https://code.facebook.com/posts/1840075619545360)
+    + A package manager for JavaScript from Facebook.
+    + Yarn manages your npm and bower packages in an intelligent way.
+    + It supports local caching of packages
+
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
