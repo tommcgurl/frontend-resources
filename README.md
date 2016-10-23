@@ -349,6 +349,9 @@ There are also a ton of Github repos that are great to watch. Some are dedicated
 - [JS Stack From Scratch](https://github.com/verekia/js-stack-from-scratch)
     + A step by step guide to building a modern Javascript Stack from Scratch
     + This repo walks users through creating a modern web application using the latest JavaScript trends.
+- [Awesome-Elm](https://github.com/isRuslan/awesome-elm)
+    + A great curated list of Elm resources.
+    
 
 ## Style and Best Practice Guides
 Style guides are a useful way to get everyone on the same page when it comes to code style. Style and best practice guides help make code more standard, readable, and shareable. All of which make code collaboration and onboarding easier. There are plenty of benefits to using a styleguide amongst a team or even for your own benefit.
