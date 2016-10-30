@@ -351,7 +351,7 @@ There are also a ton of Github repos that are great to watch. Some are dedicated
     + This repo walks users through creating a modern web application using the latest JavaScript trends.
 - [Awesome-Elm](https://github.com/isRuslan/awesome-elm)
     + A great curated list of Elm resources.
-    
+
 
 ## Style and Best Practice Guides
 Style guides are a useful way to get everyone on the same page when it comes to code style. Style and best practice guides help make code more standard, readable, and shareable. All of which make code collaboration and onboarding easier. There are plenty of benefits to using a styleguide amongst a team or even for your own benefit.
@@ -554,6 +554,9 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + A package manager for JavaScript from Facebook.
     + Yarn manages your npm and bower packages in an intelligent way.
     + It supports local caching of packages
+- [Shoutem UI Tookit](https://shoutem.github.io/ui/)
+    + An open-source UI toolkit for building React-Native(#react-native) apps
+    + This is a very polished toolkit with with awesome UI elements and themes.
 
 
 ## Meetups
