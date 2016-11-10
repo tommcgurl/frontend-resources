@@ -489,6 +489,7 @@ Style guides are a useful way to get everyone on the same page when it comes to 
 - [Webpack](http://webpack.github.io/docs/what-is-webpack.html) <a name="webpack"></a>
     + Webpack is a module bundler similar to Browserify
     + Webpack is well suited for large single page apps that need to break up their bundles into diffrent modules
+    + Webpack 2 is on the horizon. The [new website](https://webpack.js.org/) is up and contains new [documentation](https://webpack.js.org/concepts/).
 - [Flow](https://code.facebook.com/posts/1505962329687926/flow-a-new-static-type-checker-for-javascript/)
     + Flow is a static type checker for javascript (Much like [typescript](http://www.typescriptlang.org/))
     + It is often used in conjunction with React becuase it supports JSX
