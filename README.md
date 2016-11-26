@@ -562,6 +562,10 @@ Style guides are a useful way to get everyone on the same page when it comes to 
 - [Shoutem UI Tookit](https://shoutem.github.io/ui/)
     + An open-source UI toolkit for building React-Native(#react-native) apps
     + This is a very polished toolkit with with awesome UI elements and themes.
+- [JAMStack](https://jamstack.org/)
+    + JAMStack stands for JavaScript, APIs and Markup.
+    + This is a term being used a lot lately to refer to fast secure apps bundled and served over a CDN.
+    + There is also a podcast below dedicated to this stack.
 
 
 ## Meetups
