@@ -88,7 +88,7 @@ Podcasts are an amazing way to get the latest news and info on all the awesome t
     + "A podcast for developers interested in building great software products." - webostie
     + This podcast covers the full stack but has some great frontend topics.
     + This is a fantastic podcast for those interested in not only the frontend, but how it connects to the entire stack.
-- [JAMStack Radioa](http://www.heavybit.com/library/podcasts/jamstack-radio/)
+- [JAMStack Radio](http://www.heavybit.com/library/podcasts/jamstack-radio/)
     + A podcast all about the JAMStack, a stack for building fast and secure apps and websites.
     + JAM stands for JavaScript, APIs and Markdown.
     + You can read more about the JAMStack [here](https://jamstack.org/).
@@ -570,6 +570,12 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + An amazing React-Native tutorial that covers everything from Modern JS with ES6 to creating an Uber clone.
     + The guide has live examples as well as exercises.
     + I highly recommend this for anyone looking to work with React-Native
+- [Svelte](https://svelte.technology/)
+    + Svelte is not a JavaScript framework in the way we think of them today. Instead of interpreting application code at run time  it interprets it at build time.
+    + This basically means that you aren't hindered by the performance cost of framework code and in theory your application can load faster.
+    + You can read the introductory blog post [here](https://svelte.technology/blog/frameworks-without-the-framework/).
+    + You can also check out this [blog post](http://react-etc.net/entry/react-vs-svelte-the-javascript-build-time-framework) comparing Svelt to React.
+
 
 
 ## Meetups
