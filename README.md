@@ -575,6 +575,10 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + This basically means that you aren't hindered by the performance cost of framework code and in theory your application can load faster.
     + You can read the introductory blog post [here](https://svelte.technology/blog/frameworks-without-the-framework/).
     + You can also check out this [blog post](http://react-etc.net/entry/react-vs-svelte-the-javascript-build-time-framework) comparing Svelt to React.
+- [Preact](https://github.com/developit/preact)
+    + "Preact is a fast, 3kB alternative to React, with the same ES2015 API." - docs
+    + As stated Preact is a ReactJS alternative.
+    + It has a smaller footprint since it only supports modern ES6.
 
 
 
