@@ -579,6 +579,10 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + "Preact is a fast, 3kB alternative to React, with the same ES2015 API." - docs
     + As stated Preact is a ReactJS alternative.
     + It has a smaller footprint since it only supports modern ES6.
+- [data-fns](https://github.com/date-fns/date-fns)
+    + data-fns is toolset for manipulating JavaScript Dates.
+    + It is built to be modular so you include only what you need.
+    + "data-fns is like lodash for dates. It has (140+ functions for all occasions)[https://date-fns.org/docs/]." - docs
 
 
 
