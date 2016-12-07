@@ -583,6 +583,12 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + data-fns is toolset for manipulating JavaScript Dates.
     + It is built to be modular so you include only what you need.
     + "data-fns is like lodash for dates. It has (140+ functions for all occasions)[https://date-fns.org/docs/]." - docs
+- [Jest](http://facebook.github.io/jest/)
+    + Jest is a testing framework created by facebook
+    + Jest works especially well for testing [ReactJS](#react) code.
+    + Jest has been around for a bit but after some recent updates has really gained momentum and community support.
+    + Definitely check it out for testing your React components.
+
 
 
 
