@@ -129,6 +129,9 @@ Here are some of the great websites that offer tutorials.
 - [Dashing D3](https://www.dashingd3js.com/table-of-contents)
     + This is an interactive tutorial on the charting library D3.
     + It is a nice tutorial that goes over the basics and builds off them to teach you D3 in a fun interactive way.
+- [JavaScript 30](https://javascript30.com/)
+    + This is a 30 day Vanilla JavaScript challenge.
+    + "Build 30 things in 30 days with 30 tutorials" -homepage
 
 ## Twitter
 Here are some of the people/groups that I follow on twitter that post some great front-end news and articles.
