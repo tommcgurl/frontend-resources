@@ -104,6 +104,19 @@ Here are some of the great websites that offer tutorials.
     + They have videos covering things such as Angular,Core Javascript, React, ES6, D3, and NodeJS
     + A must for any front-end developer
     + Many of the hosts and guests from the podcasts above contribute tutorials to this site
+- [Exercism.io](http://exercism.io/)
+    + Exercism.io is an awesome site with exercises for many different languages.
+    + They have a Javascript track as well as an ESNext track.
+    + You work on one exercise at a time and when you are finished you "submit" your answer
+      You can then view your solution on the site where you can comment, others can comment,
+      and you can iterate on your solution.
+    + You can also view how others solved the same problem so you can see the many ways to tackle
+      a problem.
+    + I've been doing the Elm, Elixir, Clojure, and Javascript tracks and it's been a ton of functions
+    + You can check out my exercism repos here, but the real fun is doing it for yourself ;)
+      + [Elm](https://github.com/tommcgurl/elm-exercism)
+      + [Elixir](https://github.com/tommcgurl/elixir-exercism)
+      + [Clojure](https://github.com/tommcgurl/clojure-exercism)
 - [Pluralsight](http://www.pluralsight.com/tag/developer?pageSize=48&sort=new) <a name="ps"></a>
     + This site has tons of material on everything development.
     + Many of the hosts and guests from the podcasts above contribute tutorials to this site
