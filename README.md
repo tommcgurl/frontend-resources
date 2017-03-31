@@ -604,6 +604,10 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + Jest works especially well for testing [ReactJS](#react) code.
     + Jest has been around for a bit but after some recent updates has really gained momentum and community support.
     + Definitely check it out for testing your React components.
+- [React Bits](https://github.com/vasanthk/react-bits)
+    + An awesome collection of React patterns, tips, tricks, and techniques.
+    + This repo collects some of the best React Libraries around!
+    + It has awesome resources for things like "Gotchas", Style Guides, and Anti Patterns.
 
 
 
