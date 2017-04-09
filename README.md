@@ -608,6 +608,10 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + An awesome collection of React patterns, tips, tricks, and techniques.
     + This repo collects some of the best React Libraries around!
     + It has awesome resources for things like "Gotchas", Style Guides, and Anti Patterns.
+- [Create React Native App](https://github.com/react-community/create-react-native-app)
+    + "Create React Native apps with no build configuration" - repo README
+    + This project is an awesome way to get started building applications with React Native. It includes the [Expo Library](expo.io) (formerly Exponent), which is a fantastic library for Cross platform React Native components.
+    + Much like Create React App, the build process is abstracted away allowing developers to concentrate on building applications with Javascript rather than spending time setting up a build process and dealing with cross platform compatibility between iOS and Android.
 
 
 
