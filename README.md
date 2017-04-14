@@ -612,8 +612,10 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + "Create React Native apps with no build configuration" - repo README
     + This project is an awesome way to get started building applications with React Native. It includes the [Expo Library](expo.io) (formerly Exponent), which is a fantastic library for Cross platform React Native components.
     + Much like Create React App, the build process is abstracted away allowing developers to concentrate on building applications with Javascript rather than spending time setting up a build process and dealing with cross platform compatibility between iOS and Android.
-
-
+- [Apollo Client](http://dev.apollodata.com/)
+    + A GraphQL client library that works with all the popular frontend frameworks as well as Native applications.
+    + Apollo makes it easy to fetch only the data you need when interacting with a GraphQL endpoint.
+    + Works out of the box with Redux, React, and React router.
 
 
 ## Meetups
