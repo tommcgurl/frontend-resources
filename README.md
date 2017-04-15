@@ -616,6 +616,12 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + A GraphQL client library that works with all the popular frontend frameworks as well as Native applications.
     + Apollo makes it easy to fetch only the data you need when interacting with a GraphQL endpoint.
     + Works out of the box with Redux, React, and React router.
+- [DraftJS](https://draftjs.org/)
+    + An awesome rich text editor by Facebook framework for React applications.
+    + Draft JS is great for doing rich text editing.
+    + It has a great plugin ecosystem.
+    + Everything is customizable.
+    + I found DraftJS super easy to use. Definitely check it out if you are looking for a rich text editor!
 
 
 ## Meetups
