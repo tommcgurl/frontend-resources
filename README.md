@@ -622,7 +622,11 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + It has a great plugin ecosystem.
     + Everything is customizable.
     + I found DraftJS super easy to use. Definitely check it out if you are looking for a rich text editor!
-
+- [Prettier](https://github.com/prettier/prettier)
+    + Prettier is an opinionated formatter for Javascript that has gained popularity recently.
+    + It supports all the latest language features such as ES2017, JSX, and Flow.
+    + This differs from jshint and eslint in that it doesn't require a large configuration. It instead takes
+    Javascript as input, transforms it and outputs the formatted JS.
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
