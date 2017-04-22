@@ -371,7 +371,10 @@ There are also a ton of Github repos that are great to watch. Some are dedicated
     + This repo walks users through creating a modern web application using the latest JavaScript trends.
 - [Awesome-Elm](https://github.com/isRuslan/awesome-elm)
     + A great curated list of Elm resources.
-
+- [public-apis](https://github.com/toddmotto/public-apis)
+    + This is a currated list of free to use JSON APIs!
+    + This list is an awesome place to look for ideas on what kind of app you could build.
+    + The list is organized into categories such as, Games & Comics, Calendar, Music, News, and much more!
 
 ## Style and Best Practice Guides
 Style guides are a useful way to get everyone on the same page when it comes to code style. Style and best practice guides help make code more standard, readable, and shareable. All of which make code collaboration and onboarding easier. There are plenty of benefits to using a styleguide amongst a team or even for your own benefit.
