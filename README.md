@@ -627,6 +627,10 @@ Style guides are a useful way to get everyone on the same page when it comes to 
     + It supports all the latest language features such as ES2017, JSX, and Flow.
     + This differs from jshint and eslint in that it doesn't require a large configuration. It instead takes
     Javascript as input, transforms it and outputs the formatted JS.
+- [React VR](https://facebook.github.io/react-vr/)
+    + "Build VR websites and interactive 360 experiences with React" - website
+    + React VR lets you create awesome virtual experiences using the React framework
+    + Similar to the way React Native works, React VR let's you code javascript that renders VR UIs instead of plain DOM.
 
 ## Meetups
 A friend of mine has been going to some meetups lately and invited me along to one. Meetups are awesome! They are a great way to network, meet other people who share your interests in development, and hear some awesome talks.
