@@ -145,6 +145,11 @@ Here are some of the great websites that offer tutorials.
 - [JavaScript 30](https://javascript30.com/)
     + This is a 30 day Vanilla JavaScript challenge.
     + "Build 30 things in 30 days with 30 tutorials" -homepage
+- [WarriorJS](https://github.com/olistic/warriorjs)
+    + A fun way to learn Javascript!
+    + You play a game by writing JavaScript to control your character!
+    + Your character has to climb a tall tower where, on each floor, you must write code
+    instructing your character to attack, rescue captives and reach the stairs.
 
 ## Twitter
 Here are some of the people/groups that I follow on twitter that post some great front-end news and articles.
@@ -375,6 +380,7 @@ There are also a ton of Github repos that are great to watch. Some are dedicated
     + This is a currated list of free to use JSON APIs!
     + This list is an awesome place to look for ideas on what kind of app you could build.
     + The list is organized into categories such as, Games & Comics, Calendar, Music, News, and much more!
+
 
 ## Style and Best Practice Guides
 Style guides are a useful way to get everyone on the same page when it comes to code style. Style and best practice guides help make code more standard, readable, and shareable. All of which make code collaboration and onboarding easier. There are plenty of benefits to using a styleguide amongst a team or even for your own benefit.
